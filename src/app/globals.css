@@ -113,3 +113,21 @@ html, body {
 .aurora {
   animation: aurora-shift 12s ease-in-out infinite;
 }
+
+/* Drawer animations */
+@keyframes drawerInRight {
+  0% { transform: translateX(100%); opacity: .98; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes drawerInLeft {
+  0% { transform: translateX(-100%); opacity: .98; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+.animate-drawer-in-right {
+  will-change: transform, opacity;
+  animation: drawerInRight .25s cubic-bezier(.2,.9,.22,1) both;
+}
+.animate-drawer-in-left {
+  will-change: transform, opacity;
+  animation: drawerInLeft .25s cubic-bezier(.2,.9,.22,1) both;
+}

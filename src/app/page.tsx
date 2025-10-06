@@ -10,6 +10,7 @@ import Notification from "@/components/Notification";
 import { copyText } from "@/utils/clipboard";
 import Image from "next/image";
 import Link from "next/link";
+import Drawer from "@/components/Drawer";
 
 export const dynamic = 'force-dynamic';
 
@@ -26,12 +27,12 @@ export default function Home() {
   // Initialize with deterministic SSR-safe defaults, then load from localStorage after mount
   const [lang, setLang] = useState<'en' | 'id'>('en');
   const [theme, setTheme] = useState<Theme>('light');
-  const [mounted, setMounted] = useState(false);
   const [showThemePanel, setShowThemePanel] = useState(false);
   const [showSourcesPanel, setShowSourcesPanel] = useState(false);
   const [selectedCats, setSelectedCats] = useState<string[]>([]);
   const [toastOpen, setToastOpen] = useState(false);
   const [toastMsg, setToastMsg] = useState<string>('');
+  const [showDrawer, setShowDrawer] = useState(false);
 
   // Themes that should enable Tailwind's .dark styles for contrast
   const DARK_THEMES = new Set<Theme>([
@@ -45,7 +46,6 @@ export default function Home() {
     const savedTheme = getItem('theme') as Theme | null;
     if (savedLang) setLang(savedLang);
     if (savedTheme) setTheme(savedTheme);
-    setMounted(true);
   }, []);
 
   useEffect(() => {
@@ -313,7 +313,7 @@ export default function Home() {
               )}
             </button>
 
-            <button className="opacity-80 hover:opacity-100 transition" onClick={() => setShowSourcesPanel(true)}>Sources</button>
+            <button className="opacity-80 hover:opacity-100 transition" onClick={() => setShowSourcesPanel(true)}>Category</button>
 
             <a
               className="inline-flex items-center gap-2 h-9 px-4 rounded-full bg-gradient-to-tr from-violet-600 to-fuchsia-500 text-white shadow-sm hover:from-violet-700 hover:to-fuchsia-600 transition"
@@ -361,7 +361,7 @@ export default function Home() {
           <Modal
             open={showSourcesPanel}
             onClose={() => setShowSourcesPanel(false)}
-            title={lang === 'id' ? 'Sumber' : 'Sources'}
+            title={lang === 'id' ? 'Kategori' : 'Category'}
           >
             <div className="mb-3 flex items-center gap-2">
               <button
@@ -396,13 +396,100 @@ export default function Home() {
             </div>
           </Modal>
 
-          <button className="md:hidden inline-flex size-10 items-center justify-center rounded-md border border-black/10 dark:border-white/10">
+          <button
+            onClick={() => setShowDrawer(true)}
+            className="md:hidden inline-flex size-10 items-center justify-center rounded-md border border-black/10 dark:border-white/10"
+            aria-label="Open menu"
+          >
             <IconMenu className="size-5" />
           </button>
         </div>
       </header>
 
       {/* Main content */}
+      {/* Mobile navigation drawer (right side) */}
+      <Drawer
+        open={showDrawer}
+        onClose={() => setShowDrawer(false)}
+        side="right"
+        title="MENU"
+      >
+        <nav className="flex flex-col gap-3">
+          <button
+            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            onClick={() => { toggleLang(); setShowDrawer(false); }}
+          >
+            <span className="text-sm">{lang === 'en' ? 'Language' : 'Bahasa'}</span>
+            <span className="text-xs opacity-70">{lang.toUpperCase()}</span>
+          </button>
+
+          <button
+            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            onClick={() => { setShowThemePanel(true); setShowDrawer(false); }}
+          >
+            <span className="text-sm">Themes</span>
+            <span className="text-xs opacity-70 capitalize">{theme}</span>
+          </button>
+
+          <button
+            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            onClick={() => { setTheme(DARK_THEMES.has(theme) ? 'light' : 'dark'); setShowDrawer(false); }}
+          >
+            <span className="text-sm">{DARK_THEMES.has(theme) ? (lang === 'id' ? 'Mode Terang' : 'Light mode') : (lang === 'id' ? 'Mode Gelap' : 'Dark mode')}</span>
+            <span className="inline-flex h-6 w-6 items-center justify-center">
+              {DARK_THEMES.has(theme) ? (
+                <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2" />
+                  <path d="M12 20v2" />
+                  <path d="M4.93 4.93l1.41 1.41" />
+                  <path d="M17.66 17.66l1.41 1.41" />
+                  <path d="M2 12h2" />
+                  <path d="M20 12h2" />
+                  <path d="M4.93 19.07l1.41-1.41" />
+                  <path d="M17.66 6.34l1.41-1.41" />
+                </svg>
+              ) : (
+                <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                </svg>
+              )}
+            </span>
+          </button>
+
+          <button
+            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            onClick={() => { setShowSourcesPanel(true); setShowDrawer(false); }}
+          >
+            <span className="text-sm">{lang === 'id' ? 'Kategori' : 'Category'}</span>
+          </button>
+
+          <a
+            className="inline-flex items-center justify-center rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            href="#"
+          >
+            <span className="text-sm">Donate</span>
+          </a>
+
+          <Link
+            className="inline-flex items-center justify-center rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            href="mailto:ahmadyudafahrudin@gmail.com"
+            onClick={() => setShowDrawer(false)}
+          >
+            <span className="text-sm">Email</span>
+          </Link>
+
+          <Link
+            className="inline-flex items-center justify-center rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
+            href="https://github.com/yudafhd/katahari"
+            target="_blank"
+            onClick={() => setShowDrawer(false)}
+          >
+            <span className="text-sm">GitHub</span>
+          </Link>
+        </nav>
+      </Drawer>
+
       <main className="mx-auto max-w-4xl px-10 min-h-[calc(100dvh-8rem)] flex items-center justify-center">
         <section className="flex w-full relative">
           {/* Decorative open-quote */}
