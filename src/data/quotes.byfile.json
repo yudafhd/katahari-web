@@ -1,0 +1,3235 @@
+{
+  "general": [
+    {
+      "code": "AE01",
+      "content": "Imagination is more important than knowledge.",
+      "content_id": "Imajinasi lebih penting daripada pengetahuan.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "AE02",
+      "content": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+      "content_id": "Hidup itu seperti mengendarai sepeda. Untuk menjaga keseimbangan, kamu harus terus bergerak.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "SH01",
+      "content": "Remember to look up at the stars and not down at your feet.",
+      "content_id": "Ingatlah untuk melihat ke atas bintang-bintang dan bukan ke bawah ke kakimu.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "SH02",
+      "content": "However difficult life may seem, there is always something you can do and succeed at.",
+      "content_id": "Sesulit apa pun hidup kelihatannya, selalu ada sesuatu yang bisa kamu lakukan dan berhasil.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "MLK01",
+      "content": "Injustice anywhere is a threat to justice everywhere.",
+      "content_id": "Ketidakadilan di mana pun merupakan ancaman bagi keadilan di mana pun.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "MLK02",
+      "content": "The time is always right to do what is right.",
+      "content_id": "Waktu selalu tepat untuk melakukan apa yang benar.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "RM01",
+      "content": "Let yourself be silently drawn by the strange pull of what you really love.",
+      "content_id": "Biarkan dirimu diam-diam ditarik oleh tarikan aneh dari apa yang benar-benar kamu cintai.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "RM02",
+      "content": "The wound is the place where the Light enters you.",
+      "content_id": "Luka adalah tempat Cahaya memasukimu.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "MG01",
+      "content": "The best way to find yourself is to lose yourself in the service of others.",
+      "content_id": "Cara terbaik untuk menemukan dirimu adalah dengan kehilangan dirimu dalam melayani orang lain.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "MG02",
+      "content": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "content_id": "Hiduplah seolah engkau akan mati besok. Belajarlah seolah engkau akan hidup selamanya.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "CS01",
+      "content": "You are never too old to set another goal or to dream a new dream.",
+      "content_id": "Kamu tidak pernah terlalu tua untuk menetapkan tujuan lain atau memimpikan mimpi baru.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "CS02",
+      "content": "Hardships often prepare ordinary people for an extraordinary destiny.",
+      "content_id": "Kesulitan sering kali mempersiapkan orang biasa untuk takdir yang luar biasa.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF01",
+      "content": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+      "content_id": "Beritahu aku dan aku lupa. Ajari aku dan aku ingat. Libatkan aku dan aku belajar.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "BF02",
+      "content": "An investment in knowledge pays the best interest.",
+      "content_id": "Investasi dalam pengetahuan memberikan hasil terbaik.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "OS01",
+      "content": "Be yourself; everyone else is already taken.",
+      "content_id": "Jadilah dirimu sendiri; yang lain sudah diambil.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "OS02",
+      "content": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "content_id": "Untuk hidup adalah hal yang paling langka di dunia. Kebanyakan orang hanya ada, itu saja.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM01",
+      "content": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+      "content_id": "Jangan pergi ke mana jalan mungkin mengarah, pergilah ke tempat yang tidak ada jalan dan tinggalkan jejak.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "EM02",
+      "content": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "content_id": "Apa yang ada di belakang kita dan apa yang ada di depan kita adalah hal-hal kecil dibandingkan dengan apa yang ada di dalam diri kita.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW01",
+      "content": "The secret of getting ahead is getting started.",
+      "content_id": "Rahasia untuk maju adalah memulai.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "TW02",
+      "content": "Courage is resistance to fear, mastery of fear—not absence of fear.",
+      "content_id": "Keberanian adalah perlawanan terhadap rasa takut, penguasaan rasa takut—bukan ketiadaan rasa takut.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "JKR01",
+      "content": "It is our choices that show what we truly are, far more than our abilities.",
+      "content_id": "Pilihan kita yang menunjukkan siapa kita sebenarnya, jauh lebih banyak daripada kemampuan kita.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "JKR02",
+      "content": "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
+      "content_id": "Kebahagiaan dapat ditemukan bahkan di saat-saat tergelap, jika seseorang hanya ingat untuk menyalakan cahaya.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "NS01",
+      "content": "The cosmos is within us. We are made of star-stuff.",
+      "content_id": "Kosmos ada di dalam diri kita. Kita terbuat dari materi bintang.",
+      "credit": "Carl Sagan"
+    },
+    {
+      "code": "NS02",
+      "content": "We are a way for the cosmos to know itself.",
+      "content_id": "Kita adalah cara bagi kosmos untuk mengenal dirinya sendiri.",
+      "credit": "Carl Sagan"
+    },
+    {
+      "code": "SC01",
+      "content": "The unexamined life is not worth living.",
+      "content_id": "Kehidupan yang tidak teruji tidak layak dijalani.",
+      "credit": "Socrates"
+    },
+    {
+      "code": "SC02",
+      "content": "I know that I am intelligent, because I know that I know nothing.",
+      "content_id": "Saya tahu bahwa saya cerdas, karena saya tahu bahwa saya tidak tahu apa-apa.",
+      "credit": "Socrates"
+    },
+    {
+      "code": "AP01",
+      "content": "Wise men speak because they have something to say; fools because they have to say something.",
+      "content_id": "Orang bijak berbicara karena mereka punya sesuatu untuk dikatakan; orang bodoh karena mereka harus mengatakan sesuatu.",
+      "credit": "Plato"
+    },
+    {
+      "code": "AP02",
+      "content": "Courage is knowing what not to fear.",
+      "content_id": "Keberanian adalah mengetahui apa yang tidak perlu ditakuti.",
+      "credit": "Plato"
+    },
+    {
+      "code": "EMH01",
+      "content": "The only way to do great work is to love what you do.",
+      "content_id": "Satu-satunya cara untuk melakukan pekerjaan hebat adalah mencintai apa yang kamu lakukan.",
+      "credit": "Steve Jobs"
+    },
+    {
+      "code": "EMH02",
+      "content": "Your time is limited, so don't waste it living someone else's life.",
+      "content_id": "Waktumu terbatas, jadi jangan sia-siakan dengan menjalani hidup orang lain.",
+      "credit": "Steve Jobs"
+    },
+    {
+      "code": "NGT01",
+      "content": "The good thing about science is that it's true whether or not you believe in it.",
+      "content_id": "Hal baik tentang sains adalah itu benar terlepas dari apakah kamu memercayainya atau tidak.",
+      "credit": "Neil deGrasse Tyson"
+    },
+    {
+      "code": "NGT02",
+      "content": "For me, I am driven by two main philosophies: know more today about the world than I knew yesterday and lessen the suffering of others.",
+      "content_id": "Bagi saya, saya didorong oleh dua filosofi utama: mengetahui lebih banyak tentang dunia hari ini daripada yang saya tahu kemarin dan mengurangi penderitaan orang lain.",
+      "credit": "Neil deGrasse Tyson"
+    },
+    {
+      "code": "RM03",
+      "content": "Don't grieve. Anything you lose comes round in another form.",
+      "content_id": "Jangan bersedih. Apa pun yang hilang darimu akan kembali dalam bentuk lain.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "RM04",
+      "content": "Try not to resist the changes that come your way. Instead, let life live through you.",
+      "content_id": "Cobalah untuk tidak menolak perubahan yang datang menghampirimu. Sebaliknya, biarkan kehidupan mengalir melaluimu.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "NS03",
+      "content": "Somewhere, something incredible is waiting to be known.",
+      "content_id": "Di suatu tempat, sesuatu yang luar biasa sedang menunggu untuk diketahui.",
+      "credit": "Carl Sagan"
+    },
+    {
+      "code": "NS04",
+      "content": "We are like butterflies who flutter for a day and think it is forever.",
+      "content_id": "Kita seperti kupu-kupu yang terbang sebentar dan mengira itu selamanya.",
+      "credit": "Carl Sagan"
+    },
+    {
+      "code": "SC03",
+      "content": "True knowledge exists in knowing that you know nothing.",
+      "content_id": "Pengetahuan sejati ada dalam mengetahui bahwa kamu tidak tahu apa-apa.",
+      "credit": "Socrates"
+    },
+    {
+      "code": "SC04",
+      "content": "The only true wisdom is in knowing you know nothing.",
+      "content_id": "Satu-satunya kebijaksanaan sejati adalah dalam mengetahui bahwa kamu tidak tahu apa-apa.",
+      "credit": "Socrates"
+    },
+    {
+      "code": "LT01",
+      "content": "A journey of a thousand miles begins with a single step.",
+      "content_id": "Perjalanan seribu mil dimulai dengan satu langkah.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT02",
+      "content": "When I let go of what I am, I become what I might be.",
+      "content_id": "Saat aku melepaskan diriku yang sekarang, aku menjadi seperti yang seharusnya.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT03",
+      "content": "Knowing others is intelligence; knowing yourself is true wisdom.",
+      "content_id": "Mengetahui orang lain adalah kecerdasan; mengetahui diri sendiri adalah kebijaksanaan sejati.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT04",
+      "content": "He who conquers others is strong; he who conquers himself is mighty.",
+      "content_id": "Dia yang menaklukkan orang lain kuat; dia yang menaklukkan dirinya sendiri sangat kuat.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT05",
+      "content": "Mastering others is strength. Mastering yourself is true power.",
+      "content_id": "Menguasai orang lain adalah kekuatan. Menguasai diri sendiri adalah kekuatan sejati.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT06",
+      "content": "Silence is a source of great strength.",
+      "content_id": "Keheningan adalah sumber kekuatan besar.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT07",
+      "content": "The best fighter is never angry.",
+      "content_id": "Petarung terbaik tidak pernah marah.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT08",
+      "content": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+      "content_id": "Dicintai seseorang dengan mendalam memberi kekuatan, mencintai seseorang dengan mendalam memberi keberanian.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT09",
+      "content": "Nature does not hurry, yet everything is accomplished.",
+      "content_id": "Alam tidak terburu-buru, namun semuanya tercapai.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT10",
+      "content": "To the mind that is still, the whole universe surrenders.",
+      "content_id": "Bagi pikiran yang tenang, seluruh alam semesta menyerah.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT11",
+      "content": "Those who know do not speak. Those who speak do not know.",
+      "content_id": "Mereka yang tahu tidak berbicara. Mereka yang berbicara tidak tahu.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT12",
+      "content": "Care about what other people think and you will always be their prisoner.",
+      "content_id": "Peduli pada apa yang dipikirkan orang lain dan kamu akan selalu menjadi tawanan mereka.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT13",
+      "content": "He who knows that enough is enough will always have enough.",
+      "content_id": "Dia yang tahu bahwa cukup adalah cukup, akan selalu cukup.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT14",
+      "content": "New beginnings are often disguised as painful endings.",
+      "content_id": "Awal yang baru sering kali tersamar sebagai akhir yang menyakitkan.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT15",
+      "content": "Simplicity, patience, compassion. These three are your greatest treasures.",
+      "content_id": "Kesederhanaan, kesabaran, kasih sayang. Ketiga hal ini adalah harta terbesarmu.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT16",
+      "content": "Act without expectation.",
+      "content_id": "Bertindaklah tanpa harapan.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT17",
+      "content": "A good traveler has no fixed plans and is not intent on arriving.",
+      "content_id": "Pengelana yang baik tidak memiliki rencana tetap dan tidak berniat untuk sampai.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT18",
+      "content": "Stop thinking, and end your problems.",
+      "content_id": "Berhentilah berpikir, dan akhiri masalahmu.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT19",
+      "content": "Respond intelligently even to unintelligent treatment.",
+      "content_id": "Tanggapi dengan cerdas bahkan perlakuan yang tidak cerdas sekalipun.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "LT20",
+      "content": "To attain knowledge, add things every day. To attain wisdom, remove things every day.",
+      "content_id": "Untuk mencapai pengetahuan, tambahkan hal setiap hari. Untuk mencapai kebijaksanaan, kurangi hal setiap hari.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "Q001",
+      "content": "Be yourself; everyone else is already taken.",
+      "content_id": "Jadilah dirimu sendiri; semua orang lain sudah diambil.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q002",
+      "content": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+      "content_id": "Dua hal tidak terbatas: alam semesta dan kebodohan manusia; dan aku tidak yakin tentang alam semesta.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "Q003",
+      "content": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+      "content_id": "Kegelapan tidak bisa mengusir kegelapan: hanya cahaya yang bisa melakukan itu. Kebencian tidak bisa mengusir kebencian: hanya cinta yang bisa melakukan itu.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "Q004",
+      "content": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "content_id": "Hiduplah seolah-olah kamu akan mati besok. Belajarlah seolah-olah kamu akan hidup selamanya.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "Q005",
+      "content": "Without music, life would be a mistake.",
+      "content_id": "Tanpa musik, hidup akan menjadi kesalahan.",
+      "credit": "Friedrich Nietzsche"
+    },
+    {
+      "code": "Q006",
+      "content": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "content_id": "Menjadi dirimu sendiri di dunia yang terus berusaha membuatmu menjadi sesuatu yang lain adalah pencapaian terbesar.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "Q007",
+      "content": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+      "content_id": "Aku egois, tidak sabaran dan sedikit tidak aman. Aku membuat kesalahan, aku di luar kendali dan terkadang sulit untuk dihadapi. Tapi jika kamu tidak bisa menanganiku saat terburukku, maka kamu pasti tidak pantas mendapatkanku saat terbaikku.",
+      "credit": "Marilyn Monroe"
+    },
+    {
+      "code": "Q008",
+      "content": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+      "content_id": "Kamu tahu kamu sedang jatuh cinta ketika kamu tidak bisa tidur karena kenyataan akhirnya lebih baik dari mimpimu.",
+      "credit": "Dr. Seuss"
+    },
+    {
+      "code": "Q009",
+      "content": "So many books, so little time.",
+      "content_id": "Begitu banyak buku, begitu sedikit waktu.",
+      "credit": "Frank Zappa"
+    },
+    {
+      "code": "Q010",
+      "content": "A friend is someone who knows all about you and still loves you.",
+      "content_id": "Seorang teman adalah seseorang yang tahu segala sesuatu tentangmu dan tetap mencintaimu.",
+      "credit": "Elbert Hubbard"
+    },
+    {
+      "code": "Q011",
+      "content": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+      "content_id": "Ada hanya dua cara untuk menjalani hidupmu. Satu adalah seolah-olah tidak ada yang merupakan keajaiban. Yang lainnya adalah seolah-olah segala sesuatu adalah keajaiban.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "Q012",
+      "content": "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
+      "content_id": "Jika kamu ingin tahu seperti apa seorang pria, lihatlah bagaimana dia memperlakukan orang yang lebih rendah darinya, bukan teman sebandingnya.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "Q013",
+      "content": "There is no greater agony than bearing an untold story inside you.",
+      "content_id": "Tidak ada penderitaan yang lebih besar daripada menanggung cerita yang tak terungkap di dalam dirimu.",
+      "credit": "Maya Angelou"
+    },
+    {
+      "code": "Q014",
+      "content": "Always forgive your enemies; nothing annoys them so much.",
+      "content_id": "Selalu maafkan musuhmu; tidak ada yang mengganggu mereka sebanyak itu.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q015",
+      "content": "Everything you can imagine is real.",
+      "content_id": "Segala sesuatu yang bisa kamu bayangkan adalah nyata.",
+      "credit": "Pablo Picasso"
+    },
+    {
+      "code": "Q016",
+      "content": "A mind that is stretched by a new experience can never go back to its old dimensions.",
+      "content_id": "Pikiran yang terbentang oleh pengalaman baru tidak akan pernah kembali ke dimensi lamanya.",
+      "credit": "Oliver Wendell Holmes Jr."
+    },
+    {
+      "code": "Q017",
+      "content": "The only true journey is the one within.",
+      "content_id": "Perjalanan sejati satu-satunya adalah perjalanan ke dalam diri sendiri.",
+      "credit": "Rainer Maria Rilke"
+    },
+    {
+      "code": "Q018",
+      "content": "The only thing worse than being talked about is not being talked about.",
+      "content_id": "Satu-satunya hal yang lebih buruk daripada dibicarakan adalah tidak dibicarakan.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q019",
+      "content": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
+      "content_id": "Ketika satu pintu kebahagiaan tertutup, pintu lainnya terbuka; namun sering kali kita terlalu lama melihat pintu yang tertutup hingga tidak melihat pintu yang sudah dibuka untuk kita.",
+      "credit": "Helen Keller"
+    },
+    {
+      "code": "Q020",
+      "content": "No one can make you feel inferior without your consent.",
+      "content_id": "Tidak ada yang bisa membuatmu merasa lebih rendah tanpa persetujuanmu.",
+      "credit": "Eleanor Roosevelt"
+    },
+    {
+      "code": "Q021",
+      "content": "Life isn't about finding yourself. Life is about creating yourself.",
+      "content_id": "Hidup bukanlah tentang menemukan dirimu. Hidup adalah tentang menciptakan dirimu.",
+      "credit": "George Bernard Shaw"
+    },
+    {
+      "code": "Q022",
+      "content": "The things you own end up owning you.",
+      "content_id": "Hal-hal yang kamu miliki akhirnya akan menguasaimu.",
+      "credit": "Chuck Palahniuk"
+    },
+    {
+      "code": "Q023",
+      "content": "Stories are how we fix the brokenness of life.",
+      "content_id": "Cerita adalah cara kita memperbaiki kerusakan dalam hidup.",
+      "credit": "Luis Alberto Urrea"
+    },
+    {
+      "code": "Q024",
+      "content": "If there's a book that you want to read, but it hasn't been written yet, then you must write it.",
+      "content_id": "Jika ada buku yang ingin kamu baca, tetapi belum ditulis, maka kamu harus menulisnya.",
+      "credit": "Toni Morrison"
+    },
+    {
+      "code": "Q025",
+      "content": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "content_id": "Kita adalah apa yang kita lakukan berulang kali. Oleh karena itu, keunggulan bukanlah sebuah tindakan, melainkan sebuah kebiasaan.",
+      "credit": "Aristotle"
+    },
+    {
+      "code": "Q026",
+      "content": "Live boldly. Push yourself. Don't settle.",
+      "content_id": "Hiduplah dengan berani. Dorong dirimu sendiri. Jangan puas.",
+      "credit": "Jojo Moyes"
+    },
+    {
+      "code": "Q027",
+      "content": "The only way to do great work is to love what you do.",
+      "content_id": "Satu-satunya cara untuk melakukan pekerjaan hebat adalah dengan mencintai apa yang kamu lakukan.",
+      "credit": "Steve Jobs"
+    },
+    {
+      "code": "Q028",
+      "content": "The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.",
+      "content_id": "Matahari sendiri lemah ketika pertama kali terbit, dan mengumpulkan kekuatan serta keberanian seiring berjalannya hari.",
+      "credit": "Charles Dickens"
+    },
+    {
+      "code": "Q029",
+      "content": "Don't cry because it's over, smile because it happened.",
+      "content_id": "Jangan menangis karena sudah berakhir, tersenyumlah karena itu terjadi.",
+      "credit": "Dr. Seuss"
+    },
+    {
+      "code": "Q030",
+      "content": "The journey of a thousand miles begins with a single step.",
+      "content_id": "Perjalanan seribu mil dimulai dengan satu langkah.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "Q031",
+      "content": "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+      "content_id": "Tantangan adalah yang membuat hidup menarik dan mengatasinya adalah yang membuat hidup bermakna.",
+      "credit": "Joshua J. Marine"
+    },
+    {
+      "code": "Q032",
+      "content": "Love is that condition in which the happiness of another person is essential to your own.",
+      "content_id": "Cinta adalah keadaan di mana kebahagiaan orang lain sangat penting bagi kebahagiaanmu.",
+      "credit": "Robert A. Heinlein"
+    },
+    {
+      "code": "Q033",
+      "content": "Time you enjoy wasting is not wasted time.",
+      "content_id": "Waktu yang kamu nikmati dengan menyia-nyiakannya bukanlah waktu yang sia-sia.",
+      "credit": "Marthe Troly-Curtin"
+    },
+    {
+      "code": "Q034",
+      "content": "The best and most beautiful things in this world cannot be seen or even heard, but must be felt with the heart.",
+      "content_id": "Hal terbaik dan terindah di dunia ini tidak bisa dilihat atau didengar, tetapi harus dirasakan dengan hati.",
+      "credit": "Helen Keller"
+    },
+    {
+      "code": "Q035",
+      "content": "The best way to predict the future is to create it.",
+      "content_id": "Cara terbaik untuk memprediksi masa depan adalah dengan menciptakannya.",
+      "credit": "Abraham Lincoln"
+    },
+    {
+      "code": "Q036",
+      "content": "A person who never made a mistake never tried anything new.",
+      "content_id": "Seseorang yang tidak pernah membuat kesalahan tidak pernah mencoba hal baru.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "Q037",
+      "content": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "content_id": "Kita adalah apa yang kita lakukan berulang kali. Maka, keunggulan bukanlah tindakan, tetapi kebiasaan.",
+      "credit": "Aristotle"
+    },
+    {
+      "code": "Q038",
+      "content": "Do what you can, with what you have, where you are.",
+      "content_id": "Lakukan apa yang kamu bisa, dengan apa yang kamu punya, di tempat kamu berada.",
+      "credit": "Theodore Roosevelt"
+    },
+    {
+      "code": "Q039",
+      "content": "Life isn't about finding yourself. Life is about creating yourself.",
+      "content_id": "Hidup bukan tentang menemukan dirimu. Hidup adalah tentang menciptakan dirimu.",
+      "credit": "George Bernard Shaw"
+    },
+    {
+      "code": "Q040",
+      "content": "The purpose of our lives is to be happy.",
+      "content_id": "Tujuan hidup kita adalah untuk bahagia.",
+      "credit": "Dalai Lama"
+    },
+    {
+      "code": "Q041",
+      "content": "In the middle of every difficulty lies opportunity.",
+      "content_id": "Di tengah setiap kesulitan ada peluang.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "Q042",
+      "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "content_id": "Kesuksesan bukanlah akhir, kegagalan bukanlah kematian: Yang penting adalah keberanian untuk terus melangkah.",
+      "credit": "Winston Churchill"
+    },
+    {
+      "code": "Q043",
+      "content": "You miss 100% of the shots you don't take.",
+      "content_id": "Kamu melewatkan 100% peluang yang tidak kamu ambil.",
+      "credit": "Wayne Gretzky"
+    },
+    {
+      "code": "Q044",
+      "content": "Don't watch the clock; do what it does. Keep going.",
+      "content_id": "Jangan melihat jam; lakukan seperti jam. Terus bergerak.",
+      "credit": "Sam Levenson"
+    },
+    {
+      "code": "Q045",
+      "content": "Life is 10% what happens to us and 90% how we react to it.",
+      "content_id": "Hidup adalah 10% tentang apa yang terjadi pada kita dan 90% tentang bagaimana kita bereaksi terhadapnya.",
+      "credit": "Charles R. Swindoll"
+    },
+    {
+      "code": "Q046",
+      "content": "Only in the darkness can you see the stars.",
+      "content_id": "Hanya dalam kegelapan kamu bisa melihat bintang-bintang.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "Q047",
+      "content": "Act as if what you do makes a difference. It does.",
+      "content_id": "Bertindaklah seolah apa yang kamu lakukan membuat perbedaan. Itu memang membuat perbedaan.",
+      "credit": "William James"
+    },
+    {
+      "code": "Q048",
+      "content": "Success usually comes to those who are too busy to be looking for it.",
+      "content_id": "Kesuksesan biasanya datang kepada mereka yang terlalu sibuk untuk mencarinya.",
+      "credit": "Henry David Thoreau"
+    },
+    {
+      "code": "Q049",
+      "content": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+      "content_id": "Jangan didorong oleh ketakutan dalam pikiranmu. Biarlah impian di hatimu yang memimpin.",
+      "credit": "Roy T. Bennett"
+    },
+    {
+      "code": "Q050",
+      "content": "If you want to fly, you have to give up the things that weigh you down.",
+      "content_id": "Jika kamu ingin terbang, kamu harus melepaskan hal-hal yang membebanimu.",
+      "credit": "Toni Morrison"
+    },
+    {
+      "code": "Q051",
+      "content": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+      "content_id": "Orang bodoh mengira dirinya bijak, tetapi orang bijak tahu dirinya bodoh.",
+      "credit": "William Shakespeare"
+    },
+    {
+      "code": "Q052",
+      "content": "We are all in the gutter, but some of us are looking at the stars.",
+      "content_id": "Kita semua berada di selokan, tetapi beberapa dari kita melihat bintang-bintang.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q053",
+      "content": "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.",
+      "content_id": "Dongeng itu lebih dari sekadar benar: bukan karena memberitahu kita bahwa naga itu ada, tetapi karena memberitahu kita bahwa naga bisa dikalahkan.",
+      "credit": "Neil Gaiman"
+    },
+    {
+      "code": "Q054",
+      "content": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+      "content_id": "Kemarin aku pintar, jadi aku ingin mengubah dunia. Hari ini aku bijak, jadi aku mengubah diriku sendiri.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "Q055",
+      "content": "It is not a lack of love, but a lack of friendship that makes unhappy marriages.",
+      "content_id": "Bukan kurangnya cinta, tetapi kurangnya persahabatan yang membuat pernikahan tidak bahagia.",
+      "credit": "Friedrich Nietzsche"
+    },
+    {
+      "code": "Q056",
+      "content": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      "content_id": "Satu-satunya hal yang diperlukan agar kejahatan menang adalah orang baik tidak melakukan apa-apa.",
+      "credit": "Edmund Burke"
+    },
+    {
+      "code": "Q057",
+      "content": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "content_id": "Hidup adalah hal paling langka di dunia. Kebanyakan orang hanya ada, itu saja.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q058",
+      "content": "If you tell the truth, you don't have to remember anything.",
+      "content_id": "Jika kamu mengatakan yang sebenarnya, kamu tidak perlu mengingat apa pun.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "Q059",
+      "content": "A room without books is like a body without a soul.",
+      "content_id": "Ruangan tanpa buku seperti tubuh tanpa jiwa.",
+      "credit": "Marcus Tullius Cicero"
+    },
+    {
+      "code": "Q060",
+      "content": "The man who does not read has no advantage over the man who cannot read.",
+      "content_id": "Orang yang tidak membaca tidak memiliki kelebihan dibandingkan orang yang tidak bisa membaca.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "AP03",
+      "content": "The measure of a man is what he does with power.",
+      "content_id": "Ukuran seorang pria adalah apa yang dia lakukan dengan kekuasaan.",
+      "credit": "Plato"
+    },
+    {
+      "code": "AP04",
+      "content": "At the touch of love everyone becomes a poet.",
+      "content_id": "Sentuhan cinta membuat setiap orang menjadi penyair.",
+      "credit": "Plato"
+    },
+    {
+      "code": "JKR03",
+      "content": "It matters not what someone is born, but what they grow to be.",
+      "content_id": "Yang penting bukanlah seseorang dilahirkan sebagai apa, tetapi menjadi apa dia tumbuh.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "JKR04",
+      "content": "We are only as strong as we are united, as weak as we are divided.",
+      "content_id": "Kita hanya sekuat kita bersatu, selemah kita terpecah belah.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "OS03",
+      "content": "Experience is simply the name we give our mistakes.",
+      "content_id": "Pengalaman hanyalah nama yang kita berikan pada kesalahan kita.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "OS04",
+      "content": "To love oneself is the beginning of a lifelong romance.",
+      "content_id": "Mencintai diri sendiri adalah awal dari romansa seumur hidup.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM03",
+      "content": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "content_id": "Menjadi dirimu sendiri di dunia yang terus-menerus mencoba menjadikanmu orang lain adalah pencapaian terbesar.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "EM04",
+      "content": "The only person you are destined to become is the person you decide to be.",
+      "content_id": "Satu-satunya orang yang ditakdirkan menjadi dirimu adalah orang yang kamu putuskan untuk menjadi.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW03",
+      "content": "Kindness is the language which the deaf can hear and the blind can see.",
+      "content_id": "Kebaikan adalah bahasa yang bisa didengar oleh orang tuli dan dilihat oleh orang buta.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "TW04",
+      "content": "The best way to cheer yourself up is to try to cheer somebody else up.",
+      "content_id": "Cara terbaik untuk menghibur dirimu sendiri adalah dengan mencoba menghibur orang lain.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "CS03",
+      "content": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+      "content_id": "Kamu tidak bisa kembali dan mengubah permulaan, tetapi kamu bisa mulai dari posisimu sekarang dan mengubah akhirnya.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "AE03",
+      "content": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+      "content_id": "Yang terpenting adalah jangan pernah berhenti bertanya. Keingintahuan punya alasan tersendiri untuk eksis.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "SH03",
+      "content": "We are all different, and that is what makes us unique.",
+      "content_id": "Kita semua berbeda, dan itulah yang membuat kita unik.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "MLK03",
+      "content": "Faith is taking the first step even when you don't see the whole staircase.",
+      "content_id": "Iman adalah mengambil langkah pertama bahkan ketika kamu tidak melihat seluruh anak tangga.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "RM030",
+      "content": "Don't be satisfied with stories, how things have gone with others. Unfold your own myth.",
+      "content_id": "Jangan puas dengan cerita, bagaimana hal-hal telah berjalan dengan orang lain. Singkapkan mitosmu sendiri.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "MG03",
+      "content": "In a gentle way, you can shake the world.",
+      "content_id": "Dengan cara yang lembut, kamu bisa mengguncang dunia.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "CS03",
+      "content": "You can make anything by writing.",
+      "content_id": "Kamu bisa membuat apa saja dengan menulis.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF05",
+      "content": "It takes many good deeds to build a good reputation, and only one bad one to lose it.",
+      "content_id": "Dibutuhkan banyak perbuatan baik untuk membangun reputasi yang baik, dan hanya satu perbuatan buruk untuk menghilangkannya.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "OS05",
+      "content": "Life is too important to be taken seriously.",
+      "content_id": "Hidup terlalu penting untuk dianggap serius.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM05",
+      "content": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+      "content_id": "Jangan pergi ke mana jalan mungkin mengarah, pergilah ke tempat yang tidak ada jalan dan tinggalkan jejak.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW05",
+      "content": "The man who does not read has no advantage over the man who cannot read.",
+      "content_id": "Orang yang tidak membaca tidak memiliki keunggulan atas orang yang tidak bisa membaca.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "CS04",
+      "content": "Integrity is doing the right thing, even when no one is watching.",
+      "content_id": "Integritas adalah melakukan hal yang benar, bahkan ketika tidak ada yang melihat.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF03",
+      "content": "Well done is better than well said.",
+      "content_id": "Pekerjaan yang dilakukan dengan baik lebih baik daripada perkataan yang baik.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "BF04",
+      "content": "By failing to prepare, you are preparing to fail.",
+      "content_id": "Dengan gagal mempersiapkan diri, kamu sedang mempersiapkan kegagalan.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "AE04",
+      "content": "Anyone who stops learning is old, whether at twenty or eighty.",
+      "content_id": "Siapa pun yang berhenti belajar itu tua, entah pada usia dua puluh atau delapan puluh.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "SH04",
+      "content": "Intelligence is the ability to adapt to change.",
+      "content_id": "Kecerdasan adalah kemampuan untuk beradaptasi terhadap perubahan.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "MLK04",
+      "content": "Our lives begin to end the day we become silent about things that matter.",
+      "content_id": "Hidup kita mulai berakhir pada hari ketika kita bungkam mengenai hal-hal yang penting.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "RM04",
+      "content": "Let yourself be silently drawn by the strange pull of what you really love.",
+      "content_id": "Biarkan dirimu diam-diam ditarik oleh tarikan aneh dari apa yang benar-benar kamu cintai.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "MG04",
+      "content": "An eye for an eye only ends up making the whole world blind.",
+      "content_id": "Mata ganti mata hanya akan berakhir membuat seluruh dunia buta.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "CS05",
+      "content": "You are never too old to set another goal or to dream a new dream.",
+      "content_id": "Kamu tidak pernah terlalu tua untuk menetapkan tujuan lain atau memimpikan mimpi baru.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF06",
+      "content": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+      "content_id": "Beritahu aku dan aku lupa. Ajari aku dan aku ingat. Libatkan aku dan aku belajar.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "OS06",
+      "content": "Experience is simply the name we give our mistakes.",
+      "content_id": "Pengalaman hanyalah nama yang kita berikan pada kesalahan kita.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM06",
+      "content": "Do not follow where the path may lead. Go instead where there is no path and leave a trail.",
+      "content_id": "Jangan ikuti ke mana jalan mungkin mengarah. Pergilah ke tempat yang tidak ada jalan dan tinggalkan jejak.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW06",
+      "content": "The secret of getting ahead is getting started.",
+      "content_id": "Rahasia untuk maju adalah memulai.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "AE05",
+      "content": "The only source of knowledge is experience.",
+      "content_id": "Satu-satunya sumber pengetahuan adalah pengalaman.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "SH05",
+      "content": "There is no greater disability in society than the inability to see a person as more.",
+      "content_id": "Tidak ada kecacatan yang lebih besar dalam masyarakat selain ketidakmampuan untuk melihat seseorang lebih dari sekadar dirinya.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "MLK05",
+      "content": "Faith is taking the first step even when you don't see the whole staircase.",
+      "content_id": "Iman adalah mengambil langkah pertama bahkan ketika kamu tidak melihat seluruh anak tangga.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "RM05",
+      "content": "Don't grieve. Anything you lose comes round in new form.",
+      "content_id": "Jangan berduka. Apa pun yang hilang darimu akan kembali dalam bentuk baru.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "MG05",
+      "content": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "content_id": "Hiduplah seolah engkau akan mati besok. Belajarlah seolah engkau akan hidup selamanya.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "CS06",
+      "content": "Hardships often prepare ordinary people for an extraordinary destiny.",
+      "content_id": "Kesulitan sering kali mempersiapkan orang biasa untuk takdir yang luar biasa.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF07",
+      "content": "An investment in knowledge always pays the best interest.",
+      "content_id": "Investasi dalam pengetahuan selalu memberikan bunga terbaik.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "OS07",
+      "content": "We are all in the gutter, but some of us are looking at the stars.",
+      "content_id": "Kita semua ada di selokan, tetapi beberapa dari kita sedang melihat bintang-bintang.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM07",
+      "content": "The only person you are destined to become is the person you decide to be.",
+      "content_id": "Satu-satunya orang yang ditakdirkan menjadi dirimu adalah orang yang kamu putuskan untuk menjadi.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW07",
+      "content": "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.",
+      "content_id": "Kebaikan dalam perkataan menciptakan keyakinan. Kebaikan dalam berpikir menciptakan kedalaman. Kebaikan dalam memberi menciptakan cinta.",
+      "credit": "Lao Tzu"
+    },
+    {
+      "code": "AE06",
+      "content": "The important thing is not to stop questioning.",
+      "content_id": "Hal yang terpenting adalah jangan pernah berhenti bertanya.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "SH06",
+      "content": "Intelligence is the ability to adapt to change.",
+      "content_id": "Kecerdasan adalah kemampuan untuk beradaptasi terhadap perubahan.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "MLK06",
+      "content": "Our lives begin to end the day we become silent about things that matter.",
+      "content_id": "Hidup kita mulai berakhir pada hari ketika kita bungkam mengenai hal-hal yang penting.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "RM06",
+      "content": "Don't be satisfied with stories, how things have gone with others. Unfold your own myth.",
+      "content_id": "Jangan puas dengan cerita, bagaimana hal-hal telah berjalan dengan orang lain. Singkapkan mitosmu sendiri.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "MG06",
+      "content": "The best way to find yourself is to lose yourself in the service of others.",
+      "content_id": "Cara terbaik untuk menemukan dirimu adalah dengan kehilangan dirimu dalam melayani orang lain.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "CS07",
+      "content": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+      "content_id": "Keberanian bukanlah sekadar salah satu kebajikan, melainkan bentuk setiap kebajikan pada titik ujian.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF08",
+      "content": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+      "content_id": "Beritahu aku dan aku lupa. Ajari aku dan aku ingat. Libatkan aku dan aku belajar.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "OS08",
+      "content": "The only thing to do with good advice is to pass it on. It is never any use to oneself.",
+      "content_id": "Satu-satunya hal yang bisa dilakukan dengan nasihat yang baik adalah meneruskannya. Itu tidak pernah berguna bagi diri sendiri.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM08",
+      "content": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "content_id": "Apa yang ada di belakang kita dan apa yang ada di depan kita adalah hal-hal kecil dibandingkan dengan apa yang ada di dalam diri kita.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW08",
+      "content": "Good friends, good books, and a sleepy conscience: this is the ideal life.",
+      "content_id": "Teman yang baik, buku yang bagus, dan hati nurani yang tenang: inilah kehidupan yang ideal.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "AE07",
+      "content": "A person who never made a mistake never tried anything new.",
+      "content_id": "Seseorang yang tidak pernah membuat kesalahan tidak pernah mencoba hal baru.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "SH07",
+      "content": "We are all different, but we share the same goal of wanting to understand the universe.",
+      "content_id": "Kita semua berbeda, tetapi kita berbagi tujuan yang sama, yaitu ingin memahami alam semesta.",
+      "credit": "Stephen Hawking"
+    },
+    {
+      "code": "MLK07",
+      "content": "Faith is taking the first step even when you don't see the whole staircase.",
+      "content_id": "Iman adalah mengambil langkah pertama bahkan ketika kamu tidak melihat seluruh anak tangga.",
+      "credit": "Martin Luther King Jr."
+    },
+    {
+      "code": "RM07",
+      "content": "Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray.",
+      "content_id": "Biarkan dirimu diam-diam ditarik oleh tarikan aneh dari apa yang benar-benar kamu cintai. Itu tidak akan menyesatkanmu.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "MG07",
+      "content": "An eye for an eye only ends up making the whole world blind.",
+      "content_id": "Mata ganti mata hanya akan berakhir membuat seluruh dunia buta.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "CS08",
+      "content": "You are never too old to set another goal or to dream a new dream.",
+      "content_id": "Kamu tidak pernah terlalu tua untuk menetapkan tujuan lain atau memimpikan mimpi baru.",
+      "credit": "C.S. Lewis"
+    },
+    {
+      "code": "BF09",
+      "content": "He that is good for making excuses is seldom good for anything else.",
+      "content_id": "Orang yang pandai membuat alasan jarang pandai dalam hal lain.",
+      "credit": "Benjamin Franklin"
+    },
+    {
+      "code": "OS09",
+      "content": "There is only one thing in the world worse than being talked about, and that is not being talked about.",
+      "content_id": "Hanya ada satu hal di dunia yang lebih buruk daripada dibicarakan, yaitu tidak dibicarakan sama sekali.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "EM09",
+      "content": "Life is a journey, not a destination.",
+      "content_id": "Hidup adalah sebuah perjalanan, bukan tujuan.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "TW09",
+      "content": "It's not the years in your life that count. It's the life in your years.",
+      "content_id": "Bukan tahun-tahun dalam hidupmu yang penting. Tapi kehidupan dalam tahun-tahunmu.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "Q051",
+      "content": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+      "content_id": "Orang bodoh mengira dirinya bijak, tetapi orang bijak tahu dirinya bodoh.",
+      "credit": "William Shakespeare"
+    },
+    {
+      "code": "Q052",
+      "content": "We are all in the gutter, but some of us are looking at the stars.",
+      "content_id": "Kita semua berada di selokan, tetapi beberapa dari kita melihat bintang-bintang.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q053",
+      "content": "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.",
+      "content_id": "Dongeng itu lebih dari sekadar benar: bukan karena memberitahu kita bahwa naga itu ada, tetapi karena memberitahu kita bahwa naga bisa dikalahkan.",
+      "credit": "Neil Gaiman"
+    },
+    {
+      "code": "Q054",
+      "content": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+      "content_id": "Kemarin aku pintar, jadi aku ingin mengubah dunia. Hari ini aku bijak, jadi aku mengubah diriku sendiri.",
+      "credit": "Rumi"
+    },
+    {
+      "code": "Q055",
+      "content": "It is not a lack of love, but a lack of friendship that makes unhappy marriages.",
+      "content_id": "Bukan kurangnya cinta, tetapi kurangnya persahabatan yang membuat pernikahan tidak bahagia.",
+      "credit": "Friedrich Nietzsche"
+    },
+    {
+      "code": "Q056",
+      "content": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      "content_id": "Satu-satunya hal yang diperlukan agar kejahatan menang adalah orang baik tidak melakukan apa-apa.",
+      "credit": "Edmund Burke"
+    },
+    {
+      "code": "Q057",
+      "content": "To live is the rarest thing in the world. Most people exist, that is all.",
+      "content_id": "Hidup adalah hal paling langka di dunia. Kebanyakan orang hanya ada, itu saja.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q058",
+      "content": "If you tell the truth, you don't have to remember anything.",
+      "content_id": "Jika kamu mengatakan yang sebenarnya, kamu tidak perlu mengingat apa pun.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "Q059",
+      "content": "A room without books is like a body without a soul.",
+      "content_id": "Ruangan tanpa buku seperti tubuh tanpa jiwa.",
+      "credit": "Marcus Tullius Cicero"
+    },
+    {
+      "code": "Q060",
+      "content": "The man who does not read has no advantage over the man who cannot read.",
+      "content_id": "Orang yang tidak membaca tidak memiliki kelebihan dibandingkan orang yang tidak bisa membaca.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "Q061",
+      "content": "It is better to be hated for what you are than to be loved for what you are not.",
+      "content_id": "Lebih baik dibenci karena menjadi dirimu apa adanya daripada dicintai karena menjadi orang lain.",
+      "credit": "André Gide"
+    },
+    {
+      "code": "Q062",
+      "content": "We accept the love we think we deserve.",
+      "content_id": "Kita menerima cinta yang kita pikir pantas kita dapatkan.",
+      "credit": "Stephen Chbosky"
+    },
+    {
+      "code": "Q063",
+      "content": "Insanity is doing the same thing over and over again and expecting different results.",
+      "content_id": "Kegilaan adalah melakukan hal yang sama berulang kali dan mengharapkan hasil yang berbeda.",
+      "credit": "Narcotics Anonymous (often misattributed to Albert Einstein)"
+    },
+    {
+      "code": "Q064",
+      "content": "I have not failed. I've just found 10,000 ways that won't work.",
+      "content_id": "Saya belum gagal. Saya hanya menemukan 10.000 cara yang tidak akan berhasil.",
+      "credit": "Thomas A. Edison"
+    },
+    {
+      "code": "Q065",
+      "content": "That which does not kill us makes us stronger.",
+      "content_id": "Apa yang tidak membunuh kita membuat kita lebih kuat.",
+      "credit": "Friedrich Nietzsche"
+    },
+    {
+      "code": "Q066",
+      "content": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+      "content_id": "Pilihan kitalah, Harry, yang menunjukkan siapa kita sebenarnya, jauh lebih dari kemampuan kita.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "Q067",
+      "content": "The truth is rarely pure and never simple.",
+      "content_id": "Kebenaran jarang murni dan tidak pernah sederhana.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q068",
+      "content": "If I am worth anything later, I am worth something now. For wheat is wheat, even if people think it is a grass in the beginning.",
+      "content_id": "Jika saya berharga nanti, saya juga berharga sekarang. Karena gandum adalah gandum, bahkan jika orang mengira itu rumput pada awalnya.",
+      "credit": "Vincent van Gogh"
+    },
+    {
+      "code": "Q069",
+      "content": "It does not do to dwell on dreams and forget to live.",
+      "content_id": "Tidak ada gunanya memikirkan mimpi dan lupa untuk hidup.",
+      "credit": "J.K. Rowling"
+    },
+    {
+      "code": "Q070",
+      "content": "Good friends, good books, and a sleepy conscience: this is the ideal life.",
+      "content_id": "Teman baik, buku bagus, dan hati nurani yang tenang: inilah kehidupan yang ideal.",
+      "credit": "Mark Twain"
+    },
+    {
+      "code": "Q071",
+      "content": "Life is what happens to us while we are making other plans.",
+      "content_id": "Hidup adalah apa yang terjadi pada kita saat kita sedang membuat rencana lain.",
+      "credit": "Allen Saunders (often misattributed to John Lennon)"
+    },
+    {
+      "code": "Q072",
+      "content": "I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+      "content_id": "Saya cukup seorang seniman untuk menggambar bebas dari imajinasi saya. Imajinasi lebih penting daripada pengetahuan. Pengetahuan terbatas. Imajinasi melingkupi dunia.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "Q073",
+      "content": "The world breaks everyone, and afterward, some are strong at the broken places.",
+      "content_id": "Dunia menghancurkan semua orang, dan setelah itu, beberapa menjadi kuat di tempat-tempat yang hancur.",
+      "credit": "Ernest Hemingway"
+    },
+    {
+      "code": "Q074",
+      "content": "Pain is inevitable. Suffering is optional.",
+      "content_id": "Rasa sakit tidak bisa dihindari. Penderitaan adalah pilihan.",
+      "credit": "Haruki Murakami (popularized by, original source debated)"
+    },
+    {
+      "code": "Q075",
+      "content": "Be the change that you wish to see in the world.",
+      "content_id": "Jadilah perubahan yang ingin kamu lihat di dunia.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "Q076",
+      "content": "A creative man is motivated by the desire to achieve, not by the desire to beat others.",
+      "content_id": "Seorang pria kreatif termotivasi oleh keinginan untuk mencapai, bukan oleh keinginan untuk mengalahkan orang lain.",
+      "credit": "Ayn Rand"
+    },
+    {
+      "code": "Q077",
+      "content": "Never let your sense of morals prevent you from doing what is right.",
+      "content_id": "Jangan pernah biarkan rasa moralmu menghalangimu melakukan apa yang benar.",
+      "credit": "Isaac Asimov"
+    },
+    {
+      "code": "Q078",
+      "content": "The future belongs to those who believe in the beauty of their dreams.",
+      "content_id": "Masa depan adalah milik mereka yang percaya pada keindahan mimpi-mimpi mereka.",
+      "credit": "Eleanor Roosevelt"
+    },
+    {
+      "code": "Q079",
+      "content": "Do what you can, with what you have, where you are.",
+      "content_id": "Lakukan apa yang kamu bisa, dengan apa yang kamu miliki, di mana pun kamu berada.",
+      "credit": "Theodore Roosevelt"
+    },
+    {
+      "code": "Q080",
+      "content": "The mind is everything. What you think you become.",
+      "content_id": "Pikiran adalah segalanya. Apa yang kamu pikirkan, itulah dirimu jadinya.",
+      "credit": "Buddha"
+    },
+    {
+      "code": "Q081",
+      "content": "Success is stumbling from failure to failure with no loss of enthusiasm.",
+      "content_id": "Kesuksesan adalah tersandung dari kegagalan ke kegagalan tanpa kehilangan antusiasme.",
+      "credit": "Winston S. Churchill"
+    },
+    {
+      "code": "Q082",
+      "content": "Happiness is not something readymade. It comes from your own actions.",
+      "content_id": "Kebahagiaan bukanlah sesuatu yang sudah jadi. Itu datang dari tindakanmu sendiri.",
+      "credit": "Dalai Lama XIV"
+    },
+    {
+      "code": "Q083",
+      "content": "You must do the things you think you cannot do.",
+      "content_id": "Kamu harus melakukan hal-hal yang kamu pikir tidak bisa kamu lakukan.",
+      "credit": "Eleanor Roosevelt"
+    },
+    {
+      "code": "Q084",
+      "content": "It is never too late to be what you might have been.",
+      "content_id": "Tidak pernah ada kata terlambat untuk menjadi apa yang mungkin telah kamu capai.",
+      "credit": "George Eliot"
+    },
+    {
+      "code": "Q085",
+      "content": "If you don't stand for something you will fall for anything.",
+      "content_id": "Jika kamu tidak membela sesuatu, kamu akan mudah terpengaruh oleh apa pun.",
+      "credit": "Gordon A. Eadie (often misattributed)"
+    },
+    {
+      "code": "Q086",
+      "content": "I would rather walk with a friend in the dark, than alone in the light.",
+      "content_id": "Aku lebih suka berjalan dengan teman dalam kegelapan, daripada sendirian dalam terang.",
+      "credit": "Helen Keller"
+    },
+    {
+      "code": "Q087",
+      "content": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "content_id": "Satu-satunya batasan untuk realisasi kita akan hari esok adalah keraguan kita hari ini.",
+      "credit": "Franklin D. Roosevelt"
+    },
+    {
+      "code": "Q088",
+      "content": "Knowing yourself is the beginning of all wisdom.",
+      "content_id": "Mengenal diri sendiri adalah awal dari semua kebijaksanaan.",
+      "credit": "Aristotle"
+    },
+    {
+      "code": "Q089",
+      "content": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.",
+      "content_id": "Kita terbuat dari bahan yang sama dengan mimpi, dan hidup kita yang singkat dilingkupi oleh tidur.",
+      "credit": "William Shakespeare"
+    },
+    {
+      "code": "Q090",
+      "content": "The unexamined life is not worth living.",
+      "content_id": "Hidup yang tidak direfleksikan tidak layak untuk dijalani.",
+      "credit": "Socrates"
+    },
+    {
+      "code": "Q091",
+      "content": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "content_id": "Apa yang ada di belakang kita dan apa yang ada di depan kita adalah hal-hal kecil dibandingkan dengan apa yang ada di dalam diri kita.",
+      "credit": "Ralph Waldo Emerson"
+    },
+    {
+      "code": "Q092",
+      "content": "To love oneself is the beginning of a lifelong romance.",
+      "content_id": "Mencintai diri sendiri adalah awal dari romansa seumur hidup.",
+      "credit": "Oscar Wilde"
+    },
+    {
+      "code": "Q093",
+      "content": "Where there is love there is life.",
+      "content_id": "Di mana ada cinta, di situ ada kehidupan.",
+      "credit": "Mahatma Gandhi"
+    },
+    {
+      "code": "Q094",
+      "content": "The purpose of our lives is to be happy.",
+      "content_id": "Tujuan hidup kita adalah untuk bahagia.",
+      "credit": "Dalai Lama XIV"
+    },
+    {
+      "code": "Q095",
+      "content": "Get busy living or get busy dying.",
+      "content_id": "Sibuklah hidup atau sibuklah mati.",
+      "credit": "Stephen King"
+    },
+    {
+      "code": "Q096",
+      "content": "You only live once, but if you do it right, once is enough.",
+      "content_id": "Kamu hanya hidup sekali, tetapi jika kamu melakukannya dengan benar, sekali saja sudah cukup.",
+      "credit": "Mae West"
+    },
+    {
+      "code": "Q097",
+      "content": "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+      "content_id": "Banyak kegagalan dalam hidup adalah orang-orang yang tidak menyadari seberapa dekat mereka dengan kesuksesan ketika mereka menyerah.",
+      "credit": "Thomas A. Edison"
+    },
+    {
+      "code": "Q098",
+      "content": "If you want to live a happy life, tie it to a goal, not to people or things.",
+      "content_id": "Jika kamu ingin menjalani hidup yang bahagia, kaitkanlah pada tujuan, bukan pada orang atau benda.",
+      "credit": "Albert Einstein"
+    },
+    {
+      "code": "Q099",
+      "content": "Your time is limited, so don't waste it living someone else's life.",
+      "content_id": "Waktumu terbatas, jadi jangan sia-siakan dengan menjalani hidup orang lain.",
+      "credit": "Steve Jobs"
+    },
+    {
+      "code": "Q100",
+      "content": "The best revenge is massive success.",
+      "content_id": "Pembalasan terbaik adalah kesuksesan besar.",
+      "credit": "Frank Sinatra"
+    }
+  ],
+  "book": [
+    {
+      "code": "tkam",
+      "content": "You never really understand a person until you consider things from his point of view... Until you climb into his skin and walk around in it.",
+      "content_id": "Kamu tidak benar-benar memahami seseorang sampai kamu melihat dari sudut pandangnya... Sampai kamu masuk ke dalam kulitnya dan berjalan di dalamnya.",
+      "credit": "To Kill a Mockingbird, pages 39"
+    },
+    {
+      "code": "alch",
+      "content": "When you want something, all the universe conspires in helping you to achieve it.",
+      "content_id": "Ketika kamu menginginkan sesuatu, seluruh alam semesta akan berkonspirasi untuk membantumu mewujudkannya.",
+      "credit": "The Alchemist, pages 22"
+    },
+    {
+      "code": "hob",
+      "content": "There is some good in this world, and it's worth fighting for.",
+      "content_id": "Masih ada kebaikan di dunia ini, dan itu layak diperjuangkan.",
+      "credit": "The Hobbit, pages 310"
+    },
+    {
+      "code": "hp1",
+      "content": "It does not do to dwell on dreams and forget to live.",
+      "content_id": "Tidak baik terus larut dalam mimpi dan lupa untuk hidup.",
+      "credit": "Harry Potter and the Sorcerer's Stone, pages 214"
+    },
+    {
+      "code": "1984",
+      "content": "Perhaps one did not want to be loved so much as to be understood.",
+      "content_id": "Mungkin seseorang tidak terlalu ingin dicintai, melainkan lebih ingin dipahami.",
+      "credit": "1984, pages 136"
+    },
+    {
+      "code": "tfios",
+      "content": "You gave me a forever within the numbered days.",
+      "content_id": "Kau memberiku keabadian di dalam hari-hari yang terbatas.",
+      "credit": "The Fault in Our Stars, pages 260"
+    },
+    {
+      "code": "ana",
+      "content": "I don't want to be at the mercy of my emotions. I want to use them, to enjoy them, and to dominate them.",
+      "content_id": "Aku tidak ingin diperbudak oleh emosiku. Aku ingin menggunakannya, menikmatinya, dan menguasainya.",
+      "credit": "The Picture of Dorian Gray, pages 75"
+    },
+    {
+      "code": "jane",
+      "content": "I am no bird; and no net ensnares me: I am a free human being with an independent will.",
+      "content_id": "Aku bukan burung; dan tidak ada jaring yang menjebakku: aku adalah manusia bebas dengan kehendak independen.",
+      "credit": "Jane Eyre, pages 293"
+    },
+    {
+      "code": "gats",
+      "content": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+      "content_id": "Jadi kita terus maju, seperti perahu melawan arus, terus terlempar kembali ke masa lalu.",
+      "credit": "The Great Gatsby, pages 180"
+    },
+    {
+      "code": "brave",
+      "content": "You must be the change you wish to see in the world.",
+      "content_id": "Kamu harus menjadi perubahan yang ingin kamu lihat di dunia.",
+      "credit": "The Story of My Experiments with Truth, page 33"
+    },
+    {
+      "code": "pride",
+      "content": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+      "content_id": "Ini adalah kebenaran yang diterima secara universal, bahwa seorang pria yang memiliki kekayaan besar, pasti membutuhkan seorang istri.",
+      "credit": "Pride and Prejudice, page 1"
+    },
+    {
+      "code": "lesmis",
+      "content": "To love another person is to see the face of God.",
+      "content_id": "Mencintai orang lain adalah melihat wajah Tuhan.",
+      "credit": "Les Misérables, page 482"
+    },
+    {
+      "code": "huxley",
+      "content": "Words can be like X-rays if you use them properly—they'll go through anything. You read and you're pierced.",
+      "content_id": "Kata-kata bisa seperti sinar-X jika kamu menggunakannya dengan benar—mereka akan menembus apapun.",
+      "credit": "Brave New World, page 86"
+    },
+    {
+      "code": "siddhartha",
+      "content": "I have learned that to be with those I like is enough.",
+      "content_id": "Aku telah belajar bahwa bersama orang yang aku sukai sudah cukup.",
+      "credit": "Siddhartha, page 142"
+    },
+    {
+      "code": "alch1",
+      "content": "When you want something, all the universe conspires in helping you to achieve it.",
+      "content_id": "Ketika kamu menginginkan sesuatu, seluruh alam semesta akan berkonspirasi untuk membantumu mewujudkannya.",
+      "credit": "The Alchemist, page 22"
+    },
+    {
+      "code": "alch2",
+      "content": "It's the possibility of having a dream come true that makes life interesting.",
+      "content_id": "Kemungkinan untuk mewujudkan impianlah yang membuat hidup menarik.",
+      "credit": "The Alchemist, page 11"
+    },
+    {
+      "code": "alch3",
+      "content": "People learn, at least when they are young, to accept their own fate.",
+      "content_id": "Orang-orang belajar, setidaknya ketika mereka masih muda, untuk menerima takdir mereka sendiri.",
+      "credit": "The Alchemist, page 49"
+    },
+    {
+      "code": "alch4",
+      "content": "To realize one's destiny is a person's only obligation.",
+      "content_id": "Menyadari takdir seseorang adalah satu-satunya kewajiban seorang manusia.",
+      "credit": "The Alchemist, page 34"
+    },
+    {
+      "code": "alch5",
+      "content": "Remember that wherever your heart is, there you will find your treasure.",
+      "content_id": "Ingatlah bahwa di mana pun hatimu berada, di situlah kamu akan menemukan harta karunmu.",
+      "credit": "The Alchemist, page 61"
+    },
+    {
+      "code": "alch6",
+      "content": "The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.",
+      "content_id": "Rahasia kebahagiaan adalah melihat semua keajaiban dunia, dan tidak pernah lupa akan tetesan minyak di sendok.",
+      "credit": "The Alchemist, page 56"
+    },
+    {
+      "code": "alch7",
+      "content": "Courage is the quality most essential to understanding the Language of the World.",
+      "content_id": "Keberanian adalah kualitas yang paling penting untuk memahami Bahasa Dunia.",
+      "credit": "The Alchemist, page 107"
+    },
+    {
+      "code": "alch8",
+      "content": "When we strive to become better than we are, everything around us becomes better too.",
+      "content_id": "Ketika kita berusaha untuk menjadi lebih baik dari sebelumnya, segala sesuatu di sekitar kita juga menjadi lebih baik.",
+      "credit": "The Alchemist, page 132"
+    },
+    {
+      "code": "alch9",
+      "content": "Everyone seems to have a clear idea of how other people should lead their lives, but none about his or her own.",
+      "content_id": "Setiap orang sepertinya memiliki gagasan yang jelas tentang bagaimana orang lain seharusnya menjalani hidup mereka, tetapi tidak ada yang memiliki gagasan tentang hidup mereka sendiri.",
+      "credit": "The Alchemist, page 65"
+    },
+    {
+      "code": "alch10",
+      "content": "The simple things are also the most extraordinary things, and only the wise can see them.",
+      "content_id": "Hal-hal sederhana juga merupakan hal-hal yang paling luar biasa, dan hanya orang bijak yang bisa melihatnya.",
+      "credit": "The Alchemist, page 86"
+    },
+    {
+      "code": "alch11",
+      "content": "You must understand that love never keeps a man from pursuing his destiny. If he abandons that pursuit, it's because it wasn't true love.",
+      "content_id": "Kamu harus memahami bahwa cinta tidak pernah menghalangi seseorang untuk mengejar takdirnya. Jika dia meninggalkan pencariannya, itu karena cinta itu bukan cinta yang sejati.",
+      "credit": "The Alchemist, page 123"
+    },
+    {
+      "code": "alch12",
+      "content": "Don't give in to your fears. If you do, you won't be able to talk to your heart.",
+      "content_id": "Jangan menyerah pada ketakutanmu. Jika kamu melakukannya, kamu tidak akan bisa berbicara dengan hatimu.",
+      "credit": "The Alchemist, page 118"
+    },
+    {
+      "code": "alch13",
+      "content": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
+      "content_id": "Hanya ada satu hal yang membuat sebuah impian tidak mungkin tercapai: rasa takut akan kegagalan.",
+      "credit": "The Alchemist, page 145"
+    },
+    {
+      "code": "alch14",
+      "content": "The world is changed by your example, not by your opinion.",
+      "content_id": "Dunia ini berubah melalui teladanmu, bukan melalui pendapatmu.",
+      "credit": "The Alchemist, page 134"
+    },
+    {
+      "code": "alch15",
+      "content": "People learn, at least when they are young, to accept their own fate.",
+      "content_id": "Orang-orang belajar, setidaknya ketika mereka masih muda, untuk menerima takdir mereka sendiri.",
+      "credit": "The Alchemist, page 49"
+    },
+    {
+      "code": "alch17",
+      "content": "Everything that happens once can never happen again. But everything that happens twice will surely happen a third time.",
+      "content_id": "Segala sesuatu yang terjadi sekali tidak akan pernah terulang lagi. Tetapi segala sesuatu yang terjadi dua kali pasti akan terjadi untuk ketiga kalinya.",
+      "credit": "The Alchemist, page 55"
+    },
+    {
+      "code": "alch18",
+      "content": "The fear of suffering is worse than the suffering itself.",
+      "content_id": "Ketakutan akan penderitaan lebih buruk daripada penderitaan itu sendiri.",
+      "credit": "The Alchemist, page 99"
+    },
+    {
+      "code": "alch19",
+      "content": "No matter what he does, every person on Earth plays a central role in the history of the world. And normally he doesn't know it.",
+      "content_id": "Tidak peduli apa yang dia lakukan, setiap orang di Bumi memainkan peran penting dalam sejarah dunia. Dan biasanya dia tidak mengetahuinya.",
+      "credit": "The Alchemist, page 135"
+    },
+    {
+      "code": "alch20",
+      "content": "The most important part of the treasure you seek is the journey itself.",
+      "content_id": "Bagian terpenting dari harta yang kamu cari adalah perjalanan itu sendiri.",
+      "credit": "The Alchemist, page 68"
+    },
+    {
+      "code": "sidd1",
+      "content": "Wisdom cannot be imparted. Wisdom that a wise man attempts to impart always sounds like foolishness to someone else.",
+      "content_id": "Kebijaksanaan tidak bisa diajarkan. Kebijaksanaan yang coba disampaikan oleh orang bijak akan selalu terdengar seperti kebodohan bagi orang lain.",
+      "credit": "Siddhartha, page 89"
+    },
+    {
+      "code": "sidd3",
+      "content": "I have had to experience despair, I have had to sink to the greatest mental depths, to thoughts of suicide, in order to experience grace.",
+      "content_id": "Aku harus mengalami keputusasaan, aku harus tenggelam ke dalam kedalaman mental yang paling dalam, hingga berpikir tentang bunuh diri, untuk bisa mengalami anugerah.",
+      "credit": "Siddhartha, page 75"
+    },
+    {
+      "code": "sidd5",
+      "content": "You seek too much, and as a result you cannot find.",
+      "content_id": "Kamu terlalu banyak mencari, dan akibatnya kamu tidak bisa menemukan.",
+      "credit": "Siddhartha, page 61"
+    },
+    {
+      "code": "sidd6",
+      "content": "The world was beautiful when looked at in this way—without any seeking, so simple, so childlike.",
+      "content_id": "Dunia tampak indah ketika dilihat dengan cara ini—tanpa pencarian, begitu sederhana, begitu seperti anak-anak.",
+      "credit": "Siddhartha, page 108"
+    },
+    {
+      "code": "sidd7",
+      "content": "Love can be begged, bought, or received as a gift, but it cannot be stolen.",
+      "content_id": "Cinta bisa dimohon, dibeli, atau diterima sebagai hadiah, tetapi tidak bisa dicuri.",
+      "credit": "Siddhartha, page 51"
+    },
+    {
+      "code": "sidd8",
+      "content": "We are not going in circles, we are going upwards. The path is a spiral; we have already climbed many steps.",
+      "content_id": "Kita tidak berjalan dalam lingkaran, kita sedang naik. Jalannya berbentuk spiral; kita sudah menaiki banyak anak tangga.",
+      "credit": "Siddhartha, page 95"
+    },
+    {
+      "code": "sidd9",
+      "content": "One must find the source within one's own Self, one must possess it.",
+      "content_id": "Seseorang harus menemukan sumbernya dalam dirinya sendiri, ia harus memilikinya.",
+      "credit": "Siddhartha, page 46"
+    },
+    {
+      "code": "sidd10",
+      "content": "I have always believed, and I still believe, that whatever good or bad fortune may come our way we can always give it meaning and transform it into something of value.",
+      "content_id": "Aku selalu percaya, dan masih percaya, bahwa apapun keberuntungan atau kemalangan yang datang kepada kita, kita selalu bisa memberinya makna dan mengubahnya menjadi sesuatu yang bernilai.",
+      "credit": "Siddhartha, page 112"
+    },
+    {
+      "code": "zhuang1",
+      "content": "Flow with whatever may happen, and let your mind be free: Stay centered by accepting whatever you are doing. This is the ultimate.",
+      "content_id": "Mengalirlah dengan apapun yang terjadi, dan biarkan pikiranmu bebas: Tetaplah terpusat dengan menerima apapun yang kamu lakukan. Inilah yang tertinggi.",
+      "credit": "Zhuangzi, page 23"
+    },
+    {
+      "code": "zhuang2",
+      "content": "Once upon a time, I dreamt I was a butterfly... Now I do not know whether I was then a man dreaming I was a butterfly, or whether I am now a butterfly, dreaming I am a man.",
+      "content_id": "Suatu ketika, aku bermimpi menjadi kupu-kupu... Sekarang aku tidak tahu apakah dulu aku adalah manusia yang bermimpi menjadi kupu-kupu, atau sekarang aku adalah kupu-kupu yang bermimpi menjadi manusia.",
+      "credit": "Zhuangzi, page 45"
+    },
+    {
+      "code": "suntzu1",
+      "content": "The supreme art of war is to subdue the enemy without fighting.",
+      "content_id": "Seni perang tertinggi adalah menundukkan musuh tanpa bertempur.",
+      "credit": "The Art of War, page 39"
+    },
+    {
+      "code": "suntzu2",
+      "content": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+      "content_id": "Jika kamu mengenal musuh dan mengenal dirimu sendiri, kamu tidak perlu takut terhadap hasil dari seratus pertempuran.",
+      "credit": "The Art of War, page 18"
+    },
+    {
+      "code": "marcus1",
+      "content": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+      "content_id": "Kamu memiliki kekuatan atas pikiranmu - bukan atas peristiwa di luar dirimu. Sadarilah ini, dan kamu akan menemukan kekuatan.",
+      "credit": "Meditations, page 12"
+    },
+    {
+      "code": "marcus2",
+      "content": "The happiness of your life depends upon the quality of your thoughts.",
+      "content_id": "Kebahagiaan hidupmu tergantung pada kualitas pikiranmu.",
+      "credit": "Meditations, page 35"
+    },
+    {
+      "code": "gibran1",
+      "content": "Your children are not your children. They are the sons and daughters of Life's longing for itself.",
+      "content_id": "Anak-anakmu bukanlah anak-anakmu. Mereka adalah putra dan putri dari Kerinduan Kehidupan akan dirinya sendiri.",
+      "credit": "The Prophet, page 17"
+    },
+    {
+      "code": "gibran2",
+      "content": "Let there be spaces in your togetherness, and let the winds of the heavens dance between you.",
+      "content_id": "Biarkan ada ruang dalam kebersamaanmu, dan biarkan angin surga menari di antara kalian.",
+      "credit": "The Prophet, page 19"
+    },
+    {
+      "code": "siddh1",
+      "content": "Wisdom cannot be imparted. Wisdom that a wise man attempts to impart always sounds like foolishness to someone else.",
+      "content_id": "Kebijaksanaan tidak bisa diajarkan. Kebijaksanaan yang coba disampaikan oleh orang bijak akan selalu terdengar seperti kebodohan bagi orang lain.",
+      "credit": "Siddhartha, page 89"
+    },
+    {
+      "code": "siddh2",
+      "content": "I can think, I can wait, I can fast.",
+      "content_id": "Aku bisa berpikir, aku bisa menunggu, aku bisa berpuasa.",
+      "credit": "Siddhartha, page 38"
+    },
+    {
+      "code": "zhuang1",
+      "content": "Happiness is the absence of the striving for happiness.",
+      "content_id": "Kebahagiaan adalah ketiadaan dari upaya untuk mengejar kebahagiaan.",
+      "credit": "Zhuangzi, page 56"
+    },
+    {
+      "code": "zhuang2",
+      "content": "A path is made by walking on it.",
+      "content_id": "Sebuah jalan tercipta karena kita berjalan di atasnya.",
+      "credit": "Zhuangzi, page 71"
+    },
+    {
+      "code": "suntzu1",
+      "content": "To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill.",
+      "content_id": "Memenangkan seratus pertempuran bukanlah puncak keahlian. Menaklukkan musuh tanpa bertempur adalah puncak keahlian.",
+      "credit": "The Art of War, page 42"
+    },
+    {
+      "code": "suntzu2",
+      "content": "In the midst of chaos, there is also opportunity.",
+      "content_id": "Di tengah kekacauan, selalu ada peluang.",
+      "credit": "The Art of War, page 57"
+    },
+    {
+      "code": "marcus1",
+      "content": "Accept the things to which fate binds you and love the people with whom fate brings you together, but do so with all your heart.",
+      "content_id": "Terimalah segala hal yang ditakdirkan untukmu dan cintailah orang-orang yang takdir pertemukan denganmu, lakukanlah dengan sepenuh hati.",
+      "credit": "Meditations, page 67"
+    },
+    {
+      "code": "marcus2",
+      "content": "Look well into thyself; there is a source of strength which will always spring up if thou wilt always look.",
+      "content_id": "Lihatlah ke dalam dirimu; di sana ada sumber kekuatan yang akan selalu muncul jika engkau terus mencarinya.",
+      "credit": "Meditations, page 81"
+    },
+    {
+      "code": "gibran1",
+      "content": "Your pain is the breaking of the shell that encloses your understanding.",
+      "content_id": "Rasa sakitmu adalah pecahnya cangkang yang membungkus pemahamanmu.",
+      "credit": "The Prophet, page 48"
+    },
+    {
+      "code": "gibran2",
+      "content": "Work is love made visible.",
+      "content_id": "Pekerjaan adalah cinta yang menjadi tampak.",
+      "credit": "The Prophet, page 29"
+    },
+    {
+      "code": "zen1",
+      "content": "When the mind is nowhere it is everywhere. When it clings to nothing it clings to everything.",
+      "content_id": "Saat pikiran berada di mana-mana, ia juga tidak berada di mana-mana. Saat tidak melekat pada apapun, ia bersatu dengan segalanya.",
+      "credit": "The Book of Serenity, page 104"
+    },
+    {
+      "code": "zen2",
+      "content": "No snowflake ever falls in the wrong place.",
+      "content_id": "Tak ada kepingan salju yang jatuh di tempat yang salah.",
+      "credit": "The Book of Serenity, page 87"
+    }
+  ],
+  "anime-manga": [
+    {
+      "code": "OP001",
+      "content": "I'm gonna be the King of the Pirates!",
+      "content_id": "Aku akan menjadi Raja Bajak Laut!",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "NRT002",
+      "content": "I never go back on my word! That's my nindō!",
+      "content_id": "Aku tidak pernah menarik kata-kataku! Itulah jalan ninjaku!",
+      "credit": "Naruto Uzumaki, Naruto"
+    },
+    {
+      "code": "AOT003",
+      "content": "If you win, you live. If you lose, you die. If you don't fight, you can't win!",
+      "content_id": "Jika kau menang, kau hidup. Jika kalah, kau mati. Jika tidak bertarung, kau tidak bisa menang!",
+      "credit": "Eren Yeager, Attack on Titan"
+    },
+    {
+      "code": "FMA004",
+      "content": "A lesson without pain is meaningless.",
+      "content_id": "Pelajaran tanpa rasa sakit itu tidak ada artinya.",
+      "credit": "Edward Elric, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "DBZ005",
+      "content": "Power comes in response to a need, not a desire.",
+      "content_id": "Kekuatan muncul sebagai jawaban atas kebutuhan, bukan keinginan.",
+      "credit": "Goku, Dragon Ball Z"
+    },
+    {
+      "code": "DE006",
+      "content": "I am justice! I protect the innocent and those who fear evil.",
+      "content_id": "Akulah keadilan! Aku melindungi yang tak bersalah dan mereka yang takut akan kejahatan.",
+      "credit": "Light Yagami, Death Note"
+    },
+    {
+      "code": "HNK007",
+      "content": "You are already dead.",
+      "content_id": "Kau sudah mati.",
+      "credit": "Kenshiro, Fist of the North Star (Hokuto no Ken)"
+    },
+    {
+      "code": "BC008",
+      "content": "Surpass your limits. Right here, right now!",
+      "content_id": "Lampaui batasmu. Di sini, saat ini juga!",
+      "credit": "Yami Sukehiro, Black Clover"
+    },
+    {
+      "code": "TTGL009",
+      "content": "Believe in the me that believes in you!",
+      "content_id": "Percayalah pada diriku yang percaya padamu!",
+      "credit": "Kamina, Tengen Toppa Gurren Lagann"
+    },
+    {
+      "code": "HxH010",
+      "content": "When I say it doesn't hurt, that means I can bear it.",
+      "content_id": "Saat aku bilang tidak sakit, itu berarti aku bisa menahannya.",
+      "credit": "Killua Zoldyck, Hunter x Hunter"
+    },
+    {
+      "code": "FMAB011",
+      "content": "A lesson without pain is meaningless. That’s because you can’t gain something without sacrificing something else.",
+      "content_id": "Pelajaran tanpa rasa sakit tidak ada artinya. Karena kau tidak bisa mendapatkan sesuatu tanpa mengorbankan hal lain.",
+      "credit": "Edward Elric, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "NRT012",
+      "content": "A person grows up when he's able to overcome hardships. Protection is important, but there are some things a person must learn on his own.",
+      "content_id": "Seseorang tumbuh ketika ia mampu mengatasi kesulitan. Perlindungan itu penting, tapi ada hal-hal yang harus dipelajari sendiri.",
+      "credit": "Jiraiya, Naruto"
+    },
+    {
+      "code": "OP013",
+      "content": "When do you think people die? When they are shot with a bullet? No! It’s when they are forgotten.",
+      "content_id": "Kapan menurutmu orang mati? Saat mereka ditembak? Tidak! Saat mereka dilupakan.",
+      "credit": "Dr. Hiluluk, One Piece"
+    },
+    {
+      "code": "AOT014",
+      "content": "The world is merciless, but it’s also very beautiful.",
+      "content_id": "Dunia ini kejam, tapi juga sangat indah.",
+      "credit": "Mikasa Ackerman, Attack on Titan"
+    },
+    {
+      "code": "DGM015",
+      "content": "A lesson without chaos brings no change.",
+      "content_id": "Pelajaran tanpa kekacauan tidak membawa perubahan.",
+      "credit": "Allen Walker, D.Gray-man"
+    },
+    {
+      "code": "TR016",
+      "content": "I don’t care if I die, as long as I can change the future.",
+      "content_id": "Aku tak peduli jika harus mati, selama aku bisa mengubah masa depan.",
+      "credit": "Takemichi Hanagaki, Tokyo Revengers"
+    },
+    {
+      "code": "BLE017",
+      "content": "We are all like fireworks. We climb, shine, and always go our separate ways and become further apart.",
+      "content_id": "Kita semua seperti kembang api. Kita naik, bersinar, lalu berpencar dan saling menjauh.",
+      "credit": "Hitsugaya Toshiro, Bleach"
+    },
+    {
+      "code": "CL018",
+      "content": "The world isn’t perfect. But it’s there for us, doing the best it can… that’s what makes it so damn beautiful.",
+      "content_id": "Dunia ini tidak sempurna. Tapi ia tetap ada untuk kita, melakukan yang terbaik… itulah yang membuatnya begitu indah.",
+      "credit": "Roy Mustang, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "CF019",
+      "content": "Fear is not evil. It tells you what your weakness is. And once you know your weakness, you can become stronger.",
+      "content_id": "Rasa takut bukanlah kejahatan. Itu memberitahumu apa kelemahanmu. Dan setelah kamu tahu, kamu bisa menjadi lebih kuat.",
+      "credit": "Gildarts Clive, Fairy Tail"
+    },
+    {
+      "code": "HXH020",
+      "content": "An apology is a promise to do things differently next time, and to keep that promise.",
+      "content_id": "Permintaan maaf adalah janji untuk bertindak berbeda di lain waktu, dan menepatinya.",
+      "credit": "Gon Freecss, Hunter x Hunter"
+    },
+    {
+      "code": "KNK021",
+      "content": "The world is not beautiful, therefore it is.",
+      "content_id": "Dunia ini tidak indah, dan karena itu justru indah.",
+      "credit": "Kino, Kino no Tabi"
+    },
+    {
+      "code": "NG022",
+      "content": "The world is full of hope, but also filled with despair.",
+      "content_id": "Dunia ini penuh harapan, tapi juga penuh keputusasaan.",
+      "credit": "Makoto Naegi, Danganronpa"
+    },
+    {
+      "code": "SAO023",
+      "content": "I'd rather trust and regret than doubt and regret.",
+      "content_id": "Aku lebih memilih percaya lalu menyesal, daripada ragu lalu menyesal.",
+      "credit": "Kirito, Sword Art Online"
+    },
+    {
+      "code": "YLI024",
+      "content": "Living is anxiety and pain. But you have to endure it.",
+      "content_id": "Hidup itu penuh kecemasan dan rasa sakit. Tapi kamu harus menjalaninya.",
+      "credit": "Yuki Sohma, Fruits Basket"
+    },
+    {
+      "code": "DN025",
+      "content": "You can't ever win if you're always on the defensive. To win, you have to attack!",
+      "content_id": "Kau tidak akan pernah menang jika terus bertahan. Untuk menang, kau harus menyerang!",
+      "credit": "L, Death Note"
+    },
+    {
+      "code": "KN026",
+      "content": "The world isn’t just black and white.",
+      "content_id": "Dunia ini tidak hanya hitam dan putih.",
+      "credit": "Kaname Kuran, Vampire Knight"
+    },
+    {
+      "code": "BRS027",
+      "content": "Even if it hurts, even if it's painful, don't stop.",
+      "content_id": "Meski sakit, meski menyakitkan, jangan berhenti.",
+      "credit": "Black★Rock Shooter"
+    },
+    {
+      "code": "REZ028",
+      "content": "I hate myself. But I want to change.",
+      "content_id": "Aku membenci diriku sendiri. Tapi aku ingin berubah.",
+      "credit": "Subaru Natsuki, Re:Zero"
+    },
+    {
+      "code": "JJ029",
+      "content": "A lesson you don’t understand will be repeated until you do.",
+      "content_id": "Pelajaran yang tak kamu pahami akan diulang sampai kamu mengerti.",
+      "credit": "Satoru Gojo, Jujutsu Kaisen"
+    },
+    {
+      "code": "BSD030",
+      "content": "A lesson learned through pain is remembered forever.",
+      "content_id": "Pelajaran yang didapat lewat rasa sakit akan diingat selamanya.",
+      "credit": "Dazai Osamu, Bungou Stray Dogs"
+    },
+    {
+      "code": "OP031",
+      "content": "Power isn't determined by your size, but the size of your heart and dreams!",
+      "content_id": "Kekuatan tidak ditentukan oleh ukuran tubuhmu, tapi oleh besar hati dan impianmu!",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "NRT032",
+      "content": "Hard work is worthless for those that don’t believe in themselves.",
+      "content_id": "Kerja keras tidak ada artinya bagi mereka yang tidak percaya pada diri sendiri.",
+      "credit": "Naruto Uzumaki, Naruto"
+    },
+    {
+      "code": "DBZ033",
+      "content": "Power comes in response to a need, not a desire. You have to create that need.",
+      "content_id": "Kekuatan datang karena kebutuhan, bukan karena keinginan. Kamu harus menciptakan kebutuhan itu.",
+      "credit": "Goku, Dragon Ball Z"
+    },
+    {
+      "code": "BC034",
+      "content": "Surpassing yourself is the strongest thing there is.",
+      "content_id": "Mengalahkan dirimu sendiri adalah hal terkuat yang bisa dilakukan.",
+      "credit": "Yami Sukehiro, Black Clover"
+    },
+    {
+      "code": "AOT035",
+      "content": "If you win, you live. If you lose, you die. If you don’t fight, you can’t win!",
+      "content_id": "Jika kau menang, kau hidup. Jika kau kalah, kau mati. Jika kau tidak bertarung, kau tidak bisa menang!",
+      "credit": "Eren Yeager, Attack on Titan"
+    },
+    {
+      "code": "KN036",
+      "content": "No matter how deep the night, it always turns to day, eventually.",
+      "content_id": "Tak peduli seberapa gelap malam, akhirnya selalu datang siang.",
+      "credit": "Brook, One Piece"
+    },
+    {
+      "code": "DN037",
+      "content": "In this world, there are very few people who actually trust each other.",
+      "content_id": "Di dunia ini, sangat sedikit orang yang benar-benar saling percaya.",
+      "credit": "Light Yagami, Death Note"
+    },
+    {
+      "code": "FT038",
+      "content": "We don’t die for our friends, we live for them.",
+      "content_id": "Kita tidak mati demi teman-teman kita, kita hidup untuk mereka.",
+      "credit": "Erza Scarlet, Fairy Tail"
+    },
+    {
+      "code": "TR039",
+      "content": "You can’t change the past, but you can learn from it.",
+      "content_id": "Kamu tidak bisa mengubah masa lalu, tapi kamu bisa belajar darinya.",
+      "credit": "Naoto Tachibana, Tokyo Revengers"
+    },
+    {
+      "code": "SAO040",
+      "content": "Real strength is not just about physical power. It’s about willpower.",
+      "content_id": "Kekuatan sejati bukan hanya tentang kekuatan fisik. Ini tentang kekuatan kehendak.",
+      "credit": "Asuna Yuuki, Sword Art Online"
+    },
+    {
+      "code": "HXH041",
+      "content": "You should enjoy the little detours. Because that's where you'll find the things more important than what you want.",
+      "content_id": "Nikmatilah jalan memutar. Di sanalah kamu akan menemukan hal yang lebih penting dari yang kamu cari.",
+      "credit": "Ging Freecss, Hunter x Hunter"
+    },
+    {
+      "code": "JJ042",
+      "content": "When you die, you’ll be alone. So live for yourself.",
+      "content_id": "Ketika kamu mati, kamu akan sendiri. Jadi hiduplah untuk dirimu sendiri.",
+      "credit": "Toji Fushiguro, Jujutsu Kaisen"
+    },
+    {
+      "code": "BSD043",
+      "content": "The darkness suits me better than the light.",
+      "content_id": "Kegelapan lebih cocok untukku dibandingkan cahaya.",
+      "credit": "Chuuya Nakahara, Bungou Stray Dogs"
+    },
+    {
+      "code": "OP044",
+      "content": "I want to live! Take me out to sea with you!",
+      "content_id": "Aku ingin hidup! Bawa aku pergi ke laut bersamamu!",
+      "credit": "Nico Robin, One Piece"
+    },
+    {
+      "code": "NRT045",
+      "content": "A smile is the easiest way out of a difficult situation.",
+      "content_id": "Senyum adalah cara termudah keluar dari situasi sulit.",
+      "credit": "Sakura Haruno, Naruto"
+    },
+    {
+      "code": "BLE046",
+      "content": "We fear because we value life. We should enjoy it while we can.",
+      "content_id": "Kita takut karena kita menghargai hidup. Kita harus menikmatinya selagi bisa.",
+      "credit": "Kisuke Urahara, Bleach"
+    },
+    {
+      "code": "CF047",
+      "content": "You don't die for your friends, you live so that you can protect them.",
+      "content_id": "Kau tidak mati untuk teman-temanmu, kau hidup agar bisa melindungi mereka.",
+      "credit": "Natsu Dragneel, Fairy Tail"
+    },
+    {
+      "code": "RZ048",
+      "content": "Even if you’re weak, there are miracles you can seize with your hands if you fight on to the very end.",
+      "content_id": "Meski kau lemah, ada keajaiban yang bisa kau raih jika terus bertarung sampai akhir.",
+      "credit": "Rem, Re:Zero"
+    },
+    {
+      "code": "JJ049",
+      "content": "Dying to win and risking death to win are completely different.",
+      "content_id": "Mati demi menang dan mempertaruhkan nyawa untuk menang adalah dua hal yang sangat berbeda.",
+      "credit": "Kento Nanami, Jujutsu Kaisen"
+    },
+    {
+      "code": "CL050",
+      "content": "You should enjoy the little things in life because one day you’ll look back and realize they were the big things.",
+      "content_id": "Nikmatilah hal-hal kecil dalam hidup, karena suatu hari kamu akan sadar bahwa itu adalah hal besar.",
+      "credit": "Tomoya Okazaki, Clannad"
+    },
+    {
+      "code": "OP-Q001",
+      "content": "Power isn't determined by your size, but the size of your heart and dreams.",
+      "content_id": "Kekuatan tidak ditentukan oleh ukuran tubuhmu, tetapi oleh besarnya hati dan impianmu.",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "NT-Q002",
+      "content": "Hard work is worthless for those that don’t believe in themselves.",
+      "content_id": "Kerja keras tidak berarti bagi mereka yang tidak percaya pada diri sendiri.",
+      "credit": "Naruto Uzumaki, Naruto"
+    },
+    {
+      "code": "AOT-Q003",
+      "content": "If you win, you live. If you lose, you die. If you don't fight, you can't win!",
+      "content_id": "Jika kamu menang, kamu hidup. Jika kamu kalah, kamu mati. Jika kamu tidak bertarung, kamu tidak akan menang!",
+      "credit": "Eren Yeager, Attack on Titan"
+    },
+    {
+      "code": "FMAB-Q004",
+      "content": "A lesson without pain is meaningless.",
+      "content_id": "Pelajaran tanpa rasa sakit itu tidak berarti.",
+      "credit": "Edward Elric, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "DS-Q005",
+      "content": "Feelings are nothing without power.",
+      "content_id": "Perasaan tidak berarti tanpa kekuatan.",
+      "credit": "Giyu Tomioka, Demon Slayer"
+    },
+    {
+      "code": "OP-Q006",
+      "content": "Dying is not repaying a debt.",
+      "content_id": "Mati bukanlah cara membayar utang.",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "BC-Q007",
+      "content": "Surpass your limits. Right here, right now!",
+      "content_id": "Lampaui batasmu. Di sini, saat ini juga!",
+      "credit": "Yami Sukehiro, Black Clover"
+    },
+    {
+      "code": "HXH-Q008",
+      "content": "An apology is a promise to do things differently next time.",
+      "content_id": "Permintaan maaf adalah janji untuk berbuat berbeda di lain waktu.",
+      "credit": "Killua Zoldyck, Hunter x Hunter"
+    },
+    {
+      "code": "OP-Q009",
+      "content": "I don't want to conquer anything. I just think the guy with the most freedom in this whole ocean is the Pirate King!",
+      "content_id": "Aku tidak ingin menaklukkan apa pun. Aku hanya berpikir orang yang paling bebas di seluruh lautan ini adalah Raja Bajak Laut!",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "NT-Q010",
+      "content": "A person grows up when he's able to overcome hardships.",
+      "content_id": "Seseorang tumbuh dewasa ketika dia mampu mengatasi kesulitan.",
+      "credit": "Jiraiya, Naruto"
+    },
+    {
+      "code": "TR-Q011",
+      "content": "Even if I could start over, I’d make all the same mistakes.",
+      "content_id": "Bahkan jika aku bisa memulai dari awal, aku akan melakukan semua kesalahan yang sama.",
+      "credit": "Takemichi Hanagaki, Tokyo Revengers"
+    },
+    {
+      "code": "OP-Q012",
+      "content": "Being alone is more painful than getting hurt.",
+      "content_id": "Kesepian lebih menyakitkan daripada terluka.",
+      "credit": "Luffy, One Piece"
+    },
+    {
+      "code": "NT-Q013",
+      "content": "A smile is the easiest way out of a difficult situation.",
+      "content_id": "Senyuman adalah jalan keluar termudah dari situasi sulit.",
+      "credit": "Sakura Haruno, Naruto"
+    },
+    {
+      "code": "FMAB-Q014",
+      "content": "It’s not wrong to dream. But you have to work hard to make it come true.",
+      "content_id": "Tidak salah untuk bermimpi. Tapi kamu harus bekerja keras untuk mewujudkannya.",
+      "credit": "Winry Rockbell, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "OP-Q015",
+      "content": "You can’t bring back what you’ve lost, think about what you have now!",
+      "content_id": "Kamu tidak bisa mengembalikan apa yang sudah hilang, pikirkan apa yang kamu miliki sekarang!",
+      "credit": "Brook, One Piece"
+    },
+    {
+      "code": "DS-Q016",
+      "content": "Those who regret their actions are better than those who do nothing.",
+      "content_id": "Mereka yang menyesali perbuatannya lebih baik daripada yang tidak melakukan apa-apa.",
+      "credit": "Tanjiro Kamado, Demon Slayer"
+    },
+    {
+      "code": "OP-Q017",
+      "content": "Sometimes the best way to make people listen is to punch them in the face.",
+      "content_id": "Terkadang cara terbaik membuat orang mendengarkan adalah meninju wajah mereka.",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "HXH-Q018",
+      "content": "When I say it doesn’t hurt, that means I can bear it.",
+      "content_id": "Saat aku bilang tidak sakit, itu berarti aku bisa menahannya.",
+      "credit": "Kurapika, Hunter x Hunter"
+    },
+    {
+      "code": "NT-Q019",
+      "content": "In this world, wherever there is light — there are also shadows.",
+      "content_id": "Di dunia ini, di mana ada cahaya — selalu ada bayangan.",
+      "credit": "Itachi Uchiha, Naruto"
+    },
+    {
+      "code": "FMAB-Q020",
+      "content": "Nothing’s perfect, the world’s not perfect. But it’s there for us, trying the best it can.",
+      "content_id": "Tidak ada yang sempurna, dunia juga tidak. Tapi dunia ada untuk kita, melakukan yang terbaik yang bisa ia lakukan.",
+      "credit": "Roy Mustang, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "OP-Q021",
+      "content": "If you don't take risks, you can't create a future.",
+      "content_id": "Jika kamu tidak mengambil risiko, kamu tidak bisa menciptakan masa depan.",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "DBZ-Q022",
+      "content": "Push through the pain. Giving up hurts more.",
+      "content_id": "Terobos rasa sakit. Menyerah lebih menyakitkan.",
+      "credit": "Vegeta, Dragon Ball Z"
+    },
+    {
+      "code": "OPM-Q023",
+      "content": "Human strength lies in the ability to change yourself.",
+      "content_id": "Kekuatan manusia terletak pada kemampuan mengubah diri sendiri.",
+      "credit": "Saitama, One Punch Man"
+    },
+    {
+      "code": "BLE-Q024",
+      "content": "To know sorrow is not terrifying. What is terrifying is to know you can't go back to the happiness you could have.",
+      "content_id": "Mengetahui kesedihan bukanlah hal yang menakutkan. Yang menakutkan adalah mengetahui bahwa kamu tidak bisa kembali ke kebahagiaan yang pernah kamu miliki.",
+      "credit": "Rangiku Matsumoto, Bleach"
+    },
+    {
+      "code": "JJBA-Q025",
+      "content": "It was me, Dio!",
+      "content_id": "Itu aku, Dio!",
+      "credit": "Dio Brando, JoJo's Bizarre Adventure"
+    },
+    {
+      "code": "SAIK-Q026",
+      "content": "Good grief.",
+      "content_id": "Aduh, merepotkan.",
+      "credit": "Kusuo Saiki, The Disastrous Life of Saiki K."
+    },
+    {
+      "code": "NT-Q027",
+      "content": "A lesson without pain is meaningless.",
+      "content_id": "Pelajaran tanpa rasa sakit itu tidak berarti.",
+      "credit": "Edward Elric, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "HXH-Q028",
+      "content": "A person grows up when he's able to overcome hardships.",
+      "content_id": "Seseorang tumbuh dewasa ketika dia mampu mengatasi kesulitan.",
+      "credit": "Jiraiya, Naruto"
+    },
+    {
+      "code": "TR-Q029",
+      "content": "Even if I could start over, I’d make all the same mistakes.",
+      "content_id": "Bahkan jika aku bisa memulai dari awal, aku akan melakukan semua kesalahan yang sama.",
+      "credit": "Takemichi Hanagaki, Tokyo Revengers"
+    },
+    {
+      "code": "DS-Q030",
+      "content": "Those who regret their actions are better than those who do nothing.",
+      "content_id": "Mereka yang menyesali perbuatannya lebih baik daripada yang tidak melakukan apa-apa.",
+      "credit": "Tanjiro Kamado, Demon Slayer"
+    },
+    {
+      "code": "AOT-Q031",
+      "content": "If you win, you live. If you lose, you die. If you don’t fight, you can’t win!",
+      "content_id": "Jika kau menang, kau hidup. Jika kau kalah, kau mati. Jika kau tidak bertarung, kau tidak bisa menang!",
+      "credit": "Eren Yeager, Attack on Titan"
+    },
+    {
+      "code": "BC-Q032",
+      "content": "My magic is never giving up!",
+      "content_id": "Sihirku adalah tidak pernah menyerah!",
+      "credit": "Asta, Black Clover"
+    },
+    {
+      "code": "BSD-Q033",
+      "content": "A lesson learned from the past is the guiding light of the future.",
+      "content_id": "Pelajaran dari masa lalu adalah cahaya penuntun masa depan.",
+      "credit": "Osamu Dazai, Bungou Stray Dogs"
+    },
+    {
+      "code": "YYH-Q034",
+      "content": "A lesson without pain is meaningless, that’s because you can’t gain something without sacrificing something else.",
+      "content_id": "Pelajaran tanpa rasa sakit tidak ada artinya, karena kamu tidak bisa mendapatkan sesuatu tanpa mengorbankan hal lain.",
+      "credit": "Yusuke Urameshi, Yu Yu Hakusho"
+    },
+    {
+      "code": "SK8-Q035",
+      "content": "The moment you think of giving up, think of the reason why you started.",
+      "content_id": "Saat kamu berpikir untuk menyerah, pikirkan alasan mengapa kamu memulainya.",
+      "credit": "Reki Kyan, SK8 the Infinity"
+    },
+    {
+      "code": "CL-Q036",
+      "content": "The world cannot be changed with pretty words alone.",
+      "content_id": "Dunia tidak bisa diubah hanya dengan kata-kata indah.",
+      "credit": "Lelouch Lamperouge, Code Geass"
+    },
+    {
+      "code": "KNY-Q037",
+      "content": "Feel the rage. The powerful, pure rage of not being able to forgive will become your unswerving drive to take action.",
+      "content_id": "Rasakan amarahnya. Amarah murni yang kuat karena tak bisa memaafkan akan menjadi pendorongmu untuk bertindak.",
+      "credit": "Giyu Tomioka, Demon Slayer"
+    },
+    {
+      "code": "TG-Q038",
+      "content": "It’s not the world that’s messed up; it’s those of us in it.",
+      "content_id": "Bukan dunia yang rusak; tapi kita yang ada di dalamnya.",
+      "credit": "Ken Kaneki, Tokyo Ghoul"
+    },
+    {
+      "code": "DGS-Q039",
+      "content": "Life is like a pencil that will surely run out, but will leave the beautiful writing of life behind.",
+      "content_id": "Hidup itu seperti pensil yang pasti habis, tapi akan meninggalkan tulisan indah tentang kehidupan.",
+      "credit": "Gintoki Sakata, Gintama"
+    },
+    {
+      "code": "NAR-Q040",
+      "content": "When you give up, your dreams and everything else—they're gone.",
+      "content_id": "Saat kamu menyerah, impian dan segalanya—semuanya lenyap.",
+      "credit": "Naruto Uzumaki, Naruto Shippuden"
+    },
+    {
+      "code": "AQ001",
+      "content": "People die when they are killed.",
+      "content_id": "Orang akan mati ketika mereka dibunuh.",
+      "credit": "Shirou Emiya, Fate/stay night"
+    },
+    {
+      "code": "AQ002",
+      "content": "To know sorrow is not terrifying. What is terrifying is to know you can't go back to happiness you could have.",
+      "content_id": "Mengetahui kesedihan itu tidak menakutkan. Yang menakutkan adalah mengetahui bahwa kau tidak bisa kembali ke kebahagiaan yang bisa saja kau miliki.",
+      "credit": "Matsumoto Rangiku, Bleach"
+    },
+    {
+      "code": "AQ003",
+      "content": "If you don’t take risks, you can’t create a future!",
+      "content_id": "Jika kau tidak mengambil risiko, kau tidak bisa menciptakan masa depan!",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "AQ004",
+      "content": "Hard work is worthless for those that don’t believe in themselves.",
+      "content_id": "Kerja keras tidak ada artinya bagi mereka yang tidak percaya pada diri sendiri.",
+      "credit": "Naruto Uzumaki, Naruto"
+    },
+    {
+      "code": "AQ005",
+      "content": "Fear is not evil. It tells you what your weakness is. And once you know your weakness, you can become stronger as well as kinder.",
+      "content_id": "Rasa takut itu bukanlah kejahatan. Itu memberitahumu apa kelemahanmu. Dan begitu kau tahu kelemahanmu, kau bisa menjadi lebih kuat sekaligus lebih baik hati.",
+      "credit": "Gildarts Clive, Fairy Tail"
+    },
+    {
+      "code": "AQ006",
+      "content": "Whatever you lose, you'll find it again. But what you throw away you'll never get back.",
+      "content_id": "Apa pun yang hilang darimu, kau akan menemukannya lagi. Tapi apa yang kau buang tidak akan pernah kembali.",
+      "credit": "Kenshin Himura, Rurouni Kenshin"
+    },
+    {
+      "code": "AQ007",
+      "content": "If you can’t do something, then don’t. Focus on what you can.",
+      "content_id": "Jika kau tidak bisa melakukan sesuatu, jangan lakukan. Fokus pada apa yang bisa kau lakukan.",
+      "credit": "Shiroe, Log Horizon"
+    },
+    {
+      "code": "AQ008",
+      "content": "The world isn’t perfect. But it’s there for us, doing the best it can… that’s what makes it so damn beautiful.",
+      "content_id": "Dunia ini tidak sempurna. Tapi ia ada untuk kita, melakukan yang terbaik yang ia bisa... itulah yang membuatnya begitu indah.",
+      "credit": "Roy Mustang, Fullmetal Alchemist"
+    },
+    {
+      "code": "AQ009",
+      "content": "It’s not the face that makes someone a monster, it’s the choices they make with their lives.",
+      "content_id": "Bukan wajah yang membuat seseorang menjadi monster, melainkan pilihan yang mereka buat dalam hidup mereka.",
+      "credit": "Naruto Uzumaki, Naruto"
+    },
+    {
+      "code": "AQ010",
+      "content": "A lesson without pain is meaningless. That's because no one can gain without sacrificing something.",
+      "content_id": "Pelajaran tanpa rasa sakit itu tidak ada artinya. Karena tak ada yang bisa diperoleh tanpa mengorbankan sesuatu.",
+      "credit": "Edward Elric, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "AQ011",
+      "content": "Stand up and walk. Keep moving forward. You've got two good legs. So get up and use them. You're strong enough to make your own path.",
+      "content_id": "Berdiri dan berjalanlah. Teruslah maju. Kau punya dua kaki yang sehat. Jadi berdirilah dan gunakan. Kau cukup kuat untuk membuat jalanmu sendiri.",
+      "credit": "Edward Elric, Fullmetal Alchemist"
+    },
+    {
+      "code": "AQ012",
+      "content": "If you don't like your destiny, don't accept it. Instead, have the courage to change it the way you want it to be.",
+      "content_id": "Jika kau tidak menyukai takdirmu, jangan menerimanya. Milikilah keberanian untuk mengubahnya sesuai keinginanmu.",
+      "credit": "Naruto Uzumaki, Naruto"
+    },
+    {
+      "code": "AQ013",
+      "content": "Those who break the rules are scum, but those who abandon their friends are worse than scum.",
+      "content_id": "Mereka yang melanggar aturan adalah sampah, tapi mereka yang meninggalkan teman-temannya lebih buruk dari sampah.",
+      "credit": "Kakashi Hatake, Naruto"
+    },
+    {
+      "code": "AQ014",
+      "content": "When you give up, that’s when the game is over.",
+      "content_id": "Saat kau menyerah, saat itulah permainan berakhir.",
+      "credit": "Mitsuyoshi Anzai, Slam Dunk"
+    },
+    {
+      "code": "AQ015",
+      "content": "There's no shame in falling down! True shame is to not stand up again!",
+      "content_id": "Tidak ada yang memalukan dari terjatuh! Rasa malu yang sebenarnya adalah tidak bangkit kembali!",
+      "credit": "Shintaro Midorima, Kuroko's Basketball"
+    },
+    {
+      "code": "AQ016",
+      "content": "Sometimes, the things that matter the most are right in front of you.",
+      "content_id": "Terkadang, hal-hal yang paling penting ada tepat di depanmu.",
+      "credit": "Gray Fullbuster, Fairy Tail"
+    },
+    {
+      "code": "AQ017",
+      "content": "The ticket to the future is always open.",
+      "content_id": "Tiket menuju masa depan selalu terbuka.",
+      "credit": "Vash the Stampede, Trigun"
+    },
+    {
+      "code": "AQ018",
+      "content": "I want to be a millionaire not for the money, but for the freedom.",
+      "content_id": "Aku ingin menjadi miliuner bukan karena uangnya, tetapi karena kebebasannya.",
+      "credit": "Spike Spiegel, Cowboy Bebop"
+    },
+    {
+      "code": "AQ019",
+      "content": "If you just submit yourself to fate, then that's the end of it.",
+      "content_id": "Jika kau hanya pasrah pada takdir, maka selesai sudah.",
+      "credit": "Keiichi Maebara, Higurashi: When They Cry"
+    },
+    {
+      "code": "AQ020",
+      "content": "Even if I die, you keep living, okay? Live to see the end of this world, and to see why it was born. Live to see why a weak girl like me ended up here.",
+      "content_id": "Bahkan jika aku mati, kau tetaplah hidup, oke? Hiduplah untuk melihat akhir dunia ini, dan melihat mengapa dunia ini lahir. Hiduplah untuk mengetahui mengapa gadis lemah sepertiku berakhir di sini.",
+      "credit": "Sachi, Sword Art Online"
+    },
+    {
+      "code": "AQ021",
+      "content": "It is at the moment of death that humanity has realized the value of life.",
+      "content_id": "Pada saat kematianlah umat manusia menyadari nilai kehidupan.",
+      "credit": "Gilgamesh, Fate/Zero"
+    },
+    {
+      "code": "AQ022",
+      "content": "The weak are destined to lie beneath the boots of the strong. If that angers you, overcome your deficits.",
+      "content_id": "Yang lemah ditakdirkan berada di bawah sepatu bot yang kuat. Jika itu membuatmu marah, atasi kekuranganmu.",
+      "credit": "Esdeath, Akame ga Kill!"
+    },
+    {
+      "code": "AQ023",
+      "content": "Simplicity is the easiest path to true beauty.",
+      "content_id": "Kesederhanaan adalah jalan termudah menuju keindahan sejati.",
+      "credit": "Seishuu Handa, Barakamon"
+    },
+    {
+      "code": "AQ024",
+      "content": "Don’t be so quick to throw away your life. No matter how disgraceful or embarrassing it may be, you need to keep struggling to find your way out until the very end.",
+      "content_id": "Jangan terlalu cepat membuang hidupmu. Tak peduli seberapa memalukan keadaannya, kau harus terus berjuang mencari jalan keluar sampai akhir.",
+      "credit": "Clare, Claymore"
+    },
+    {
+      "code": "AQ025",
+      "content": "A life that lives without doing anything is the same as a slow death.",
+      "content_id": "Hidup yang dijalani tanpa melakukan apa pun sama saja dengan kematian yang lambat.",
+      "credit": "Lelouch Lamperouge, Code Geass"
+    },
+    {
+      "code": "AQ026",
+      "content": "If you keep on hiding your true feelings, who is going to be happy? If you are sad, you should say it out loud!",
+      "content_id": "Jika kau terus menyembunyikan perasaanmu yang sebenarnya, siapa yang akan bahagia? Jika kau sedih, katakanlah dengan lantang!",
+      "credit": "Haruhi Fujioka, Ouran High School Host Club"
+    },
+    {
+      "code": "AQ027",
+      "content": "No matter how deep the night, it always turns to day, eventually.",
+      "content_id": "Tak peduli seberapa larut malam, akhirnya akan menjadi siang.",
+      "credit": "Brook, One Piece"
+    },
+    {
+      "code": "AQ028",
+      "content": "The moment you think of giving up, think of the reason why you held on so long.",
+      "content_id": "Saat kau berpikir untuk menyerah, pikirkan alasan mengapa kau bertahan selama ini.",
+      "credit": "Natsu Dragneel, Fairy Tail"
+    },
+    {
+      "code": "AQ029",
+      "content": "If you have time to think of a beautiful end, then live beautifully until the end.",
+      "content_id": "Jika kau punya waktu memikirkan akhir yang indah, hiduplah dengan indah sampai akhir.",
+      "credit": "Gintoki Sakata, Gintama"
+    },
+    {
+      "code": "AQ030",
+      "content": "Revenge just breeds more revenge.",
+      "content_id": "Balas dendam hanya melahirkan balas dendam yang lebih banyak.",
+      "credit": "Jiraiya, Naruto"
+    },
+    {
+      "code": "AQ031",
+      "content": "Power comes in response to a need, not a desire. You have to create that need.",
+      "content_id": "Kekuatan datang sebagai respons terhadap kebutuhan, bukan keinginan. Kau harus menciptakan kebutuhan itu.",
+      "credit": "Goku, Dragon Ball Z"
+    },
+    {
+      "code": "AQ032",
+      "content": "I am not a hero because I want to be. I am a hero because I have to be.",
+      "content_id": "Aku bukan pahlawan karena aku ingin. Aku pahlawan karena aku harus.",
+      "credit": "Saitama, One-Punch Man"
+    },
+    {
+      "code": "AQ033",
+      "content": "How can you move forward if you keep regretting the past?",
+      "content_id": "Bagaimana kau bisa maju jika terus menyesali masa lalu?",
+      "credit": "Edward Elric, Fullmetal Alchemist"
+    },
+    {
+      "code": "AQ034",
+      "content": "You can't always hold on to the things that are important. By letting them go we gain something else.",
+      "content_id": "Kau tidak bisa selalu berpegang pada hal-hal penting. Dengan melepaskannya, kita mendapatkan hal lain.",
+      "credit": "Eikichi Onizuka, Great Teacher Onizuka"
+    },
+    {
+      "code": "AQ035",
+      "content": "People’s lives don’t end when they die. It ends when they lose faith.",
+      "content_id": "Hidup manusia tidak berakhir saat mereka mati. Hidup berakhir ketika mereka kehilangan keyakinan.",
+      "credit": "Itachi Uchiha, Naruto"
+    },
+    {
+      "code": "AQ036",
+      "content": "Even the strongest of opponents always has a weakness.",
+      "content_id": "Bahkan lawan terkuat sekalipun selalu punya kelemahan.",
+      "credit": "L Lawliet, Death Note"
+    },
+    {
+      "code": "AQ037",
+      "content": "Sometimes I do feel like I’m a failure. Like there’s no hope for me. But even so, I’m not gonna give up. Ever!",
+      "content_id": "Kadang aku merasa seperti gagal. Seolah tak ada harapan bagiku. Tapi tetap saja, aku tidak akan menyerah. Tidak pernah!",
+      "credit": "Izuku Midoriya, My Hero Academia"
+    },
+    {
+      "code": "AQ038",
+      "content": "If you wanna make people dream, you've gotta start by believing in that dream yourself!",
+      "content_id": "Jika kau ingin membuat orang bermimpi, mulailah dengan percaya pada mimpimu sendiri!",
+      "credit": "Nino Nakano, The Quintessential Quintuplets"
+    },
+    {
+      "code": "AQ039",
+      "content": "The difference between a novice and a master is that a master has failed more times than a novice has ever tried.",
+      "content_id": "Perbedaan antara pemula dan master adalah master telah gagal lebih banyak daripada jumlah percobaan seorang pemula.",
+      "credit": "Koro-sensei, Assassination Classroom"
+    },
+    {
+      "code": "AQ040",
+      "content": "It's not about whether it's possible or not, I'm doing it because I want to.",
+      "content_id": "Ini bukan tentang mungkin atau tidaknya, aku melakukannya karena aku mau.",
+      "credit": "Monkey D. Luffy, One Piece"
+    },
+    {
+      "code": "AQ041",
+      "content": "I'll leave tomorrow's problems to tomorrow's me.",
+      "content_id": "Masalah esok biar diurus diriku yang besok.",
+      "credit": "Saitama, One-Punch Man"
+    },
+    {
+      "code": "AQ042",
+      "content": "Thinking you’re no-good and worthless is the worst thing you can do.",
+      "content_id": "Menganggap dirimu tak berguna adalah hal terburuk yang bisa kau lakukan.",
+      "credit": "Nobita Nobi, Doraemon"
+    },
+    {
+      "code": "AQ043",
+      "content": "What is right? What is wrong? In the end, all we have are our own choices.",
+      "content_id": "Apa yang benar? Apa yang salah? Pada akhirnya, yang kita miliki hanyalah pilihan kita sendiri.",
+      "credit": "Eren Yeager, Attack on Titan"
+    },
+    {
+      "code": "AQ044",
+      "content": "If you can't find a reason to fight, then you shouldn't be fighting.",
+      "content_id": "Jika kau tak menemukan alasan untuk bertarung, maka kau tak seharusnya bertarung.",
+      "credit": "Akame, Akame ga Kill!"
+    },
+    {
+      "code": "AQ045",
+      "content": "Humans die. Animals die. Plants die. Even stars die. It's a cycle of life. There's nothing sad about it.",
+      "content_id": "Manusia mati. Hewan mati. Tumbuhan mati. Bahkan bintang pun mati. Itu siklus kehidupan. Tak ada yang perlu disedihkan.",
+      "credit": "Maka Albarn, Soul Eater"
+    },
+    {
+      "code": "AQ046",
+      "content": "Don’t live your life making excuses. The one making your choices is yourself.",
+      "content_id": "Jangan jalani hidup dengan alasan. Pembuat keputusanmu adalah dirimu sendiri.",
+      "credit": "Mugen, Samurai Champloo"
+    },
+    {
+      "code": "AQ047",
+      "content": "To abandon your duty is a disgrace. To die is merely to lose your life. That is all.",
+      "content_id": "Meninggalkan tugas adalah aib. Mati hanyalah kehilangan nyawa. Itu saja.",
+      "credit": "Erwin Smith, Attack on Titan"
+    },
+    {
+      "code": "AQ048",
+      "content": "You should enjoy the little detours to the fullest. Because that's where you'll find the things more important than what you want.",
+      "content_id": "Nikmatilah jalan memutar kecil sepenuhnya. Di sanalah kau menemukan hal-hal yang lebih penting daripada yang kau inginkan.",
+      "credit": "Ging Freecss, Hunter x Hunter"
+    },
+    {
+      "code": "AQ049",
+      "content": "The world is cruel, but also very beautiful.",
+      "content_id": "Dunia ini kejam, tetapi juga sangat indah.",
+      "credit": "Mikasa Ackerman, Attack on Titan"
+    },
+    {
+      "code": "AQ050",
+      "content": "Even if you're a hero, you're still human. You're allowed to make mistakes.",
+      "content_id": "Meski kau seorang pahlawan, kau tetap manusia. Kau boleh membuat kesalahan.",
+      "credit": "All Might, My Hero Academia"
+    },
+    {
+      "code": "KNY101",
+      "content": "Set your heart ablaze!",
+      "content_id": "Bakar semangatmu!",
+      "credit": "Kyojuro Rengoku, Demon Slayer: Kimetsu no Yaiba"
+    },
+    {
+      "code": "AOT102",
+      "content": "The only thing we're allowed to do is to believe we won't regret the choice we made.",
+      "content_id": "Satu-satunya yang boleh kita lakukan adalah percaya bahwa kita takkan menyesali pilihan yang kita buat.",
+      "credit": "Levi Ackerman, Attack on Titan"
+    },
+    {
+      "code": "ORE103",
+      "content": "Youth is a lie. It is nothing but evil.",
+      "content_id": "Masa muda adalah kebohongan. Tak lain hanyalah kejahatan.",
+      "credit": "Hachiman Hikigaya, Oregairu"
+    },
+    {
+      "code": "NGE104",
+      "content": "I mustn't run away.",
+      "content_id": "Aku tidak boleh lari.",
+      "credit": "Shinji Ikari, Neon Genesis Evangelion"
+    },
+    {
+      "code": "RK105",
+      "content": "I will not kill.",
+      "content_id": "Aku tidak akan membunuh.",
+      "credit": "Himura Kenshin, Rurouni Kenshin"
+    },
+    {
+      "code": "MUS106",
+      "content": "Not everything has a name. Not everything can be seen.",
+      "content_id": "Tak semua hal punya nama. Tak semua hal bisa terlihat.",
+      "credit": "Ginko, Mushishi"
+    },
+    {
+      "code": "LAIN107",
+      "content": "No matter where you go, everyone's connected.",
+      "content_id": "Ke mana pun kau pergi, semua orang saling terhubung.",
+      "credit": "Lain Iwakura, Serial Experiments Lain"
+    },
+    {
+      "code": "GITS108",
+      "content": "Overspecialize, and you breed in weakness.",
+      "content_id": "Terlalu terspesialisasi hanya akan melahirkan kelemahan.",
+      "credit": "Motoko Kusanagi, Ghost in the Shell"
+    },
+    {
+      "code": "OP109",
+      "content": "Nothing happened.",
+      "content_id": "Tidak terjadi apa-apa.",
+      "credit": "Roronoa Zoro, One Piece"
+    },
+    {
+      "code": "SM110",
+      "content": "In the name of the Moon, I'll punish you!",
+      "content_id": "Atas nama Bulan, aku akan menghukummu!",
+      "credit": "Usagi Tsukino, Sailor Moon"
+    },
+    {
+      "code": "HYO111",
+      "content": "If I don't have to do it, I won't. If I have to, I'll do it quickly.",
+      "content_id": "Jika aku tak perlu melakukannya, aku tak akan melakukannya. Jika harus, akan kulakukan dengan cepat.",
+      "credit": "Houtarou Oreki, Hyouka"
+    },
+    {
+      "code": "KIKI112",
+      "content": "We each need to find our own inspiration.",
+      "content_id": "Kita masing-masing harus menemukan inspirasi kita sendiri.",
+      "credit": "Kiki, Kiki's Delivery Service"
+    },
+    {
+      "code": "SG113",
+      "content": "El Psy Congroo.",
+      "content_id": "El Psy Congroo.",
+      "credit": "Rintarou Okabe, Steins;Gate"
+    },
+    {
+      "code": "VIO114",
+      "content": "I want to know what ‘I love you’ means.",
+      "content_id": "Aku ingin tahu apa arti ‘aku mencintaimu’.",
+      "credit": "Violet Evergarden, Violet Evergarden"
+    },
+    {
+      "code": "MP100115",
+      "content": "It's okay to run away. You can come back stronger.",
+      "content_id": "Tak apa untuk melarikan diri. Kau bisa kembali dengan lebih kuat.",
+      "credit": "Reigen Arataka, Mob Psycho 100"
+    },
+    {
+      "code": "MP100116",
+      "content": "You are you, and that is your power.",
+      "content_id": "Kau adalah dirimu sendiri, dan itulah kekuatanmu.",
+      "credit": "Shigeo “Mob” Kageyama, Mob Psycho 100"
+    },
+    {
+      "code": "S&W117",
+      "content": "Call me Holo, the Wise Wolf.",
+      "content_id": "Panggil aku Holo, Serigala Bijak.",
+      "credit": "Holo, Spice and Wolf"
+    },
+    {
+      "code": "KNB118",
+      "content": "I am a shadow.",
+      "content_id": "Aku adalah bayangan.",
+      "credit": "Tetsuya Kuroko, Kuroko's Basketball"
+    },
+    {
+      "code": "DS119",
+      "content": "Ten billion percent!",
+      "content_id": "Sepuluh miliar persen!",
+      "credit": "Senku Ishigami, Dr. Stone"
+    },
+    {
+      "code": "VIN120",
+      "content": "You have no enemies. No one does.",
+      "content_id": "Kau tak punya musuh. Tak seorang pun yang punya.",
+      "credit": "Thors, Vinland Saga"
+    },
+    {
+      "code": "MIX201",
+      "content": "Sometimes the only way to escape the cage is to let yourself out.",
+      "content_id": "Terkadang satu-satunya cara keluar dari kandang adalah melepaskan dirimu sendiri.",
+      "credit": "Armin Arlert, Attack on Titan"
+    },
+    {
+      "code": "MIX202",
+      "content": "Give your heart!",
+      "content_id": "Serahkan hatimu!",
+      "credit": "Erwin Smith, Attack on Titan"
+    },
+    {
+      "code": "MIX203",
+      "content": "The strong should live and the weak should die? Then I'll get stronger.",
+      "content_id": "Yang kuat harus hidup dan yang lemah harus mati? Kalau begitu aku akan menjadi kuat.",
+      "credit": "Thorfinn, Vinland Saga"
+    },
+    {
+      "code": "MIX204",
+      "content": "Man proposes, God disposes.",
+      "content_id": "Manusia berencana, Tuhan yang menentukan.",
+      "credit": "Askeladd, Vinland Saga"
+    },
+    {
+      "code": "MIX205",
+      "content": "Yare yare daze.",
+      "content_id": "Ya ampun, merepotkan.",
+      "credit": "Jotaro Kujo, JoJo's Bizarre Adventure"
+    },
+    {
+      "code": "MIX206",
+      "content": "A lesson learned the hard way is a lesson you never forget.",
+      "content_id": "Pelajaran yang dipelajari dengan susah payah adalah pelajaran yang takkan terlupa.",
+      "credit": "Jotaro Kujo, JoJo's Bizarre Adventure"
+    },
+    {
+      "code": "MIX207",
+      "content": "Even if no one believes in you, walk forward with your own legs.",
+      "content_id": "Meski tak ada yang percaya padamu, berjalanlah maju dengan kakimu sendiri.",
+      "credit": "Tanjiro Kamado, Demon Slayer"
+    },
+    {
+      "code": "MIX208",
+      "content": "A scoundrel's smile can save a life.",
+      "content_id": "Senyum seorang penipu pun bisa menyelamatkan nyawa.",
+      "credit": "Reigen Arataka, Mob Psycho 100"
+    },
+    {
+      "code": "MIX209",
+      "content": "People’s lives are not like novels. They’re not bound by logic.",
+      "content_id": "Hidup manusia tidak seperti novel. Ia tidak terikat logika.",
+      "credit": "Gintoki Sakata, Gintama"
+    },
+    {
+      "code": "MIX210",
+      "content": "The world is not beautiful, therefore it is—because we give it meaning.",
+      "content_id": "Dunia tidak indah, dan karenanya indah—karena kitalah yang memberinya makna.",
+      "credit": "Shinobu Oshino, Monogatari Series"
+    },
+    {
+      "code": "MIX211",
+      "content": "If you don’t take care of yourself, you can’t take care of others.",
+      "content_id": "Jika kamu tidak menjaga dirimu, kamu takkan bisa menjaga orang lain.",
+      "credit": "Kaguya Shinomiya, Kaguya-sama: Love Is War"
+    },
+    {
+      "code": "MIX212",
+      "content": "A fake smile is the easiest armor.",
+      "content_id": "Senyum palsu adalah pelindung termudah.",
+      "credit": "Ai Hayasaka, Kaguya-sama: Love Is War"
+    },
+    {
+      "code": "MIX213",
+      "content": "If you're gonna hit it, hit it until it breaks.",
+      "content_id": "Kalau kau mau menghancurkannya, hancurkan sampai benar-benar pecah.",
+      "credit": "Megumi Fushiguro, Jujutsu Kaisen"
+    },
+    {
+      "code": "MIX214",
+      "content": "A curse can only be met with greater resolve.",
+      "content_id": "Kutukan hanya bisa dihadapi dengan tekad yang lebih besar.",
+      "credit": "Yuji Itadori, Jujutsu Kaisen"
+    },
+    {
+      "code": "MIX215",
+      "content": "I'm not alone anymore.",
+      "content_id": "Aku tidak sendirian lagi.",
+      "credit": "Atsushi Nakajima, Bungou Stray Dogs"
+    },
+    {
+      "code": "MIX216",
+      "content": "The wind is rising! We must try to live.",
+      "content_id": "Angin berhembus kencang! Kita harus mencoba untuk hidup.",
+      "credit": "Jirō Horikoshi, The Wind Rises"
+    },
+    {
+      "code": "MIX217",
+      "content": "You can’t sit around envying other people’s worlds. You have to go out and change your own.",
+      "content_id": "Jangan hanya iri pada dunia orang lain. Ubahlah duniamu sendiri.",
+      "credit": "Chiaki Shinichi, Nodame Cantabile"
+    },
+    {
+      "code": "MIX218",
+      "content": "The only one who can decide your worth is you.",
+      "content_id": "Hanya dirimu yang bisa menentukan nilai dirimu.",
+      "credit": "Sakura Kinomoto, Cardcaptor Sakura"
+    },
+    {
+      "code": "MIX219",
+      "content": "Miracles happen to those who never give up.",
+      "content_id": "Keajaiban terjadi pada mereka yang tak pernah menyerah.",
+      "credit": "Tsubasa Ozora, Captain Tsubasa"
+    },
+    {
+      "code": "MIX220",
+      "content": "I am a genius of hard work.",
+      "content_id": "Aku adalah jenius karena kerja keras.",
+      "credit": "Rock Lee, Naruto"
+    },
+    {
+      "code": "MIX221",
+      "content": "The ball is alive.",
+      "content_id": "Bola itu hidup.",
+      "credit": "Shoyo Hinata, Haikyuu!!"
+    },
+    {
+      "code": "MIX222",
+      "content": "Even if we’re not tall, we can fly.",
+      "content_id": "Meski kami tidak tinggi, kami bisa terbang.",
+      "credit": "Tobio Kageyama, Haikyuu!!"
+    },
+    {
+      "code": "MIX223",
+      "content": "The moment you think you’re weak, you become weaker.",
+      "content_id": "Saat kau mengira dirimu lemah, kau jadi lebih lemah.",
+      "credit": "Aomine Daiki, Kuroko's Basketball"
+    },
+    {
+      "code": "MIX224",
+      "content": "We fight not to win, but to keep moving forward.",
+      "content_id": "Kita bertarung bukan untuk menang, tapi untuk terus maju.",
+      "credit": "Mikazuki Augus, Mobile Suit Gundam: Iron-Blooded Orphans"
+    },
+    {
+      "code": "MIX225",
+      "content": "I can’t stand a world where you can’t shout your feelings.",
+      "content_id": "Aku tak tahan dunia di mana kau tak bisa meneriakkan perasaanmu.",
+      "credit": "Nana Osaki, NANA"
+    },
+    {
+      "code": "MIX226",
+      "content": "Kindness can be a stronger weapon than any blade.",
+      "content_id": "Kebaikan bisa jadi senjata yang lebih kuat dari pedang manapun.",
+      "credit": "Kenshin Himura, Rurouni Kenshin"
+    },
+    {
+      "code": "MIX227",
+      "content": "In this world, the weak don’t get to choose how they die.",
+      "content_id": "Di dunia ini, yang lemah tak bisa memilih cara mereka mati.",
+      "credit": "Guts, Berserk"
+    },
+    {
+      "code": "MIX228",
+      "content": "Even if we can’t be fulfilled, we move forward.",
+      "content_id": "Meski tak bisa terpenuhi, kita tetap melangkah maju.",
+      "credit": "Casca, Berserk"
+    },
+    {
+      "code": "MIX229",
+      "content": "Bang.",
+      "content_id": "Dor.",
+      "credit": "Vash the Stampede, Trigun"
+    },
+    {
+      "code": "MIX230",
+      "content": "Whatever happens, happens.",
+      "content_id": "Apa pun yang terjadi, terjadilah.",
+      "credit": "Spike Spiegel, Cowboy Bebop"
+    },
+    {
+      "code": "MIX231",
+      "content": "Believe in the me that believes in the students.",
+      "content_id": "Percayalah pada diriku yang percaya pada murid-muridku.",
+      "credit": "Koro-sensei, Assassination Classroom"
+    },
+    {
+      "code": "MIX232",
+      "content": "Music isn’t a tool to win. It’s a way to say ‘I’m here.’",
+      "content_id": "Musik bukan alat untuk menang. Musik adalah cara berkata ‘aku ada di sini’.",
+      "credit": "Kaori Miyazono, Your Lie in April"
+    },
+    {
+      "code": "MIX233",
+      "content": "If you don’t face someone, you can’t understand them.",
+      "content_id": "Jika kau tak berhadapan dengan seseorang, kau takkan memahaminya.",
+      "credit": "Shoya Ishida, A Silent Voice"
+    },
+    {
+      "code": "MIX234",
+      "content": "You can’t rewind life. But you can play the next track.",
+      "content_id": "Hidup tak bisa di-rewind. Tapi kau bisa memutar lagu berikutnya.",
+      "credit": "Rintarō Okabe, Steins;Gate"
+    },
+    {
+      "code": "MIX235",
+      "content": "A detective who corners himself can’t corner the culprit.",
+      "content_id": "Detektif yang menyudutkan dirinya takkan bisa menyudutkan pelaku.",
+      "credit": "Shinichi Kudo, Detective Conan"
+    },
+    {
+      "code": "MIX236",
+      "content": "If you have time to worry, run.",
+      "content_id": "Jika kau punya waktu untuk khawatir, berlarilah.",
+      "credit": "Sora, No Game No Life"
+    },
+    {
+      "code": "MIX237",
+      "content": "There’s no such thing as a painless lesson—that’s just a delusion.",
+      "content_id": "Tak ada pelajaran tanpa rasa sakit—itu hanya delusi.",
+      "credit": "Riza Hawkeye, Fullmetal Alchemist: Brotherhood"
+    },
+    {
+      "code": "MIX238",
+      "content": "Protecting a person means giving them a place to belong.",
+      "content_id": "Melindungi seseorang berarti memberinya tempat untuk pulang.",
+      "credit": "Todoroki Shoto, My Hero Academia"
+    },
+    {
+      "code": "MIX239",
+      "content": "A hero is someone who keeps getting back up.",
+      "content_id": "Pahlawan adalah orang yang terus bangkit lagi dan lagi.",
+      "credit": "All Might, My Hero Academia"
+    },
+    {
+      "code": "MIX240",
+      "content": "Hope is like a path: it appears when you walk on it.",
+      "content_id": "Harapan seperti jalan: ia muncul saat kau melangkah di atasnya.",
+      "credit": "Natsume Takashi, Natsume’s Book of Friends"
+    },
+    {
+      "code": "MIX241",
+      "content": "Humans can change. That’s their strength.",
+      "content_id": "Manusia bisa berubah. Itulah kekuatan mereka.",
+      "credit": "Edogawa Ranpo, Bungou Stray Dogs"
+    },
+    {
+      "code": "MIX242",
+      "content": "Even if you’re scared, move one step forward.",
+      "content_id": "Meski kau takut, majulah satu langkah.",
+      "credit": "Shinjiro Aragaki, Persona 3 (Anime)"
+    },
+    {
+      "code": "MIX243",
+      "content": "Justice without power is meaningless; power without justice is violence.",
+      "content_id": "Keadilan tanpa kekuatan tak berarti; kekuatan tanpa keadilan adalah kekerasan.",
+      "credit": "Lelouch Lamperouge, Code Geass"
+    },
+    {
+      "code": "MIX244",
+      "content": "A kingdom of isolation is just a prison with velvet walls.",
+      "content_id": "Kerajaan isolasi hanyalah penjara dengan dinding beludru.",
+      "credit": "San, Princess Mononoke"
+    },
+    {
+      "code": "MIX245",
+      "content": "The sky doesn’t need a reason to be blue, and neither do you to be yourself.",
+      "content_id": "Langit tak butuh alasan untuk biru, begitu pula kau untuk menjadi dirimu sendiri.",
+      "credit": "Howl, Howl’s Moving Castle"
+    },
+    {
+      "code": "MIX246",
+      "content": "When you can’t see the light, become it.",
+      "content_id": "Saat kau tak bisa melihat cahaya, jadilah cahaya itu.",
+      "credit": "Shigeo “Mob” Kageyama, Mob Psycho 100"
+    },
+    {
+      "code": "MIX247",
+      "content": "A warrior’s weapon is his heart before his blade.",
+      "content_id": "Senjata seorang ksatria adalah hatinya sebelum pedangnya.",
+      "credit": "Saber, Fate/stay night"
+    },
+    {
+      "code": "MIX248",
+      "content": "If you want to grant wishes, you must have the power to do so.",
+      "content_id": "Jika kau ingin mengabulkan harapan, kau harus punya kekuatan untuk melakukannya.",
+      "credit": "Homura Akemi, Puella Magi Madoka Magica"
+    },
+    {
+      "code": "MIX249",
+      "content": "Adults are just children who forgot how to be honest.",
+      "content_id": "Orang dewasa hanyalah anak-anak yang lupa bagaimana jujur.",
+      "credit": "Aqua Hoshino, Oshi no Ko"
+    },
+    {
+      "code": "MIX250",
+      "content": "The journey matters, even if you forget the destination.",
+      "content_id": "Perjalanan itu penting, meski kau lupa tujuan akhirnya.",
+      "credit": "Frieren, Frieren: Beyond Journey’s End"
+    }
+  ],
+  "game": [
+    {
+      "code": "AD2LC",
+      "content": "A man chooses, a slave obeys.",
+      "content_id": "Seorang pria memilih, seorang budak patuh.",
+      "credit": "Andrew Ryan, BioShock"
+    },
+    {
+      "code": "GERW3",
+      "content": "Evil is evil. Lesser, greater, middling… makes no difference.",
+      "content_id": "Jahat tetap jahat. Lebih kecil, lebih besar, sedang... tidak ada bedanya.",
+      "credit": "Geralt of Rivia, The Witcher 3: Wild Hunt"
+    },
+    {
+      "code": "CJOAJ",
+      "content": "All we had to do, was follow the damn train, CJ!",
+      "content_id": "Yang harus kita lakukan hanyalah mengikuti kereta sialan itu, CJ!",
+      "credit": "Big Smoke, Grand Theft Auto: San Andreas"
+    },
+    {
+      "code": "CLMF3",
+      "content": "War. War never changes.",
+      "content_id": "Perang. Perang tak pernah berubah.",
+      "credit": "Narrator (Ron Perlman), Fallout series"
+    }
+  ],
+  "movie": [],
+  "spongebob": [
+    {
+      "code": "SB-Q001",
+      "content": "I'm ready! I'm ready!",
+      "content_id": "Aku siap! Aku siap!",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q002",
+      "content": "The best time to wear a striped sweater is all the time.",
+      "content_id": "Waktu terbaik untuk memakai sweter bergaris adalah setiap saat.",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q003",
+      "content": "Is mayonnaise an instrument?",
+      "content_id": "Apakah mayones itu alat musik?",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q004",
+      "content": "I wumbo, you wumbo, he, she, we wumbo.",
+      "content_id": "Aku wumbo, kamu wumbo, dia, kita semua wumbo.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q005",
+      "content": "Once upon a time, there was an ugly barnacle. He was so ugly that everyone died. The end.",
+      "content_id": "Dahulu kala, ada seekor barnacle jelek. Dia sangat jelek sampai semua orang mati. Tamat.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q006",
+      "content": "It's not about winning, it's about fun!",
+      "content_id": "Ini bukan soal menang, ini soal bersenang-senang!",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q007",
+      "content": "I can't see my forehead.",
+      "content_id": "Aku tidak bisa melihat dahiku.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q008",
+      "content": "I’m a Goofy Goober, yeah!",
+      "content_id": "Aku Goofy Goober, ya!",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q009",
+      "content": "I'm not a Krusty Krab.",
+      "content_id": "Aku bukan Krusty Krab.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q010",
+      "content": "Firmly grasp it in your hand.",
+      "content_id": "Genggam erat di tanganmu.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q011",
+      "content": "I'm not a failure because I didn't succeed. I'm a failure because I never tried.",
+      "content_id": "Aku bukan gagal karena tidak berhasil. Aku gagal karena tidak pernah mencoba.",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q012",
+      "content": "I knew I shouldn't have gotten out of bed today.",
+      "content_id": "Aku tahu seharusnya aku tidak bangun dari tempat tidur hari ini.",
+      "credit": "Squidward Tentacles"
+    },
+    {
+      "code": "SB-Q013",
+      "content": "Money can't replace friendship.",
+      "content_id": "Uang tidak bisa menggantikan persahabatan.",
+      "credit": "Mr. Krabs"
+    },
+    {
+      "code": "SB-Q014",
+      "content": "You’re good. You’re good. You’re good!",
+      "content_id": "Kamu hebat. Kamu hebat. Kamu hebat!",
+      "credit": "Sandy Cheeks"
+    },
+    {
+      "code": "SB-Q015",
+      "content": "I'm ugly and I'm proud.",
+      "content_id": "Aku jelek dan aku bangga.",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q016",
+      "content": "It's called the ugly barnacle. Once there was an ugly barnacle. He was so ugly that everyone died. The end.",
+      "content_id": "Ini tentang barnacle jelek. Dahulu ada barnacle jelek. Dia begitu jelek hingga semua orang mati. Tamat.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q017",
+      "content": "You don't need a license to drive a sandwich.",
+      "content_id": "Kamu tidak perlu SIM untuk menyetir sandwich.",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q018",
+      "content": "With imagination, I can be anything I want.",
+      "content_id": "Dengan imajinasi, aku bisa menjadi apa pun yang aku mau.",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q019",
+      "content": "Wake me up when I care.",
+      "content_id": "Bangunkan aku kalau aku peduli.",
+      "credit": "Squidward Tentacles"
+    },
+    {
+      "code": "SB-Q020",
+      "content": "I love money-ay!",
+      "content_id": "Aku cinta uang-ay!",
+      "credit": "Mr. Krabs"
+    },
+    {
+      "code": "SB-Q021",
+      "content": "You don't need a plan, just go and do it!",
+      "content_id": "Kamu tidak butuh rencana, langsung lakukan saja!",
+      "credit": "Sandy Cheeks"
+    },
+    {
+      "code": "SB-Q022",
+      "content": "It's not about the money, it's about sending a message.",
+      "content_id": "Ini bukan tentang uang, ini tentang menyampaikan pesan.",
+      "credit": "Mr. Krabs"
+    },
+    {
+      "code": "SB-Q023",
+      "content": "Future! Future!",
+      "content_id": "Masa depan! Masa depan!",
+      "credit": "SpongeBob SquarePants"
+    },
+    {
+      "code": "SB-Q024",
+      "content": "My name’s not Rick!",
+      "content_id": "Namaku bukan Rick!",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q025",
+      "content": "Too bad SpongeBob's not here to enjoy SpongeBob not being here.",
+      "content_id": "Sayang sekali SpongeBob tidak di sini untuk menikmati saat SpongeBob tidak di sini.",
+      "credit": "Squidward Tentacles"
+    },
+    {
+      "code": "SB-Q026",
+      "content": "A five-letter word for happiness: MONEY!",
+      "content_id": "Lima huruf untuk kebahagiaan: UANG!",
+      "credit": "Mr. Krabs"
+    },
+    {
+      "code": "SB-Q027",
+      "content": "You’re gonna do it and I’m gonna stand here and laugh at you!",
+      "content_id": "Kamu yang akan melakukannya dan aku akan berdiri di sini sambil menertawakanmu!",
+      "credit": "Squidward Tentacles"
+    },
+    {
+      "code": "SB-Q028",
+      "content": "You took my only food! Now I’m gonna starve!",
+      "content_id": "Kamu ambil satu-satunya makananku! Sekarang aku akan kelaparan!",
+      "credit": "Patrick Star"
+    },
+    {
+      "code": "SB-Q029",
+      "content": "Krusty Krab is unfair! Mr. Krabs is in there!",
+      "content_id": "Krusty Krab tidak adil! Mr. Krabs ada di sana!",
+      "credit": "SpongeBob & Squidward"
+    },
+    {
+      "code": "SB-Q030",
+      "content": "No, this is Patrick!",
+      "content_id": "Bukan, ini Patrick!",
+      "credit": "Patrick Star"
+    }
+  ]
+}

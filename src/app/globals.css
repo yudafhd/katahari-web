@@ -22,5 +22,94 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: --font-geist-sans, Arial, Helvetica, sans-serif;
+}
+
+/* Theme presets (light, dark, violet, ocean) and animations */
+
+/* Fallbacks when no explicit data-theme is set (initial paint) */
+:root:not([data-theme]) {
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --ring: rgba(0, 0, 0, 0.06);
+  --aurora-a: rgba(124, 58, 237, 0.12);
+  --aurora-b: rgba(59, 130, 246, 0.12);
+  --muted-foreground: #475569; /* slate-600 for light context */
+}
+
+/* Respect user OS preference only if data-theme is not set */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --card-bg: rgba(255, 255, 255, 0.06);
+    --ring: rgba(255, 255, 255, 0.12);
+    --aurora-a: rgba(139, 92, 246, 0.18);
+    --aurora-b: rgba(14, 165, 233, 0.18);
+    --muted-foreground: #cbd5e1; /* slate-300 for dark context */
+  }
+}
+
+/* Explicit themes via data-theme on <html> */
+:root[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #0f172a; /* slate-900 */
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --ring: rgba(0, 0, 0, 0.06);
+  --aurora-a: rgba(124, 58, 237, 0.12);
+  --aurora-b: rgba(59, 130, 246, 0.12);
+  --muted-foreground: #475569; /* slate-600 */
+}
+
+:root[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #e5e7eb; /* slate-200 */
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --ring: rgba(255, 255, 255, 0.12);
+  --aurora-a: rgba(139, 92, 246, 0.18);
+  --aurora-b: rgba(14, 165, 233, 0.18);
+  --muted-foreground: #cbd5e1; /* slate-300 */
+}
+
+/* Extra Theme 1: Violet (dark flavored) */
+:root[data-theme="violet"] {
+  --background: #0b0614;    /* deep indigo */
+  --foreground: #f3e8ff;    /* violet-50 */
+  --card-bg: rgba(147, 51, 234, 0.10);  /* violet-600 */
+  --ring: rgba(216, 180, 254, 0.25);    /* violet-300 */
+  --aurora-a: rgba(168, 85, 247, 0.20); /* violet-500 */
+  --aurora-b: rgba(236, 72, 153, 0.18); /* fuchsia-500 */
+  --muted-foreground: #e9d5ff; /* violet-200 */
+}
+
+/* Extra Theme 2: Ocean (dark flavored) */
+:root[data-theme="ocean"] {
+  --background: #03141c;    /* deep ocean */
+  --foreground: #e0f2fe;    /* sky-100 */
+  --card-bg: rgba(14, 165, 233, 0.10);  /* sky-500 */
+  --ring: rgba(125, 211, 252, 0.25);    /* sky-300 */
+  --aurora-a: rgba(56, 189, 248, 0.22); /* sky-400 */
+  --aurora-b: rgba(99, 102, 241, 0.18); /* indigo-500 */
+  --muted-foreground: #bae6fd; /* sky-200 */
+}
+
+/* Smooth theme transition */
+html, body {
+  transition: background-color .3s ease, color .3s ease;
+}
+
+/* Quote load animation */
+@keyframes quote-in {
+  0% { opacity: 0; transform: translateY(8px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-quote-in {
+  animation: quote-in .45s cubic-bezier(.22,.95,.52,1) both;
+}
+
+/* Aurora subtle animation */
+@keyframes aurora-shift {
+  0%   { filter: hue-rotate(0deg) saturate(1); }
+  50%  { filter: hue-rotate(10deg) saturate(1.1); }
+  100% { filter: hue-rotate(0deg) saturate(1); }
+}
+.aurora {
+  animation: aurora-shift 12s ease-in-out infinite;
 }
