@@ -117,7 +117,7 @@ export default function BottomNav({
                                 <path d="M3 12h.01" />
                                 <path d="M3 18h.01" />
                             </svg>
-                            <span className="text-[10px] opacity-75">Sources</span>
+                            <span className="text-[10px] opacity-75">Category</span>
                         </button>
                     </nav>
                 </div>

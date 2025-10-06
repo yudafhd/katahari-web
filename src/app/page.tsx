@@ -423,16 +423,16 @@ export default function Home() {
             <span className="text-sm">{lang === 'en' ? 'Language' : 'Bahasa'}</span>
             <span className="text-xs opacity-70">{lang.toUpperCase()}</span>
           </button>
-
+          {/* 
           <button
             className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
             onClick={() => { setShowThemePanel(true); setShowDrawer(false); }}
           >
             <span className="text-sm">Themes</span>
             <span className="text-xs opacity-70 capitalize">{theme}</span>
-          </button>
+          </button> */}
 
-          <button
+          {/* <button
             className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
             onClick={() => { setTheme(DARK_THEMES.has(theme) ? 'light' : 'dark'); setShowDrawer(false); }}
           >
@@ -456,14 +456,14 @@ export default function Home() {
                 </svg>
               )}
             </span>
-          </button>
+          </button> */}
 
-          <button
+          {/* <button
             className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
             onClick={() => { setShowSourcesPanel(true); setShowDrawer(false); }}
           >
             <span className="text-sm">{lang === 'id' ? 'Kategori' : 'Category'}</span>
-          </button>
+          </button> */}
 
           <a
             className="inline-flex items-center justify-center rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
@@ -537,6 +537,7 @@ export default function Home() {
         onNext={onNext}
         onPrev={onPrev}
         onShuffle={onShuffle}
+        onCopy={onCopy}
         onSources={() => { setShowSourcesPanel(true); setShowDrawer(false); }}
         onThemes={() => { setShowThemePanel(true); setShowDrawer(false); }} />
       <Notification open={toastOpen} onClose={() => setToastOpen(false)} message={toastMsg} />
