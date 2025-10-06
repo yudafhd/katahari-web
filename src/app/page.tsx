@@ -11,6 +11,7 @@ import { copyText } from "@/utils/clipboard";
 import Image from "next/image";
 import Link from "next/link";
 import Drawer from "@/components/Drawer";
+import BottomNav from "@/components/BottomNav";
 
 export const dynamic = 'force-dynamic';
 
@@ -351,7 +352,7 @@ export default function Home() {
                     className="inline-block h-6 w-6 rounded-full ring-1 ring-black/10 dark:ring-white/10"
                     style={{ background: `linear-gradient(135deg, ${t.swatchA}, ${t.swatchB})` }}
                   />
-                  <span className="text-sm text-white">{t.name}</span>
+                  <span className="text-sm text-[var(--foreground)]">{t.name}</span>
                 </button>
               ))}
             </div>
@@ -365,13 +366,13 @@ export default function Home() {
           >
             <div className="mb-3 flex items-center gap-2">
               <button
-                className="text-xs text-white px-2 py-1 rounded border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10"
+                className="text-xs text-[var(--foreground)] px-2 py-1 rounded border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10"
                 onClick={selectAllCategories}
               >
                 {lang === 'id' ? 'Pilih semua' : 'Select all'}
               </button>
               <button
-                className="text-xs text-white px-2 py-1 rounded border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10"
+                className="text-xs text-[var(--foreground)] px-2 py-1 rounded border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/10"
                 onClick={clearCategories}
               >
                 {lang === 'id' ? 'Bersihkan' : 'Clear'}
@@ -390,7 +391,7 @@ export default function Home() {
                     checked={selectedCats.includes(cat)}
                     onChange={() => toggleCategory(cat)}
                   />
-                  <span className="text-sm text-white capitalize">{cat}</span>
+                  <span className="text-sm text-[var(--foreground)] capitalize">{cat}</span>
                 </label>
               ))}
             </div>
@@ -406,7 +407,7 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main content */}
+
       {/* Mobile navigation drawer (right side) */}
       <Drawer
         open={showDrawer}
@@ -490,6 +491,7 @@ export default function Home() {
         </nav>
       </Drawer>
 
+      {/* Main content */}
       <main className="mx-auto max-w-4xl px-10 min-h-[calc(100dvh-8rem)] flex items-center justify-center">
         <section className="flex w-full relative">
           {/* Decorative open-quote */}
@@ -506,7 +508,7 @@ export default function Home() {
             </blockquote>
 
             {/* Card controls */}
-            <div className="mt-10 flex items-center justify-between">
+            <div className="hidden md:flex items-center justify-between mt-10">
               <div className="flex items-center gap-6 text-slate-600">
                 <button onClick={onPrev} className="inline-flex items-center justify-center rounded-full size-8 hover:bg-slate-200/60 dark:hover:bg-white/10" aria-label="Sebelumnya">
                   <IconChevronLeft className="size-5" />
@@ -531,6 +533,12 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <BottomNav
+        onNext={onNext}
+        onPrev={onPrev}
+        onShuffle={onShuffle}
+        onSources={() => { setShowSourcesPanel(true); setShowDrawer(false); }}
+        onThemes={() => { setShowThemePanel(true); setShowDrawer(false); }} />
       <Notification open={toastOpen} onClose={() => setToastOpen(false)} message={toastMsg} />
     </div>
   );

@@ -71,7 +71,7 @@ export default function Drawer({
 
     const overlayCls =
         overlayClassName ??
-        `fixed inset-0 z-50 flex ${justify}  bg-black/10 backdrop-blur-sm`;
+        `drawer fixed inset-0 z-50 flex ${justify} bg-black/10 backdrop-blur-sm`;
 
     const containerCls =
         containerClassName ??
@@ -100,7 +100,7 @@ export default function Drawer({
                     <button
                         onClick={onClose}
                         aria-label="Close"
-                        className="inline-flex items-center justify-center rounded-md h-8 w-8 hover:bg-black/5 dark:hover:bg-white/10"
+                        className="inline-flex items-center justify-center rounded-md h-8 w-8 hover:bg-black/5 dark:hover:bg-white/10 text-[var(--foreground)]"
                     >
                         <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M18 6 6 18" />

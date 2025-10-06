@@ -131,3 +131,12 @@ html, body {
   will-change: transform, opacity;
   animation: drawerInLeft .25s cubic-bezier(.2,.9,.22,1) both;
 }
+
+/* Glass Theme */
+.modal button, span, h1, h2, h3, h4 {
+  color: var(--foreground) !important;
+}
+
+.drawer button, span, h1, h2, h3, h4 {
+  color: var(--foreground) !important;
+}
