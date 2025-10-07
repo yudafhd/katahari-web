@@ -3,6 +3,7 @@
 import { isMobileView } from '@/utils/window';
 import { useEffect, useRef, useCallback, ReactNode } from 'react';
 import { createPortal } from 'react-dom';
+import { IconX } from '@/components/icons';
 
 type ModalProps = {
     open: boolean;
@@ -126,10 +127,7 @@ export default function Modal({
                             aria-label="Close modal"
                             className="inline-flex items-center justify-center rounded-md h-8 w-8 hover:bg-black/5 dark:hover:bg-white/10 text-[var(--foreground)]"
                         >
-                            <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                <path d="M18 6 6 18" />
-                                <path d="M6 6l12 12" />
-                            </svg>
+                            <IconX className="size-4" />
                         </button>
                     </div>
                 ) : null}

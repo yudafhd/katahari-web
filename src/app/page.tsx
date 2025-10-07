@@ -12,6 +12,18 @@ import Image from "next/image";
 import Link from "next/link";
 import Drawer from "@/components/Drawer";
 import BottomNav from "@/components/BottomNav";
+import {
+  IconChevronLeft,
+  IconChevronRight,
+  IconShuffle,
+  IconCopy,
+  IconShare,
+  IconMenu,
+  IconMail,
+  IconGitHub,
+  IconSun,
+  IconMoon
+} from "@/components/icons";
 
 export const dynamic = 'force-dynamic';
 
@@ -24,6 +36,12 @@ type Quote = {
 
 type Theme = ThemeSlug;
 
+// Themes that should enable Tailwind's .dark styles for contrast
+const DARK_THEMES = new Set<Theme>([
+  'dark', 'violet', 'ocean', 'forest', 'indigo', 'midnight',
+  'dracula', 'coffee', 'lava', 'neon'
+]);
+
 export default function Home() {
   // Initialize with deterministic SSR-safe defaults, then load from localStorage after mount
   const [lang, setLang] = useState<'en' | 'id'>('en');
@@ -34,12 +52,6 @@ export default function Home() {
   const [toastOpen, setToastOpen] = useState(false);
   const [toastMsg, setToastMsg] = useState<string>('');
   const [showDrawer, setShowDrawer] = useState(false);
-
-  // Themes that should enable Tailwind's .dark styles for contrast
-  const DARK_THEMES = new Set<Theme>([
-    'dark', 'violet', 'ocean', 'forest', 'indigo', 'midnight',
-    'dracula', 'coffee', 'lava', 'neon'
-  ]);
 
   // Load saved preferences after mount to avoid SSR/CSR mismatch
   useEffect(() => {
@@ -245,12 +257,6 @@ export default function Home() {
     }
   };
 
-  const cycleTheme = () => {
-    const order = THEME_LIST.map(t => t.slug as Theme);
-    const idx = order.indexOf(theme);
-    setTheme(order[(idx + 1) % order.length]);
-  };
-
   const toggleLang = () => setLang(prev => (prev === 'en' ? 'id' : 'en'));
 
   return (
@@ -294,23 +300,9 @@ export default function Home() {
               onClick={() => setTheme(DARK_THEMES.has(theme) ? 'light' : 'dark')}
             >
               {DARK_THEMES.has(theme) ? (
-                // Sun icon
-                <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <circle cx="12" cy="12" r="4" />
-                  <path d="M12 2v2" />
-                  <path d="M12 20v2" />
-                  <path d="M4.93 4.93l1.41 1.41" />
-                  <path d="M17.66 17.66l1.41 1.41" />
-                  <path d="M2 12h2" />
-                  <path d="M20 12h2" />
-                  <path d="M4.93 19.07l1.41-1.41" />
-                  <path d="M17.66 6.34l1.41-1.41" />
-                </svg>
+                <IconSun className="size-5" />
               ) : (
-                // Moon icon
-                <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-                </svg>
+                <IconMoon className="size-5" />
               )}
             </button>
 
@@ -423,48 +415,6 @@ export default function Home() {
             <span className="text-sm">{lang === 'en' ? 'Language' : 'Bahasa'}</span>
             <span className="text-xs opacity-70">{lang.toUpperCase()}</span>
           </button>
-          {/* 
-          <button
-            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
-            onClick={() => { setShowThemePanel(true); setShowDrawer(false); }}
-          >
-            <span className="text-sm">Themes</span>
-            <span className="text-xs opacity-70 capitalize">{theme}</span>
-          </button> */}
-
-          {/* <button
-            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
-            onClick={() => { setTheme(DARK_THEMES.has(theme) ? 'light' : 'dark'); setShowDrawer(false); }}
-          >
-            <span className="text-sm">{DARK_THEMES.has(theme) ? (lang === 'id' ? 'Mode Terang' : 'Light mode') : (lang === 'id' ? 'Mode Gelap' : 'Dark mode')}</span>
-            <span className="inline-flex h-6 w-6 items-center justify-center">
-              {DARK_THEMES.has(theme) ? (
-                <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="12" cy="12" r="4" />
-                  <path d="M12 2v2" />
-                  <path d="M12 20v2" />
-                  <path d="M4.93 4.93l1.41 1.41" />
-                  <path d="M17.66 17.66l1.41 1.41" />
-                  <path d="M2 12h2" />
-                  <path d="M20 12h2" />
-                  <path d="M4.93 19.07l1.41-1.41" />
-                  <path d="M17.66 6.34l1.41-1.41" />
-                </svg>
-              ) : (
-                <svg className="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-                </svg>
-              )}
-            </span>
-          </button> */}
-
-          {/* <button
-            className="inline-flex items-center justify-between rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
-            onClick={() => { setShowSourcesPanel(true); setShowDrawer(false); }}
-          >
-            <span className="text-sm">{lang === 'id' ? 'Kategori' : 'Category'}</span>
-          </button> */}
-
           <a
             className="inline-flex items-center justify-center rounded-lg border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10"
             href="#"
@@ -545,73 +495,4 @@ export default function Home() {
   );
 }
 
-/* --- Minimal, local SVG icons --- */
-function IconChevronLeft({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="m15 18-6-6 6-6" />
-    </svg>
-  );
-}
-function IconChevronRight({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="m9 6 6 6-6 6" />
-    </svg>
-  );
-}
-function IconShuffle({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M16 3h5v5" />
-      <path d="M4 20 19 5" />
-      <path d="M21 16v5h-5" />
-      <path d="M15 15l6 6" />
-      <path d="M3 4l6 6" />
-    </svg>
-  );
-}
-function IconCopy({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <rect x="9" y="9" width="13" height="13" rx="2" />
-      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-    </svg>
-  );
-}
-function IconShare({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7" />
-      <path d="M12 16V3" />
-      <path d="m7 8 5-5 5 5" />
-    </svg>
-  );
-}
-function IconMenu({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-      <path d="M3 6h18" />
-      <path d="M3 12h18" />
-      <path d="M3 18h18" />
-    </svg>
-  );
-}
-function IconMail({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <rect x="3" y="5" width="18" height="14" rx="2" />
-      <path d="m3 7 9 6 9-6" />
-    </svg>
-  );
-}
-function IconGitHub({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
-      <path
-        fill="currentColor"
-        d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.09.68-.22.68-.5 0-.24-.01-.88-.01-1.72-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.1-1.48-1.1-1.48-.9-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.67.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.05 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.04A9.2 9.2 0 0 1 12 6.8c.85 0 1.71.12 2.51.36 1.91-1.31 2.75-1.04 2.75-1.04.55 1.4.21 2.44.1 2.7.64.71 1.03 1.62 1.03 2.74 0 3.92-2.34 4.78-4.57 5.03.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.59.69.49A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"
-      />
-    </svg>
-  );
-}
+/* Icons moved to src/components/icons */
