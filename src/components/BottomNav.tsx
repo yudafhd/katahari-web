@@ -1,12 +1,13 @@
 'use client';
 
-import { IconChevronLeft, IconShuffle, IconChevronRight, IconCopy, IconPalette, IconList } from "@/components/icons";
+import { IconChevronLeft, IconShuffle, IconChevronRight, IconCopy, IconPalette, IconList, IconDownload } from "@/components/icons";
 
 type BottomNavProps = {
     onPrev: () => void;
     onShuffle: () => void;
     onNext: () => void;
     onCopy?: () => void;
+    onDownload?: () => void;
     onThemes: () => void;
     onSources: () => void;
 };
@@ -16,6 +17,7 @@ export default function BottomNav({
     onShuffle,
     onNext,
     onCopy,
+    onDownload,
     onThemes,
     onSources,
 }: BottomNavProps) {
@@ -71,6 +73,17 @@ export default function BottomNav({
                             </button>
                         }
 
+
+                        {onDownload && (
+                            <button
+                                aria-label="Download"
+                                onClick={onDownload}
+                                className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                            >
+                                <IconDownload className="size-5" />
+                                <span className="text-[10px] opacity-75">Save</span>
+                            </button>
+                        )}
 
                         <button
                             aria-label="Themes"

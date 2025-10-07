@@ -15,6 +15,7 @@ import {
     IconChevronRight,
     IconShuffle,
     IconCopy,
+    IconDownload,
     IconShare,
     IconMenu,
     IconMail,
@@ -23,6 +24,7 @@ import {
     IconMoon
 } from "@/components/icons";
 import type { Quote, ByFileMap } from "@/types/quotes";
+import { generateQuoteImage } from "@/utils/quoteImage";
 
 type Theme = ThemeSlug;
 
@@ -38,6 +40,7 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
     const [theme, setTheme] = useState<Theme>('light');
     const [showThemePanel, setShowThemePanel] = useState(false);
     const [showSourcesPanel, setShowSourcesPanel] = useState(false);
+    const [showDownloadPanel, setShowDownloadPanel] = useState(false);
     const [selectedCats, setSelectedCats] = useState<string[]>([]);
     const [toastOpen, setToastOpen] = useState(false);
     const [toastMsg, setToastMsg] = useState<string>('');
@@ -382,6 +385,40 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
                         </div>
                     </Modal>
 
+                    {/* Download size chooser */}
+                    <Modal
+                        open={showDownloadPanel}
+                        onClose={() => setShowDownloadPanel(false)}
+                        title={lang === 'id' ? 'Unduh' : 'Download'}
+                    >
+                        <div className="grid grid-cols-2 gap-3">
+                            <button
+                                className="inline-flex flex-col items-center justify-center rounded-lg border border-black/10 dark:border-white/10 p-4 hover:bg-black/5 dark:hover:bg-white/10"
+                                onClick={async () => {
+                                    if (quote) {
+                                        await generateQuoteImage(displayedText, quote.credit, 'square', `quote-${quote.code}-square.png`);
+                                    }
+                                    setShowDownloadPanel(false);
+                                }}
+                            >
+                                <span className="text-sm font-medium">{lang === 'id' ? 'Persegi' : 'Square'}</span>
+                                <span className="text-xs opacity-70">1080 × 1080</span>
+                            </button>
+                            <button
+                                className="inline-flex flex-col items-center justify-center rounded-lg border border-black/10 dark:border-white/10 p-4 hover:bg-black/5 dark:hover:bg-white/10"
+                                onClick={async () => {
+                                    if (quote) {
+                                        await generateQuoteImage(displayedText, quote.credit, 'story', `quote-${quote.code}-story.png`);
+                                    }
+                                    setShowDownloadPanel(false);
+                                }}
+                            >
+                                <span className="text-sm font-medium">Story</span>
+                                <span className="text-xs opacity-70">1080 × 1920</span>
+                            </button>
+                        </div>
+                    </Modal>
+
                     <button
                         onClick={() => setShowDrawer(true)}
                         className="md:hidden inline-flex size-10 items-center justify-center rounded-md border border-black/10 dark:border-white/10"
@@ -497,6 +534,9 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
                                 <button onClick={onCopy} className="inline-flex items-center justify-center rounded-md h-9 px-2 hover:bg-slate-200/60 dark:hover:bg-white/10" aria-label="Salin">
                                     <IconCopy className="size-5" />
                                 </button>
+                                <button onClick={() => setShowDownloadPanel(true)} className="inline-flex items-center justify-center rounded-md h-9 px-2 hover:bg-slate-200/60 dark:hover:bg-white/10" aria-label="Download">
+                                    <IconDownload className="size-5" />
+                                </button>
                                 {/* <button className="inline-flex items-center justify-center rounded-md h-9 px-2 hover:bg-slate-200/60 dark:hover:bg-white/10" aria-label="Bagikan">
                   <IconShare className="size-5" />
                 </button> */}
@@ -509,7 +549,7 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
                 onNext={onNext}
                 onPrev={onPrev}
                 onShuffle={onShuffle}
-                onCopy={onCopy}
+                onDownload={() => setShowDownloadPanel(true)}
                 onSources={() => { setShowSourcesPanel(true); setShowDrawer(false); }}
                 onThemes={() => { setShowThemePanel(true); setShowDrawer(false); }} />
             <Notification open={toastOpen} onClose={() => setToastOpen(false)} message={toastMsg} />

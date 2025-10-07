@@ -5,7 +5,7 @@ import type { Quote, ByFileMap } from '@/types/quotes';
 
 export const dynamic = 'force-dynamic';
 
-const TITLE = 'Katahari — Random Quotes Bahasa Indonesia & English';
+const TITLE = 'Katahari';
 const DESCRIPTION = 'Baca kutipan inspiratif acak setiap refresh. Dukungan multi bahasa (ID/EN), tema, kategori, dan salin cepat.';
 
 export const metadata: Metadata = {

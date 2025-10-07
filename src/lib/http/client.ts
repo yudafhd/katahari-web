@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { getBaseUrl, getBaseUrlServer, joinUrl } from '@/utils/host';
+import { getBaseUrl, joinUrl } from '@/utils/host';
 
 export type Primitive = string | number | boolean | null | undefined;
 export type Params = Record<string, Primitive>;
