@@ -287,14 +287,6 @@ export default function HomePage({ initialByCategory }: { initialByCategory: ByC
                             {lang === 'en' ? 'EN' : 'ID'}
                         </button>
 
-                        <button
-                            className="opacity-80 hover:opacity-100 transition inline-flex h-9 items-center justify-center rounded-md px-3 border border-black/10 dark:border-white/10"
-                            aria-label="Open theme chooser"
-                            onClick={() => setShowThemePanel(v => !v)}
-                        >
-                            Themes
-                        </button>
-
                         {/* Quick light/dark toggle with single button */}
                         <button
                             className="opacity-80 hover:opacity-100 transition inline-flex h-9 w-9 items-center justify-center rounded-md border border-black/10 dark:border-white/10"
@@ -309,10 +301,20 @@ export default function HomePage({ initialByCategory }: { initialByCategory: ByC
                             )}
                         </button>
 
+                        <button
+                            className="opacity-80 hover:opacity-100 transition inline-flex h-9 items-center justify-center rounded-md px-3 border border-black/10 dark:border-white/10"
+                            aria-label="Open theme chooser"
+                            onClick={() => setShowThemePanel(v => !v)}
+                        >
+                            Themes
+                        </button>
+
+
+
                         <button className="opacity-80 hover:opacity-100 transition" onClick={() => setShowSourcesPanel(true)}>Category</button>
 
                         <a
-                            className="inline-flex items-center gap-2 h-9 px-4 rounded-full bg-gradient-to-tr from-violet-600 to-fuchsia-500 text-white shadow-sm hover:from-violet-700 hover:to-fuchsia-600 transition"
+                            className="inline-flex items-center gap-2 h-9 px-4 rounded-full transition"
                             href="#"
                         >
                             <span className="font-medium">Donate</span>
