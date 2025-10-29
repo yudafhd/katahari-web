@@ -16,14 +16,13 @@ import {
     IconShuffle,
     IconCopy,
     IconDownload,
-    IconShare,
     IconMenu,
     IconMail,
     IconGitHub,
     IconSun,
     IconMoon
 } from "@/components/icons";
-import type { Quote, ByFileMap } from "@/types/quotes";
+import type { Quote, ByCategoryMap } from "@/types/quotes";
 import { generateQuoteImage } from "@/utils/quoteImage";
 
 type Theme = ThemeSlug;
@@ -34,7 +33,7 @@ const DARK_THEMES = new Set<Theme>([
     'dracula', 'coffee', 'lava', 'neon'
 ]);
 
-export default function HomePage({ initialList, initialByfile }: { initialList: Quote[]; initialByfile: ByFileMap }) {
+export default function HomePage({ initialByCategory }: { initialByCategory: ByCategoryMap }) {
     // Initialize with deterministic SSR-safe defaults, then load from localStorage after mount
     const [lang, setLang] = useState<'en' | 'id'>('en');
     const [theme, setTheme] = useState<Theme>('light');
@@ -45,9 +44,19 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
     const [toastOpen, setToastOpen] = useState(false);
     const [toastMsg, setToastMsg] = useState<string>('');
     const [showDrawer, setShowDrawer] = useState(false);
-    // Data from server (via /page.tsx) passed as props
-    const [list, setList] = useState<Quote[]>(initialList ?? []);
-    const [byfileMap, setByfileMap] = useState<ByFileMap>(initialByfile ?? {});
+
+    // Flatten quotes from by-category map; dedupe by code to avoid duplicates across categories
+    const list = useMemo(() => {
+        const map = new Map<string, Quote>();
+        Object.values(initialByCategory).forEach(group => {
+            group.forEach(quote => {
+                if (!map.has(quote.code)) {
+                    map.set(quote.code, quote);
+                }
+            });
+        });
+        return Array.from(map.values());
+    }, [initialByCategory]);
 
     // Load saved preferences after mount to avoid SSR/CSR mismatch
     useEffect(() => {
@@ -69,16 +78,14 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
         setItem('theme', theme);
     }, [theme]);
 
-
-
     const codeToIdx = useMemo(() => {
         const m = new Map<string, number>();
         list.forEach((q, i) => m.set(q.code, i));
         return m;
     }, [list]);
 
-    // Categories from byfile
-    const categories = useMemo(() => Object.keys(byfileMap), [byfileMap]);
+    // Categories from by-category
+    const categories = useMemo(() => Object.keys(initialByCategory), [initialByCategory]);
 
     // Load/save categories
     useEffect(() => {
@@ -88,13 +95,13 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
 
     const allowedCodes = useMemo(() => {
         if (!selectedCats || selectedCats.length === 0) return null;
-        const map = byfileMap;
+        const map = initialByCategory;
         const s = new Set<string>();
         selectedCats.forEach(cat => {
             (map[cat] ?? []).forEach(q => s.add(q.code));
         });
         return s;
-    }, [selectedCats, byfileMap]);
+    }, [selectedCats, initialByCategory]);
 
     const allowedIdx = useMemo(() => {
         const all = list.map((_, i) => i);
@@ -201,7 +208,7 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
         setJSON('quoteCategories', next);
 
         // Fresh pick within new pool and reset history
-        const map = byfileMap;
+        const map = initialByCategory;
         const codes = new Set<string>();
         next.forEach(c => (map[c] ?? []).forEach(q => codes.add(q.code)));
         const pool = (codes.size
@@ -537,9 +544,6 @@ export default function HomePage({ initialList, initialByfile }: { initialList: 
                                 <button onClick={() => setShowDownloadPanel(true)} className="inline-flex items-center justify-center rounded-md h-9 px-2 hover:bg-slate-200/60 dark:hover:bg-white/10" aria-label="Download">
                                     <IconDownload className="size-5" />
                                 </button>
-                                {/* <button className="inline-flex items-center justify-center rounded-md h-9 px-2 hover:bg-slate-200/60 dark:hover:bg-white/10" aria-label="Bagikan">
-                  <IconShare className="size-5" />
-                </button> */}
                             </div>
                         </div>
                     </div>

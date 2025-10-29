@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import HomePage from '@/components/page/HomePage';
 import { get } from '@/lib/http/client';
-import type { Quote, ByFileMap } from '@/types/quotes';
+import type { ByCategoryMap } from '@/types/quotes';
 
 export const dynamic = 'force-dynamic';
 
@@ -45,7 +45,6 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-  const initialList = await get<Quote[]>(`/api/quotes`, { revalidate: 3000, tags: ['quote'] });
-  const initialByfile = await get<ByFileMap>(`/api/quotes/byfile`, { revalidate: 3000, tags: ['quote-byfile'] });
-  return <HomePage initialList={initialList} initialByfile={initialByfile} />;
+  const initialByCategory = await get<ByCategoryMap>(`/api/cloudflare/r2?key=quotes.by.category.json`, { revalidate: 3600, tags: ['quote-by-category'] });
+  return <HomePage initialByCategory={initialByCategory} />;
 }

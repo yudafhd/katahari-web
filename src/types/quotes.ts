@@ -5,4 +5,4 @@ export type Quote = {
     credit: string;
 };
 
-export type ByFileMap = Record<string, Quote[]>;
+export type ByCategoryMap = Record<string, Quote[]>;

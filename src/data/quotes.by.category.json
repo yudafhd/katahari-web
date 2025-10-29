@@ -3021,6 +3021,606 @@
       "content": "The journey matters, even if you forget the destination.",
       "content_id": "Perjalanan itu penting, meski kau lupa tujuan akhirnya.",
       "credit": "Frieren, Frieren: Beyond Journey’s End"
+    },
+    {
+      "code": "MIX251",
+      "content": "The resolve to live is sharper than any blade.",
+      "content_id": "Tekad untuk hidup itu lebih tajam dari pedang mana pun.",
+      "credit": "Gabimaru, Hell’s Paradise"
+    },
+    {
+      "code": "MIX252",
+      "content": "Talent is found; passion is built stroke by stroke.",
+      "content_id": "Bakat ditemukan; hasrat dibangun gores demi gores.",
+      "credit": "Yatora Yaguchi, Blue Period"
+    },
+    {
+      "code": "MIX253",
+      "content": "Immortality means outliving your regrets.",
+      "content_id": "Keabadian berarti menyalip penyesalanmu sendiri.",
+      "credit": "Fushi, To Your Eternity"
+    },
+    {
+      "code": "MIX254",
+      "content": "If it’s for family, any role is fine.",
+      "content_id": "Kalau demi keluarga, peran apa pun tak masalah.",
+      "credit": "Loid Forger, SPY×FAMILY"
+    },
+    {
+      "code": "MIX255",
+      "content": "Waku waku!",
+      "content_id": "Waku waku!",
+      "credit": "Anya Forger, SPY×FAMILY"
+    },
+    {
+      "code": "MIX256",
+      "content": "A picture can save what words can’t.",
+      "content_id": "Gambar bisa menyelamatkan hal yang tak bisa diucap kata.",
+      "credit": "Shoya Ishida, A Silent Voice"
+    },
+    {
+      "code": "MIX257",
+      "content": "I’m home. Welcome back to me.",
+      "content_id": "Aku pulang. Selamat datang untuk diriku sendiri.",
+      "credit": "Violet Evergarden, Violet Evergarden"
+    },
+    {
+      "code": "MIX258",
+      "content": "You don’t need permission to be yourself.",
+      "content_id": "Kau tak butuh izin untuk menjadi dirimu sendiri.",
+      "credit": "Marin Kitagawa, My Dress-Up Darling"
+    },
+    {
+      "code": "MIX259",
+      "content": "A clean hit needs a clean heart.",
+      "content_id": "Pukulan bersih butuh hati yang bersih.",
+      "credit": "Ippo Makunouchi, Hajime no Ippo"
+    },
+    {
+      "code": "MIX260",
+      "content": "A mage’s pride is the courage to learn.",
+      "content_id": "Kebanggaan penyihir adalah keberanian untuk belajar.",
+      "credit": "Frieren, Frieren: Beyond Journey’s End"
+    },
+    {
+      "code": "MIX261",
+      "content": "I carry the future in my notebook margins.",
+      "content_id": "Aku membawa masa depan di pinggir buku catatanku.",
+      "credit": "Mob, Mob Psycho 100"
+    },
+    {
+      "code": "MIX262",
+      "content": "The board is truth; humans only chase it.",
+      "content_id": "Papan adalah kebenaran; manusia hanya mengejarnya.",
+      "credit": "Fujiwara-no-Sai, Hikaru no Go"
+    },
+    {
+      "code": "MIX263",
+      "content": "Survival begins when plans end.",
+      "content_id": "Bertahan hidup dimulai saat rencana berakhir.",
+      "credit": "Emma, The Promised Neverland"
+    },
+    {
+      "code": "MIX264",
+      "content": "Reason is a cage; desire is the key.",
+      "content_id": "Akal adalah sangkar; hasrat adalah kuncinya.",
+      "credit": "Shogo Makishima, Psycho-Pass"
+    },
+    {
+      "code": "MIX265",
+      "content": "Monster? Look in the mirror first.",
+      "content_id": "Monster? Lihat cermin dulu.",
+      "credit": "Johan Liebert, Monster"
+    },
+    {
+      "code": "MIX266",
+      "content": "I don’t gamble. I calculate.",
+      "content_id": "Aku tidak berjudi. Aku menghitung.",
+      "credit": "Tokuchi Toua, ONE OUTS"
+    },
+    {
+      "code": "MIX267",
+      "content": "Revolution starts with one honest sentence.",
+      "content_id": "Revolusi dimulai dari satu kalimat jujur.",
+      "credit": "Armin Arlert, Attack on Titan"
+    },
+    {
+      "code": "MIX268",
+      "content": "The forest forgives nothing, yet it shelters all.",
+      "content_id": "Hutan tak mengampuni apa pun, namun menaungi semua.",
+      "credit": "Nanachi, Made in Abyss"
+    },
+    {
+      "code": "MIX269",
+      "content": "Mercy is proof of strength, not weakness.",
+      "content_id": "Belas kasih adalah bukti kekuatan, bukan kelemahan.",
+      "credit": "Dororo, Dororo"
+    },
+    {
+      "code": "MIX270",
+      "content": "The hand severed from the body still reaches for tomorrow.",
+      "content_id": "Tangan yang terpisah dari tubuh tetap meraih esok.",
+      "credit": "Hyakkimaru, Dororo"
+    },
+    {
+      "code": "MIX271",
+      "content": "The sea remembers who dares it.",
+      "content_id": "Laut mengingat siapa yang menantangnya.",
+      "credit": "Luffy, One Piece"
+    },
+    {
+      "code": "MIX272",
+      "content": "Run until your doubts can’t keep up.",
+      "content_id": "Berlari sampai keraguanmu tak bisa menyusul.",
+      "credit": "Takumi Fujiwara, Initial D"
+    },
+    {
+      "code": "MIX273",
+      "content": "Promise me you’ll live like a song that never ends.",
+      "content_id": "Janji padaku kau akan hidup seperti lagu yang tak pernah usai.",
+      "credit": "Nana Osaki, NANA"
+    },
+    {
+      "code": "MIX274",
+      "content": "The stage forgives no lies.",
+      "content_id": "Panggung tak memaafkan kebohongan.",
+      "credit": "Kage, Ranking of Kings"
+    },
+    {
+      "code": "MIX275",
+      "content": "Kings are crowned by courage, not by crowns.",
+      "content_id": "Raja dinobatkan oleh keberanian, bukan oleh mahkota.",
+      "credit": "Bojji, Ranking of Kings"
+    },
+    {
+      "code": "MIX276",
+      "content": "If love needs conditions, it’s a contract.",
+      "content_id": "Jika cinta butuh syarat, itu kontrak.",
+      "credit": "Mizuhara Chizuru, Rent-A-Girlfriend"
+    },
+    {
+      "code": "MIX277",
+      "content": "Dreams taste best when shared.",
+      "content_id": "Mimpi terasa paling nikmat saat dibagi.",
+      "credit": "Hinata Shoyo, Haikyuu!!"
+    },
+    {
+      "code": "MIX278",
+      "content": "We don’t need giants to cast long shadows.",
+      "content_id": "Kita tak butuh raksasa untuk membuat bayangan panjang.",
+      "credit": "Kuroo Tetsuro, Haikyuu!!"
+    },
+    {
+      "code": "MIX279",
+      "content": "I’ll make them regret underestimating average.",
+      "content_id": "Akan kubuat mereka menyesal meremehkan yang biasa-biasa saja.",
+      "credit": "Isagi Yoichi, BLUELOCK"
+    },
+    {
+      "code": "MIX280",
+      "content": "Devour the future before it devours you.",
+      "content_id": "Lahap masa depan sebelum ia melahapmu.",
+      "credit": "Ego Jinpachi, BLUELOCK"
+    },
+    {
+      "code": "MIX281",
+      "content": "I want simple things: bread, jam, and a tomorrow.",
+      "content_id": "Aku ingin hal sederhana: roti, selai, dan hari esok.",
+      "credit": "Denji, Chainsaw Man"
+    },
+    {
+      "code": "MIX282",
+      "content": "Lies are fun because the truth is heavy.",
+      "content_id": "Kebohongan itu seru karena kebenaran itu berat.",
+      "credit": "Power, Chainsaw Man"
+    },
+    {
+      "code": "MIX283",
+      "content": "Prayers are wind; resolve is the blade.",
+      "content_id": "Doa adalah angin; tekad adalah pedangnya.",
+      "credit": "Aki Hayakawa, Chainsaw Man"
+    },
+    {
+      "code": "MIX284",
+      "content": "A straight road teaches you nothing.",
+      "content_id": "Jalan lurus tak mengajarkan apa-apa.",
+      "credit": "Jigen Daisuke, Lupin the Third"
+    },
+    {
+      "code": "MIX285",
+      "content": "Steel breaks; will bends and returns.",
+      "content_id": "Baja patah; kehendak membengkok lalu kembali.",
+      "credit": "Guts, Berserk"
+    },
+    {
+      "code": "MIX286",
+      "content": "A soldier’s duty is to outlive their sins.",
+      "content_id": "Tugas seorang prajurit adalah hidup lebih lama dari dosanya.",
+      "credit": "Levi Ackerman, Attack on Titan"
+    },
+    {
+      "code": "MIX287",
+      "content": "Maps lie; footsteps don’t.",
+      "content_id": "Peta bisa bohong; jejak kaki tidak.",
+      "credit": "Ashitaka, Princess Mononoke"
+    },
+    {
+      "code": "MIX288",
+      "content": "Even a false smile can keep a friend warm.",
+      "content_id": "Senyum palsu pun bisa menghangatkan seorang teman.",
+      "credit": "Orihime Inoue, Bleach"
+    },
+    {
+      "code": "MIX289",
+      "content": "A wish spoken softly can move mountains inside us.",
+      "content_id": "Harapan yang diucap pelan bisa menggerakkan gunung di dalam diri.",
+      "credit": "Shinobu Kocho, Demon Slayer"
+    },
+    {
+      "code": "MIX290",
+      "content": "Don’t chase genius—chase honest work.",
+      "content_id": "Jangan kejar kejeniusaan—kejarlah kerja yang jujur.",
+      "credit": "Miyamoto Musashi, Vagabond"
+    },
+    {
+      "code": "MIX291",
+      "content": "If I can’t reach you, I’ll become the bridge.",
+      "content_id": "Jika aku tak bisa meraihmu, aku akan menjadi jembatannya.",
+      "credit": "Taiga Aisaka, Toradora!"
+    },
+    {
+      "code": "MIX292",
+      "content": "We met by mistake; we stay by choice.",
+      "content_id": "Kita bertemu karena kebetulan; kita bertahan karena pilihan.",
+      "credit": "Mitsuha Miyamizu, Your Name."
+    },
+    {
+      "code": "MIX293",
+      "content": "Sunny days belong to those who dare to pray for them.",
+      "content_id": "Hari cerah milik mereka yang berani memintanya.",
+      "credit": "Hina Amano, Weathering With You"
+    },
+    {
+      "code": "MIX294",
+      "content": "Gold is heavy; promises are heavier.",
+      "content_id": "Emas itu berat; janji lebih berat lagi.",
+      "credit": "Saichi Sugimoto, Golden Kamuy"
+    },
+    {
+      "code": "MIX295",
+      "content": "The truth tastes like gunpowder.",
+      "content_id": "Kebenaran rasanya seperti bubuk mesiu.",
+      "credit": "Hyakunosuke Ogata, Golden Kamuy"
+    },
+    {
+      "code": "MIX296",
+      "content": "Even silence leaves footprints.",
+      "content_id": "Bahkan keheningan meninggalkan jejak.",
+      "credit": "Kiyotaka Ayanokoji, Classroom of the Elite"
+    },
+    {
+      "code": "MIX297",
+      "content": "If the world is wrong, draw a better one.",
+      "content_id": "Jika dunia ini salah, gambar ulang yang lebih baik.",
+      "credit": "Eiji Niizuma, Bakuman."
+    },
+    {
+      "code": "MIX298",
+      "content": "Music turns pain into something we can hold.",
+      "content_id": "Musik mengubah rasa sakit menjadi sesuatu yang bisa kita genggam.",
+      "credit": "Kousei Arima, Your Lie in April"
+    },
+    {
+      "code": "MIX299",
+      "content": "Justice is a decision you renew every day.",
+      "content_id": "Keadilan adalah keputusan yang kau perbarui setiap hari.",
+      "credit": "Light Yagami, Death Note"
+    },
+    {
+      "code": "MIX300",
+      "content": "A true rival teaches you your name.",
+      "content_id": "Rival sejati mengajarkan namamu sendiri.",
+      "credit": "Tezuka Kunimitsu, The Prince of Tennis"
+    },
+    {
+      "code": "MIX301",
+      "content": "A god is only as real as the prayers that reach him.",
+      "content_id": "Seorang dewa hanya setereal doa yang sampai padanya.",
+      "credit": "Yato, Noragami"
+    },
+    {
+      "code": "MIX302",
+      "content": "Names bind monsters—and humans—more than chains do.",
+      "content_id": "Nama mengikat monster—dan manusia—lebih dari rantai mana pun.",
+      "credit": "Migi, Parasyte"
+    },
+    {
+      "code": "MIX303",
+      "content": "Kindness is heavy; carry it anyway.",
+      "content_id": "Kebaikan itu berat; bawalah tetap saja.",
+      "credit": "Rei Kiriyama, March Comes in Like a Lion"
+    },
+    {
+      "code": "MIX304",
+      "content": "The page forgives rough lines when the heart is steady.",
+      "content_id": "Kertas memaafkan garis kasar saat hati mantap.",
+      "credit": "Coco, Witch Hat Atelier"
+    },
+    {
+      "code": "MIX305",
+      "content": "Truth is a blade that cuts the hand that hides it.",
+      "content_id": "Kebenaran adalah bilah yang melukai tangan yang menyembunyikannya.",
+      "credit": "Ougi Oshino, Owarimonogatari"
+    },
+    {
+      "code": "MIX306",
+      "content": "Fear keeps you alive; courage lets you live.",
+      "content_id": "Rasa takut membuatmu bertahan; keberanian membuatmu hidup.",
+      "credit": "Revy, Black Lagoon"
+    },
+    {
+      "code": "MIX307",
+      "content": "A mistake is only wasted if it stays silent.",
+      "content_id": "Kesalahan hanya sia-sia jika tetap diam.",
+      "credit": "Seishuu Handa, Barakamon"
+    },
+    {
+      "code": "MIX308",
+      "content": "Love and bullets travel straight; people don't.",
+      "content_id": "Cinta dan peluru melaju lurus; manusia tidak.",
+      "credit": "Vash the Stampede, Trigun Stampede"
+    },
+    {
+      "code": "MIX309",
+      "content": "If you can't break the wall, draw a door.",
+      "content_id": "Jika tak bisa menembus dinding, gambarlah pintu.",
+      "credit": "Sakamoto, Sakamoto Desu Ga?"
+    },
+    {
+      "code": "MIX310",
+      "content": "A promise is a spell cast on your future self.",
+      "content_id": "Janji adalah mantra pada dirimu di masa depan.",
+      "credit": "Chise Hatori, The Ancient Magus’ Bride"
+    },
+    {
+      "code": "MIX311",
+      "content": "Talent is the spark; repetition is the fire.",
+      "content_id": "Bakat adalah percikan; pengulangan adalah apinya.",
+      "credit": "Haru, Free!"
+    },
+    {
+      "code": "MIX312",
+      "content": "Even fools have a style when they fall.",
+      "content_id": "Bahkan orang tolol punya gaya saat jatuh.",
+      "credit": "Sora, No Game No Life"
+    },
+    {
+      "code": "MIX313",
+      "content": "A good rival is a mirror that doesn't lie.",
+      "content_id": "Rival yang baik adalah cermin yang tak berbohong.",
+      "credit": "Takashi Morinozuka, Ouran High School Host Club"
+    },
+    {
+      "code": "MIX314",
+      "content": "The ocean writes in waves; learn to read it.",
+      "content_id": "Laut menulis dengan ombak; belajarlah membacanya.",
+      "credit": "Luca, Children of the Sea"
+    },
+    {
+      "code": "MIX315",
+      "content": "If the world is noisy, listen deeper.",
+      "content_id": "Jika dunia bising, dengarkan lebih dalam.",
+      "credit": "Shoko Nishimiya, A Silent Voice"
+    },
+    {
+      "code": "MIX316",
+      "content": "You can't bluff a kitchen or a battlefield.",
+      "content_id": "Kau tak bisa menggertak dapur atau medan perang.",
+      "credit": "Soma Yukihira, Food Wars!"
+    },
+    {
+      "code": "MIX317",
+      "content": "Time moves; hearts decide the direction.",
+      "content_id": "Waktu bergerak; hati menentukan arahnya.",
+      "credit": "Rika Furude, Higurashi"
+    },
+    {
+      "code": "MIX318",
+      "content": "A city is just a giant puzzle with people for pieces.",
+      "content_id": "Sebuah kota hanyalah teka-teki raksasa dengan manusia sebagai kepingannya.",
+      "credit": "Kido, Mekakucity Actors"
+    },
+    {
+      "code": "MIX319",
+      "content": "Even a coin toss listens to the hand that throws it.",
+      "content_id": "Bahkan lempar koin pun mendengar tangan yang melemparkannya.",
+      "credit": "Kaiji Itou, Kaiji"
+    },
+    {
+      "code": "MIX320",
+      "content": "We don't chase ghosts; we chase reasons.",
+      "content_id": "Kita tidak mengejar hantu; kita mengejar alasan.",
+      "credit": "Kogoro Akechi, Trickster"
+    },
+    {
+      "code": "MIX321",
+      "content": "If you fear the night, become the lamp.",
+      "content_id": "Jika kau takut malam, jadilah lampunya.",
+      "credit": "Allen Walker, D.Gray-man"
+    },
+    {
+      "code": "MIX322",
+      "content": "Words are cheap until you bleed for them.",
+      "content_id": "Kata-kata murah sampai kau berdarah karenanya.",
+      "credit": "Mikoto Suoh, K Project"
+    },
+    {
+      "code": "MIX323",
+      "content": "A lie told to protect joy is still a lie.",
+      "content_id": "Kebohongan untuk melindungi kebahagiaan tetaplah kebohongan.",
+      "credit": "Rikka Takanashi, Chuunibyou"
+    },
+    {
+      "code": "MIX324",
+      "content": "Maps fade; stories endure.",
+      "content_id": "Peta memudar; kisah bertahan.",
+      "credit": "Askeladd, Vinland Saga"
+    },
+    {
+      "code": "MIX325",
+      "content": "A blade is honest even when its owner isn't.",
+      "content_id": "Sebilah pedang jujur bahkan saat pemiliknya tidak.",
+      "credit": "Giyu Tomioka, Demon Slayer"
+    },
+    {
+      "code": "MIX326",
+      "content": "Dreams need deadlines to wake up.",
+      "content_id": "Mimpi butuh tenggat agar terbangun.",
+      "credit": "Moritaka Mashiro, Bakuman."
+    },
+    {
+      "code": "MIX327",
+      "content": "A stage demands your truth, not your excuses.",
+      "content_id": "Panggung menuntut kebenaranmu, bukan alasanmu.",
+      "credit": "Kageyama Shigeo, Mob Psycho 100"
+    },
+    {
+      "code": "MIX328",
+      "content": "If you can't win by force, win by form.",
+      "content_id": "Jika tak bisa menang dengan tenaga, menangkan dengan teknik.",
+      "credit": "Kenshin Uesugi, Slam Dunk"
+    },
+    {
+      "code": "MIX329",
+      "content": "Mercy is a strategy, not a weakness.",
+      "content_id": "Belas kasih adalah strategi, bukan kelemahan.",
+      "credit": "Thorfinn, Vinland Saga"
+    },
+    {
+      "code": "MIX330",
+      "content": "The forest heals what words can't reach.",
+      "content_id": "Hutan menyembuhkan hal yang tak tersentuh kata.",
+      "credit": "Haku, Spirited Away"
+    },
+    {
+      "code": "MIX331",
+      "content": "Even gods trip on loose shoelaces.",
+      "content_id": "Bahkan dewa tersandung tali sepatu yang longgar.",
+      "credit": "Konata Izumi, Lucky Star"
+    },
+    {
+      "code": "MIX332",
+      "content": "A pen can break a curse if you keep writing.",
+      "content_id": "Pena dapat mematahkan kutukan jika kau terus menulis.",
+      "credit": "Shigeo ‘Mob’ Kageyama, Mob Psycho 100"
+    },
+    {
+      "code": "MIX333",
+      "content": "You don't need permission to be happy today.",
+      "content_id": "Kau tak perlu izin untuk bahagia hari ini.",
+      "credit": "Usagi Tsukino, Sailor Moon"
+    },
+    {
+      "code": "MIX334",
+      "content": "Chaos is a ladder only for those who climb.",
+      "content_id": "Kekacauan adalah tangga hanya bagi yang memanjatnya.",
+      "credit": "Hisoka, Hunter × Hunter"
+    },
+    {
+      "code": "MIX335",
+      "content": "Practice turns fear into memory.",
+      "content_id": "Latihan mengubah ketakutan menjadi kenangan.",
+      "credit": "Aoi Hinata, SK8 the Infinity"
+    },
+    {
+      "code": "MIX336",
+      "content": "A promise tastes like salt when kept.",
+      "content_id": "Janji terasa asin saat ditepati.",
+      "credit": "Hori Kyouko, Horimiya"
+    },
+    {
+      "code": "MIX337",
+      "content": "If the world is a stage, choose your lines well.",
+      "content_id": "Jika dunia adalah panggung, pilihlah dialogmu dengan baik.",
+      "credit": "Lelouch Lamperouge, Code Geass"
+    },
+    {
+      "code": "MIX338",
+      "content": "Silence is how blades argue.",
+      "content_id": "Keheningan adalah cara pedang berdebat.",
+      "credit": "Guts, Berserk"
+    },
+    {
+      "code": "MIX339",
+      "content": "We eat to live, but we cook to belong.",
+      "content_id": "Kita makan untuk hidup, tapi kita memasak untuk merasa belong.",
+      "credit": "Kotori Iida, Sweetness and Lightning"
+    },
+    {
+      "code": "MIX340",
+      "content": "Kindness is a rebellion that never trends.",
+      "content_id": "Kebaikan adalah pemberontakan yang tak pernah jadi tren.",
+      "credit": "Nadeshiko Kagamihara, Laid-Back Camp"
+    },
+    {
+      "code": "MIX341",
+      "content": "A mask is heaviest when no one asks you to wear it.",
+      "content_id": "Topeng paling berat saat tak ada yang memintamu memakainya.",
+      "credit": "Toge Inumaki, Jujutsu Kaisen"
+    },
+    {
+      "code": "MIX342",
+      "content": "Even a dull blade reflects the sun.",
+      "content_id": "Bilah tumpul pun memantulkan matahari.",
+      "credit": "Roronoa Zoro, One Piece"
+    },
+    {
+      "code": "MIX343",
+      "content": "Loss teaches the grammar of hope.",
+      "content_id": "Kehilangan mengajarkan tata bahasa harapan.",
+      "credit": "Violet Evergarden, Violet Evergarden"
+    },
+    {
+      "code": "MIX344",
+      "content": "A real teammate makes you louder inside your head.",
+      "content_id": "Rekan sejati membuatmu lebih lantang di dalam kepala.",
+      "credit": "Bokuto Koutarou, Haikyuu!!"
+    },
+    {
+      "code": "MIX345",
+      "content": "Running away is training for coming back.",
+      "content_id": "Melarikan diri adalah latihan untuk kembali.",
+      "credit": "Shinji Ikari, Neon Genesis Evangelion"
+    },
+    {
+      "code": "MIX346",
+      "content": "Steel your heart; the rest will follow.",
+      "content_id": "Kuatkan hatimu; sisanya akan mengikuti.",
+      "credit": "Mikasa Ackerman, Attack on Titan"
+    },
+    {
+      "code": "MIX347",
+      "content": "A detective doubts their favorite answer first.",
+      "content_id": "Detektif meragukan jawaban favoritnya terlebih dahulu.",
+      "credit": "Conan Edogawa, Detective Conan"
+    },
+    {
+      "code": "MIX348",
+      "content": "If you can't find the path, be the landmark.",
+      "content_id": "Jika tak menemukan jalan, jadilah penanda.",
+      "credit": "Kino, Kino no Tabi"
+    },
+    {
+      "code": "MIX349",
+      "content": "We don't defeat darkness; we outshine it.",
+      "content_id": "Kita tidak mengalahkan kegelapan; kita mengatasinya dengan sinar.",
+      "credit": "Tanjiro Kamado, Demon Slayer"
+    },
+    {
+      "code": "MIX350",
+      "content": "Dreams need rent—pay with sweat.",
+      "content_id": "Mimpi butuh uang sewa—bayarlah dengan keringat.",
+      "credit": "Hinata Shoyo, Haikyuu!!"
     }
   ],
   "game": [
@@ -3230,6 +3830,608 @@
       "content": "No, this is Patrick!",
       "content_id": "Bukan, ini Patrick!",
       "credit": "Patrick Star"
+    }
+  ],
+  "drakor-film-artis": [
+    {
+      "code": "DRKF001",
+      "content": "Even if I die tomorrow, I will regret nothing.",
+      "content_id": "Bahkan jika aku mati besok, aku tidak akan menyesal apa pun.",
+      "credit": "Crash Landing on You"
+    },
+    {
+      "code": "DRKF002",
+      "content": "You are my greatest adventure.",
+      "content_id": "Kau adalah petualangan terbesarku.",
+      "credit": "Descendants of the Sun"
+    },
+    {
+      "code": "DRKF003",
+      "content": "Sometimes, the wrong train takes you to the right station.",
+      "content_id": "Kadang, kereta yang salah justru membawamu ke stasiun yang benar.",
+      "credit": "Crash Landing on You"
+    },
+    {
+      "code": "DRKF004",
+      "content": "I like you. Not the situation, not the timing, just you.",
+      "content_id": "Aku menyukaimu. Bukan situasinya, bukan waktunya, tapi kamu.",
+      "credit": "Hometown Cha-Cha-Cha"
+    },
+    {
+      "code": "DRKF005",
+      "content": "You don’t need to be perfect to be loved.",
+      "content_id": "Kau tidak perlu sempurna untuk dicintai.",
+      "credit": "It's Okay to Not Be Okay"
+    },
+    {
+      "code": "DRKF006",
+      "content": "Love isn’t about fixing someone. It’s about understanding them.",
+      "content_id": "Cinta bukan tentang memperbaiki seseorang, tapi memahami mereka.",
+      "credit": "It's Okay to Not Be Okay"
+    },
+    {
+      "code": "DRKF007",
+      "content": "Even if the world betrays you, I’ll be on your side.",
+      "content_id": "Bahkan jika dunia mengkhianatimu, aku akan tetap di sisimu.",
+      "credit": "The Heirs"
+    },
+    {
+      "code": "DRKF008",
+      "content": "You’re my beginning and my end.",
+      "content_id": "Kau adalah awal dan akhirku.",
+      "credit": "Guardian: The Lonely and Great God (Goblin)"
+    },
+    {
+      "code": "DRKF009",
+      "content": "Every moment spent with you is like a beautiful dream.",
+      "content_id": "Setiap momen bersamamu seperti mimpi yang indah.",
+      "credit": "My Love from the Star"
+    },
+    {
+      "code": "DRKF010",
+      "content": "The scars that hurt the most are the ones that can’t be seen.",
+      "content_id": "Luka yang paling menyakitkan adalah yang tak terlihat.",
+      "credit": "It's Okay, That's Love"
+    },
+    {
+      "code": "DRKF011",
+      "content": "You can’t force someone to love you.",
+      "content_id": "Kau tidak bisa memaksa seseorang untuk mencintaimu.",
+      "credit": "True Beauty"
+    },
+    {
+      "code": "DRKF012",
+      "content": "When it rains, look for rainbows. When it’s dark, look for stars.",
+      "content_id": "Saat hujan, carilah pelangi. Saat gelap, carilah bintang.",
+      "credit": "Twenty-Five Twenty-One"
+    },
+    {
+      "code": "DRKF013",
+      "content": "You can’t erase the past, but you can start again.",
+      "content_id": "Kau tak bisa menghapus masa lalu, tapi kau bisa memulai lagi.",
+      "credit": "Start-Up"
+    },
+    {
+      "code": "DRKF014",
+      "content": "I’ll wait for you, no matter how long it takes.",
+      "content_id": "Aku akan menunggumu, tak peduli berapa lama.",
+      "credit": "Moon Lovers: Scarlet Heart Ryeo"
+    },
+    {
+      "code": "DRKF015",
+      "content": "Sometimes love means letting go.",
+      "content_id": "Terkadang cinta berarti melepaskan.",
+      "credit": "Uncontrollably Fond"
+    },
+    {
+      "code": "DRKF016",
+      "content": "Happiness is not something you wait for, it’s something you create.",
+      "content_id": "Kebahagiaan bukan sesuatu yang ditunggu, tapi yang diciptakan.",
+      "credit": "Weightlifting Fairy Kim Bok-Joo"
+    },
+    {
+      "code": "DRKF017",
+      "content": "You are enough, just the way you are.",
+      "content_id": "Kau sudah cukup, apa adanya dirimu.",
+      "credit": "Weightlifting Fairy Kim Bok-Joo"
+    },
+    {
+      "code": "DRKF018",
+      "content": "The world isn’t fair, but you can still be kind.",
+      "content_id": "Dunia memang tak adil, tapi kau tetap bisa menjadi baik.",
+      "credit": "Itaewon Class"
+    },
+    {
+      "code": "DRKF019",
+      "content": "Dreams don’t work unless you do.",
+      "content_id": "Mimpi tak akan bekerja kecuali kau juga berusaha.",
+      "credit": "Itaewon Class"
+    },
+    {
+      "code": "DRKF020",
+      "content": "No matter how painful it is, time will heal it.",
+      "content_id": "Tak peduli seberapa sakitnya, waktu akan menyembuhkannya.",
+      "credit": "Hospital Playlist"
+    },
+    {
+      "code": "DRKF021",
+      "content": "You don’t need a reason to love someone.",
+      "content_id": "Kau tak butuh alasan untuk mencintai seseorang.",
+      "credit": "My Love from the Star"
+    },
+    {
+      "code": "DRKF022",
+      "content": "People come and go, but memories stay.",
+      "content_id": "Orang datang dan pergi, tapi kenangan tetap tinggal.",
+      "credit": "Reply 1988"
+    },
+    {
+      "code": "DRKF023",
+      "content": "You can’t love someone without loving yourself first.",
+      "content_id": "Kau tak bisa mencintai seseorang tanpa mencintai dirimu dulu.",
+      "credit": "Because This Is My First Life"
+    },
+    {
+      "code": "DRKF024",
+      "content": "Sometimes, a small step can change your whole life.",
+      "content_id": "Kadang, satu langkah kecil bisa mengubah seluruh hidupmu.",
+      "credit": "Start-Up"
+    },
+    {
+      "code": "DRKF025",
+      "content": "Even flowers bloom after the harshest winter.",
+      "content_id": "Bahkan bunga pun mekar setelah musim dingin yang terburuk.",
+      "credit": "Guardian (Goblin)"
+    },
+    {
+      "code": "DRKF026",
+      "content": "You can’t go back, but you can begin again.",
+      "content_id": "Kau tak bisa kembali, tapi kau bisa memulai lagi.",
+      "credit": "Twenty-Five Twenty-One"
+    },
+    {
+      "code": "DRKF027",
+      "content": "Sometimes love is just about being there.",
+      "content_id": "Terkadang cinta hanyalah tentang tetap ada.",
+      "credit": "Crash Landing on You"
+    },
+    {
+      "code": "DRKF028",
+      "content": "Every ending is a new beginning.",
+      "content_id": "Setiap akhir adalah awal yang baru.",
+      "credit": "While You Were Sleeping"
+    },
+    {
+      "code": "DRKF029",
+      "content": "Pain makes you stronger.",
+      "content_id": "Rasa sakit membuatmu lebih kuat.",
+      "credit": "Vincenzo"
+    },
+    {
+      "code": "DRKF030",
+      "content": "You can’t change people, but you can inspire them.",
+      "content_id": "Kau tak bisa mengubah orang, tapi kau bisa menginspirasi mereka.",
+      "credit": "Itaewon Class"
+    },
+    {
+      "code": "DRKF031",
+      "content": "Even the loneliest night will end, and the sun will rise.",
+      "content_id": "Bahkan malam paling sepi pun akan berakhir, dan matahari akan terbit.",
+      "credit": "Guardian (Goblin)"
+    },
+    {
+      "code": "DRKF032",
+      "content": "You can’t fix the past, but you can heal the present.",
+      "content_id": "Kau tak bisa memperbaiki masa lalu, tapi bisa menyembuhkan masa kini.",
+      "credit": "It's Okay to Not Be Okay"
+    },
+    {
+      "code": "DRKF033",
+      "content": "Even when it hurts, don’t give up.",
+      "content_id": "Bahkan saat menyakitkan, jangan menyerah.",
+      "credit": "Hospital Playlist"
+    },
+    {
+      "code": "DRKF034",
+      "content": "It’s not the end until you stop trying.",
+      "content_id": "Itu belum berakhir sampai kau berhenti berusaha.",
+      "credit": "Start-Up"
+    },
+    {
+      "code": "DRKF035",
+      "content": "If you can’t be the sun, be a warm light for someone.",
+      "content_id": "Jika kau tak bisa menjadi matahari, jadilah cahaya hangat bagi seseorang.",
+      "credit": "Hometown Cha-Cha-Cha"
+    },
+    {
+      "code": "DRKF036",
+      "content": "Sometimes, love means staying silent.",
+      "content_id": "Terkadang, cinta berarti tetap diam.",
+      "credit": "Moon Lovers: Scarlet Heart Ryeo"
+    },
+    {
+      "code": "DRKF037",
+      "content": "It’s okay to cry. It’s okay to be weak sometimes.",
+      "content_id": "Tak apa menangis. Tak apa lemah kadang-kadang.",
+      "credit": "It's Okay to Not Be Okay"
+    },
+    {
+      "code": "DRKF038",
+      "content": "You don’t need to run. Just walk slowly, but don’t stop.",
+      "content_id": "Kau tak perlu berlari. Cukup berjalan pelan, asal jangan berhenti.",
+      "credit": "Reply 1988"
+    },
+    {
+      "code": "DRKF039",
+      "content": "When you lose something, something else will come.",
+      "content_id": "Saat kau kehilangan sesuatu, hal lain akan datang.",
+      "credit": "Twenty-Five Twenty-One"
+    },
+    {
+      "code": "DRKF040",
+      "content": "The heart doesn’t lie.",
+      "content_id": "Hati tidak berbohong.",
+      "credit": "True Beauty"
+    },
+    {
+      "code": "DRKF041",
+      "content": "It’s not fate that brings people together. It’s choice.",
+      "content_id": "Bukan takdir yang mempertemukan orang, tapi pilihan.",
+      "credit": "My Love from the Star"
+    },
+    {
+      "code": "DRKF042",
+      "content": "Life is short, so love deeply and laugh loudly.",
+      "content_id": "Hidup ini singkat, jadi cintailah dalam dan tertawalah keras.",
+      "credit": "Hospital Playlist"
+    },
+    {
+      "code": "DRKF043",
+      "content": "Sometimes, goodbye is the only way to love someone.",
+      "content_id": "Kadang, perpisahan adalah satu-satunya cara mencintai seseorang.",
+      "credit": "Uncontrollably Fond"
+    },
+    {
+      "code": "DRKF044",
+      "content": "You can’t stop the rain, but you can learn to dance in it.",
+      "content_id": "Kau tak bisa menghentikan hujan, tapi bisa belajar menari di bawahnya.",
+      "credit": "Hometown Cha-Cha-Cha"
+    },
+    {
+      "code": "DRKF045",
+      "content": "People change, and that’s okay.",
+      "content_id": "Orang berubah, dan itu tak apa.",
+      "credit": "Reply 1988"
+    },
+    {
+      "code": "DRKF046",
+      "content": "You’ll meet someone who feels like home.",
+      "content_id": "Kau akan bertemu seseorang yang terasa seperti rumah.",
+      "credit": "Crash Landing on You"
+    },
+    {
+      "code": "DRKF047",
+      "content": "The most painful goodbyes are the ones never said.",
+      "content_id": "Perpisahan paling menyakitkan adalah yang tak pernah terucap.",
+      "credit": "Goblin"
+    },
+    {
+      "code": "DRKF048",
+      "content": "Even a small kindness can change a person’s day.",
+      "content_id": "Bahkan kebaikan kecil bisa mengubah hari seseorang.",
+      "credit": "Hospital Playlist"
+    },
+    {
+      "code": "DRKF049",
+      "content": "Don’t let fear control your heart.",
+      "content_id": "Jangan biarkan ketakutan menguasai hatimu.",
+      "credit": "Start-Up"
+    },
+    {
+      "code": "DRKF050",
+      "content": "Courage isn’t the absence of fear, but moving forward despite it.",
+      "content_id": "Keberanian bukan ketiadaan rasa takut, tapi tetap maju meski takut.",
+      "credit": "Itaewon Class"
+    },
+    {
+      "code": "DRKF051",
+      "content": "Even a single warm word can save a day.",
+      "content_id": "Satu kata hangat saja bisa menyelamatkan satu hari.",
+      "credit": "My Mister"
+    },
+    {
+      "code": "DRKF052",
+      "content": "Success is built on countless quiet attempts.",
+      "content_id": "Kesuksesan dibangun dari tak terhitung percobaan sunyi.",
+      "credit": "Misaeng"
+    },
+    {
+      "code": "DRKF053",
+      "content": "Truth finds its way, even through silence.",
+      "content_id": "Kebenaran menemukan jalannya, bahkan lewat diam.",
+      "credit": "Signal"
+    },
+    {
+      "code": "DRKF054",
+      "content": "Power without conscience is simply violence.",
+      "content_id": "Kekuasaan tanpa nurani hanyalah kekerasan.",
+      "credit": "Vincenzo"
+    },
+    {
+      "code": "DRKF055",
+      "content": "Your dream doesn’t need everyone’s permission.",
+      "content_id": "Mimpimu tak butuh izin dari semua orang.",
+      "credit": "Start-Up"
+    },
+    {
+      "code": "DRKF056",
+      "content": "In chaos, hold on to the person you become.",
+      "content_id": "Di tengah kekacauan, genggam dirimu yang baru.",
+      "credit": "Twenty-Five Twenty-One"
+    },
+    {
+      "code": "DRKF057",
+      "content": "Kindness is a brave choice, not a weakness.",
+      "content_id": "Kebaikan adalah pilihan berani, bukan kelemahan.",
+      "credit": "Hospital Playlist"
+    },
+    {
+      "code": "DRKF058",
+      "content": "If love returns, it was never gone.",
+      "content_id": "Jika cinta kembali, berarti ia tak pernah pergi.",
+      "credit": "Crash Landing on You"
+    },
+    {
+      "code": "DRKF059",
+      "content": "Even monsters were once someone’s child.",
+      "content_id": "Bahkan monster pun dulu anak seseorang.",
+      "credit": "Beyond Evil"
+    },
+    {
+      "code": "DRKF060",
+      "content": "Saying nothing is also an answer.",
+      "content_id": "Tidak berkata apa-apa juga sebuah jawaban.",
+      "credit": "Reply 1988"
+    },
+    {
+      "code": "DRKF061",
+      "content": "Dignity is the shield of the powerless.",
+      "content_id": "Martabat adalah perisai mereka yang tak berdaya.",
+      "credit": "The Attorney"
+    },
+    {
+      "code": "DRKF062",
+      "content": "Even a small promise can anchor a big hope.",
+      "content_id": "Janji kecil pun bisa jadi jangkar harapan besar.",
+      "credit": "Hometown Cha-Cha-Cha"
+    },
+    {
+      "code": "DRKF063",
+      "content": "When you face fear, it shrinks.",
+      "content_id": "Saat kau hadapi ketakutan, ia mengecil.",
+      "credit": "It’s Okay to Not Be Okay"
+    },
+    {
+      "code": "DRKF064",
+      "content": "Justice begins with someone who refuses to look away.",
+      "content_id": "Keadilan dimulai dari seseorang yang menolak memalingkan wajah.",
+      "credit": "Stranger (Secret Forest)"
+    },
+    {
+      "code": "DRKF065",
+      "content": "Love isn’t a debt to be repaid.",
+      "content_id": "Cinta bukan utang yang harus dilunasi.",
+      "credit": "Because This Is My First Life"
+    },
+    {
+      "code": "DRKF066",
+      "content": "Letting go is also a way to hold on to yourself.",
+      "content_id": "Melepas juga cara untuk tetap memegang dirimu sendiri.",
+      "credit": "Uncontrollably Fond"
+    },
+    {
+      "code": "DRKF067",
+      "content": "Survival is simpler when we share.",
+      "content_id": "Bertahan hidup lebih mudah saat kita berbagi.",
+      "credit": "Train to Busan"
+    },
+    {
+      "code": "DRKF068",
+      "content": "Greed makes homes out of other people’s roofs.",
+      "content_id": "Keserakahan membangun rumah dari atap orang lain.",
+      "credit": "Parasite"
+    },
+    {
+      "code": "DRKF069",
+      "content": "Revenge only pauses the pain; it never heals it.",
+      "content_id": "Balas dendam hanya menghentikan sementara rasa sakit; tak pernah menyembuhkannya.",
+      "credit": "Oldboy"
+    },
+    {
+      "code": "DRKF070",
+      "content": "To remember is to love twice.",
+      "content_id": "Mengingat adalah mencinta untuk kedua kalinya.",
+      "credit": "A Moment to Remember"
+    },
+    {
+      "code": "DRKF071",
+      "content": "The past returns in the shape we fear most.",
+      "content_id": "Masa lalu kembali dalam rupa yang paling kita takuti.",
+      "credit": "The Handmaiden"
+    },
+    {
+      "code": "DRKF072",
+      "content": "The law is a tool; people decide its purpose.",
+      "content_id": "Hukum hanyalah alat; manusialah yang menentukan tujuannya.",
+      "credit": "Extraordinary Attorney Woo"
+    },
+    {
+      "code": "DRKF073",
+      "content": "Some goodbyes save two people at once.",
+      "content_id": "Ada perpisahan yang menyelamatkan dua orang sekaligus.",
+      "credit": "Our Beloved Summer"
+    },
+    {
+      "code": "DRKF074",
+      "content": "A home is built by meals, fights, and forgiveness.",
+      "content_id": "Rumah dibangun oleh makan bersama, pertengkaran, dan saling memaafkan.",
+      "credit": "Reply 1988"
+    },
+    {
+      "code": "DRKF075",
+      "content": "Even kings bow to time.",
+      "content_id": "Bahkan raja pun tunduk pada waktu.",
+      "credit": "Mr. Queen"
+    },
+    {
+      "code": "DRKF076",
+      "content": "Loneliness grows in crowded rooms too.",
+      "content_id": "Kesepian juga tumbuh di ruangan yang penuh.",
+      "credit": "Hotel Del Luna"
+    },
+    {
+      "code": "DRKF077",
+      "content": "Freedom begins where excuses end.",
+      "content_id": "Kebebasan dimulai saat alasan berakhir.",
+      "credit": "Itaewon Class"
+    },
+    {
+      "code": "DRKF078",
+      "content": "A small courage today becomes a habit tomorrow.",
+      "content_id": "Keberanian kecil hari ini menjadi kebiasaan esok.",
+      "credit": "Navillera"
+    },
+    {
+      "code": "DRKF079",
+      "content": "To forgive is to return yourself to yourself.",
+      "content_id": "Memaafkan adalah mengembalikan dirimu pada dirimu sendiri.",
+      "credit": "My Liberation Notes"
+    },
+    {
+      "code": "DRKF080",
+      "content": "Some wounds ask to be named before they heal.",
+      "content_id": "Beberapa luka minta dinamai sebelum sembuh.",
+      "credit": "It’s Okay, That’s Love"
+    },
+    {
+      "code": "DRKF081",
+      "content": "Even the wrong road teaches the right steps.",
+      "content_id": "Jalan yang salah pun mengajarkan langkah yang benar.",
+      "credit": "Hwarang"
+    },
+    {
+      "code": "DRKF082",
+      "content": "When the world turns its back, make your own door.",
+      "content_id": "Saat dunia membelakangi, buat pintumu sendiri.",
+      "credit": "Misaeng"
+    },
+    {
+      "code": "DRKF083",
+      "content": "Loyalty is a choice you keep choosing.",
+      "content_id": "Loyalitas adalah pilihan yang terus kau pilih.",
+      "credit": "D.P."
+    },
+    {
+      "code": "DRKF084",
+      "content": "Love is clumsy before it becomes graceful.",
+      "content_id": "Cinta itu kikuk sebelum menjadi anggun.",
+      "credit": "True Beauty"
+    },
+    {
+      "code": "DRKF085",
+      "content": "Even a silent toast can be a promise.",
+      "content_id": "Tos tanpa kata pun bisa menjadi janji.",
+      "credit": "Hospital Playlist"
+    },
+    {
+      "code": "DRKF086",
+      "content": "Ambition needs a compass, not just fuel.",
+      "content_id": "Ambisi butuh kompas, bukan hanya bahan bakar.",
+      "credit": "Start-Up"
+    },
+    {
+      "code": "DRKF087",
+      "content": "We become the stories we repeat.",
+      "content_id": "Kita menjadi kisah yang terus kita ulang.",
+      "credit": "Guardian (Goblin)"
+    },
+    {
+      "code": "DRKF088",
+      "content": "Protecting someone sometimes means stepping away.",
+      "content_id": "Melindungi seseorang kadang berarti menjauh.",
+      "credit": "Flower of Evil"
+    },
+    {
+      "code": "DRKF089",
+      "content": "Hope is stubborn; it survives bad news.",
+      "content_id": "Harapan itu keras kepala; ia bertahan dari kabar buruk.",
+      "credit": "Move to Heaven"
+    },
+    {
+      "code": "DRKF090",
+      "content": "Not all debts are money; some are kindness.",
+      "content_id": "Tak semua utang adalah uang; sebagian adalah kebaikan.",
+      "credit": "Reply 1988"
+    },
+    {
+      "code": "DRKF091",
+      "content": "We don’t find answers; we grow into them.",
+      "content_id": "Kita tidak menemukan jawaban; kita tumbuh ke arahnya.",
+      "credit": "My Mister"
+    },
+    {
+      "code": "DRKF092",
+      "content": "A nation changes when ordinary people refuse the usual.",
+      "content_id": "Negeri berubah saat orang biasa menolak yang biasanya.",
+      "credit": "1987: When the Day Comes"
+    },
+    {
+      "code": "DRKF093",
+      "content": "Promises are bridges; don’t burn them lightly.",
+      "content_id": "Janji adalah jembatan; jangan bakar sembarangan.",
+      "credit": "Mr. Sunshine"
+    },
+    {
+      "code": "DRKF094",
+      "content": "Even a fake smile can buy you a real minute.",
+      "content_id": "Senyum palsu pun bisa membelikanmu satu menit yang nyata.",
+      "credit": "What’s Wrong with Secretary Kim"
+    },
+    {
+      "code": "DRKF095",
+      "content": "Strength is gentle when it’s certain.",
+      "content_id": "Kekuatan menjadi lembut saat ia yakin.",
+      "credit": "Strong Girl Do Bong-soon"
+    },
+    {
+      "code": "DRKF096",
+      "content": "We’re all learning how to be human to each other.",
+      "content_id": "Kita semua sedang belajar menjadi manusia bagi satu sama lain.",
+      "credit": "Extraordinary Attorney Woo"
+    },
+    {
+      "code": "DRKF097",
+      "content": "Sometimes the treasure is the map we drew together.",
+      "content_id": "Kadang harta karunnya adalah peta yang kita gambar bersama.",
+      "credit": "Business Proposal"
+    },
+    {
+      "code": "DRKF098",
+      "content": "Home is the place where your mistakes are recycled into lessons.",
+      "content_id": "Rumah adalah tempat kesalahanmu didaur ulang jadi pelajaran.",
+      "credit": "Prison Playbook"
+    },
+    {
+      "code": "DRKF099",
+      "content": "If fate is a thread, choice is the needle.",
+      "content_id": "Jika takdir adalah benang, pilihan adalah jarumnya.",
+      "credit": "Alchemy of Souls"
+    },
+    {
+      "code": "DRKF100",
+      "content": "When the curtain falls, be proud of your scene.",
+      "content_id": "Saat tirai turun, banggalah pada adeganmu.",
+      "credit": "Hospital Playlist"
     }
   ]
 }
