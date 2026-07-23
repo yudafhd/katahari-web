@@ -101,7 +101,8 @@ export async function request<T = unknown>(path: string, options?: ApiOptions & 
     const built = buildUrl(path, { params, query });
 
     // Ensure absolute URL for server-side fetches; relative is fine on client
-    const absolute = /^https?:\/\//i.test(built) ? built : joinUrl(getBaseUrl(), built);
+    const baseUrl = await getBaseUrl();
+    const absolute = /^https?:\/\//i.test(built) ? built : joinUrl(baseUrl, built);
 
     const cacheInit = nextCacheOptions({ revalidate, tags });
 
@@ -128,8 +129,9 @@ export async function request<T = unknown>(path: string, options?: ApiOptions & 
 /**
  * GET JSON
  */
-export function get<T = unknown>(path: string, options?: ApiOptions): Promise<T> {
-    return request<T>(`${getBaseUrl()}${path}`, { ...options, method: 'GET' });
+export async function get<T = unknown>(path: string, options?: ApiOptions): Promise<T> {
+    const baseUrl = await getBaseUrl();
+    return request<T>(`${baseUrl}${path}`, { ...options, method: 'GET' });
 }
 
 /**

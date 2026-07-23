@@ -72,34 +72,27 @@ export default function Modal({
 
     const overlayCls =
         overlayClassName ??
-        // Bottom sheet on mobile (items-end), centered on sm+ (items-center)
-        (!isSheetMobile
-            ? 'modal fixed inset-0 z-50 flex items-center justify-center bg-black/10 backdrop-blur-sm'
-            : 'modal fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/10 backdrop-blur-sm');
+        'modal fixed inset-0 z-50 flex items-end sm:items-center justify-center p-3 sm:p-6 bg-black/40 backdrop-blur-md transition-all duration-200';
 
     let containerCls: string;
     if (containerClassName) {
         containerCls = containerClassName;
     } else {
-        const base = [
+        containerCls = [
             'relative',
-            'w-full md:max-w-[50vw]'.replace(':', ':'), /* keep class safety */
-            'max-h-[60vh] md:max-h-[85vh]',
-            'overflow-auto',
-            'rounded-t-3xl sm:rounded-2xl',
-            'border border-black/10 dark:border-white/10',
-            'bg-white/10 bg-transparent',
-            'text-white',
-            'shadow-xl',
-            'p-4 sm:p-4',
-            'pb-[max(1rem,env(safe-area-inset-bottom))]',
+            'w-full max-w-xl',
+            'max-h-[85vh]',
+            'overflow-y-auto',
+            'rounded-3xl',
+            'border border-[color-mix(in_srgb,var(--foreground)_18%,transparent)]',
+            'bg-[color-mix(in_srgb,var(--background)_92%,var(--foreground)_8%)]',
+            'backdrop-blur-2xl',
+            'text-[var(--foreground)]',
+            'shadow-2xl',
+            'p-6',
+            'pb-[max(1.5rem,env(safe-area-inset-bottom))]',
             'animate-sheet-in',
-        ];
-        if (!isSheetMobile) {
-            const idx = base.indexOf('rounded-t-3xl sm:rounded-2xl');
-            if (idx >= 0) base[idx] = 'rounded-2xl';
-        }
-        containerCls = base.join(' ');
+        ].join(' ');
     }
 
     const handleVisible = showHandle ?? isSheetMobile;
@@ -116,18 +109,18 @@ export default function Modal({
             <div className={containerCls}>
                 {/* Drag handle (only on mobile by default) */}
                 {handleVisible ? (
-                    <div className="mx-auto mb-2 h-1.5 w-10 rounded-full bg-black/10 dark:bg-white/20 sm:hidden" />
+                    <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-[color-mix(in_srgb,var(--foreground)_25%,transparent)] sm:hidden" />
                 ) : null}
 
                 {(title || onClose) ? (
-                    <div className="mb-2 flex items-center justify-between">
-                        {title ? <h2 className="font-semibold opacity-90">{title}</h2> : <span />}
+                    <div className="mb-4 flex items-center justify-between pb-3 border-b border-[color-mix(in_srgb,var(--foreground)_15%,transparent)]">
+                        {title ? <h2 className="text-lg font-bold tracking-tight opacity-95 text-[var(--foreground)]">{title}</h2> : <span />}
                         <button
                             onClick={onClose}
                             aria-label="Close modal"
-                            className="inline-flex items-center justify-center rounded-md h-8 w-8 hover:bg-black/5 dark:hover:bg-white/10 text-[var(--foreground)]"
+                            className="inline-flex items-center justify-center p-1.5 opacity-70 hover:opacity-100 text-[var(--foreground)] active:scale-90 transition"
                         >
-                            <IconX className="size-4" />
+                            <IconX className="size-4.5" />
                         </button>
                     </div>
                 ) : null}

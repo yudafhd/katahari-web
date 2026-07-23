@@ -72,17 +72,18 @@ export default function Drawer({
 
     const overlayCls =
         overlayClassName ??
-        `drawer fixed inset-0 z-50 flex ${justify} bg-black/10 backdrop-blur-sm`;
+        `drawer fixed inset-0 z-50 flex ${justify} bg-black/40 backdrop-blur-md transition-all duration-200`;
 
     const containerCls =
         containerClassName ??
         [
             'relative h-full',
             widthClassName,
-            'border border-black/10 dark:border-white/10',
-            'bg-white/10 bg-transparent',
-            'shadow-xl',
-            'p-4',
+            'border-l border-[color-mix(in_srgb,var(--foreground)_18%,transparent)]',
+            'bg-[color-mix(in_srgb,var(--background)_95%,var(--foreground)_5%)]',
+            'backdrop-blur-2xl text-[var(--foreground)]',
+            'shadow-2xl',
+            'p-6',
             slideIn,
         ].join(' ');
 
@@ -96,14 +97,14 @@ export default function Drawer({
             onClick={handleBackdropClick}
         >
             <div className={containerCls}>
-                <div className="mb-2 flex items-center justify-between">
-                    {title ? <h2 className="text-base font-semibold opacity-90">{title}</h2> : <span />}
+                <div className="mb-4 flex items-center justify-between pb-3 border-b border-[color-mix(in_srgb,var(--foreground)_15%,transparent)]">
+                    {title ? <h2 className="text-sm font-bold tracking-wider uppercase opacity-75 text-[var(--foreground)]">{title}</h2> : <span />}
                     <button
                         onClick={onClose}
                         aria-label="Close"
-                        className="inline-flex items-center justify-center rounded-md h-8 w-8 hover:bg-black/5 dark:hover:bg-white/10 text-[var(--foreground)]"
+                        className="inline-flex items-center justify-center p-1.5 opacity-70 hover:opacity-100 text-[var(--foreground)] active:scale-90 transition"
                     >
-                        <IconX className="size-4" />
+                        <IconX className="size-4.5" />
                     </button>
                 </div>
                 {children}

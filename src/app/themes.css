@@ -203,27 +203,578 @@
   --aurora-a: rgba(16, 185, 129, 0.26);
   --aurora-b: rgba(99, 102, 241, 0.26); /* indigo */
 }
+
+/* 21. nordic (light/cool) */
+:root[data-theme="nordic"] {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card-bg: rgba(100, 116, 139, 0.08);
+  --ring: rgba(100, 116, 139, 0.25);
+  --aurora-a: rgba(148, 163, 184, 0.18);
+  --aurora-b: rgba(203, 213, 225, 0.18);
+}
+
+/* 22. sakura (pink pastel) */
+:root[data-theme="sakura"] {
+  --background: #fff5f7;
+  --foreground: #1f1118;
+  --card-bg: rgba(244, 114, 182, 0.08);
+  --ring: rgba(244, 114, 182, 0.25);
+  --aurora-a: rgba(251, 113, 133, 0.18);
+  --aurora-b: rgba(244, 114, 182, 0.18);
+}
+
+/* 23. matcha (sage green) */
+:root[data-theme="matcha"] {
+  --background: #f4f7f2;
+  --foreground: #141f10;
+  --card-bg: rgba(101, 163, 13, 0.08);
+  --ring: rgba(132, 204, 22, 0.25);
+  --aurora-a: rgba(101, 163, 13, 0.18);
+  --aurora-b: rgba(163, 230, 53, 0.18);
+}
+
+/* 24. peach (warm peach) */
+:root[data-theme="peach"] {
+  --background: #fff7ed;
+  --foreground: #1c1007;
+  --card-bg: rgba(251, 146, 60, 0.08);
+  --ring: rgba(251, 146, 60, 0.25);
+  --aurora-a: rgba(249, 115, 22, 0.18);
+  --aurora-b: rgba(253, 186, 116, 0.18);
+}
+
+/* 25. lavender (soft purple) */
+:root[data-theme="lavender"] {
+  --background: #f8f5ff;
+  --foreground: #150d2a;
+  --card-bg: rgba(192, 132, 252, 0.08);
+  --ring: rgba(192, 132, 252, 0.25);
+  --aurora-a: rgba(168, 85, 247, 0.18);
+  --aurora-b: rgba(216, 180, 254, 0.18);
+}
+
+/* 26. dune (desert earth) */
+:root[data-theme="dune"] {
+  --background: #faf4ed;
+  --foreground: #1c120a;
+  --card-bg: rgba(217, 119, 6, 0.08);
+  --ring: rgba(217, 119, 6, 0.25);
+  --aurora-a: rgba(245, 158, 11, 0.18);
+  --aurora-b: rgba(180, 83, 9, 0.18);
+}
+
+/* 27. serenity (seafoam) */
+:root[data-theme="serenity"] {
+  --background: #f0fdfa;
+  --foreground: #091d18;
+  --card-bg: rgba(45, 212, 191, 0.08);
+  --ring: rgba(45, 212, 191, 0.25);
+  --aurora-a: rgba(20, 184, 166, 0.18);
+  --aurora-b: rgba(99, 102, 241, 0.16);
+}
+
+/* 28. clay (terracotta) */
+:root[data-theme="clay"] {
+  --background: #fdf6f0;
+  --foreground: #200c06;
+  --card-bg: rgba(194, 65, 12, 0.08);
+  --ring: rgba(234, 88, 12, 0.25);
+  --aurora-a: rgba(194, 65, 12, 0.18);
+  --aurora-b: rgba(249, 115, 22, 0.18);
+}
+
+/* 29. paper (vintage paper) */
+:root[data-theme="paper"] {
+  --background: #fbf9f4;
+  --foreground: #1c1917;
+  --card-bg: rgba(161, 161, 170, 0.07);
+  --ring: rgba(161, 161, 170, 0.22);
+  --aurora-a: rgba(214, 211, 209, 0.18);
+  --aurora-b: rgba(120, 113, 108, 0.18);
+}
+
+/* 30. olivia (olive) */
+:root[data-theme="olivia"] {
+  --background: #f7f8f3;
+  --foreground: #151d08;
+  --card-bg: rgba(77, 124, 15, 0.08);
+  --ring: rgba(101, 163, 13, 0.25);
+  --aurora-a: rgba(77, 124, 15, 0.18);
+  --aurora-b: rgba(163, 230, 53, 0.18);
+}
+
+/* 31. cyberpunk (dark neon) */
+:root[data-theme="cyberpunk"] {
+  --background: #05050a;
+  --foreground: #00f0ff;
+  --card-bg: rgba(6, 182, 212, 0.16);
+  --ring: rgba(236, 72, 153, 0.35);
+  --aurora-a: rgba(6, 182, 212, 0.28);
+  --aurora-b: rgba(236, 72, 153, 0.28);
+}
+
+/* 32. matrix (dark green) */
+:root[data-theme="matrix"] {
+  --background: #020905;
+  --foreground: #4ade80;
+  --card-bg: rgba(34, 197, 94, 0.14);
+  --ring: rgba(34, 197, 94, 0.35);
+  --aurora-a: rgba(34, 197, 94, 0.26);
+  --aurora-b: rgba(16, 185, 129, 0.24);
+}
+
+/* 33. synthwave (dark retro) */
+:root[data-theme="synthwave"] {
+  --background: #0f0717;
+  --foreground: #fda4af;
+  --card-bg: rgba(244, 63, 94, 0.14);
+  --ring: rgba(168, 85, 247, 0.35);
+  --aurora-a: rgba(244, 63, 94, 0.26);
+  --aurora-b: rgba(168, 85, 247, 0.26);
+}
+
+/* 34. obsidian (pure dark) */
+:root[data-theme="obsidian"] {
+  --background: #09090b;
+  --foreground: #f4f4f5;
+  --card-bg: rgba(113, 113, 122, 0.12);
+  --ring: rgba(161, 161, 170, 0.30);
+  --aurora-a: rgba(113, 113, 122, 0.20);
+  --aurora-b: rgba(63, 63, 70, 0.20);
+}
+
+/* 35. nebula (space dark) */
+:root[data-theme="nebula"] {
+  --background: #080614;
+  --foreground: #f0abfc;
+  --card-bg: rgba(232, 121, 249, 0.14);
+  --ring: rgba(192, 132, 252, 0.35);
+  --aurora-a: rgba(232, 121, 249, 0.26);
+  --aurora-b: rgba(99, 102, 241, 0.24);
+}
+
+/* 36. breeze (ocean dark) */
+:root[data-theme="breeze"] {
+  --background: #061325;
+  --foreground: #7dd3fc;
+  --card-bg: rgba(56, 189, 248, 0.14);
+  --ring: rgba(56, 189, 248, 0.35);
+  --aurora-a: rgba(56, 189, 248, 0.26);
+  --aurora-b: rgba(14, 165, 233, 0.24);
+}
+
+/* 37. crimson (velvet red dark) */
+:root[data-theme="crimson"] {
+  --background: #140406;
+  --foreground: #fecdd3;
+  --card-bg: rgba(225, 29, 72, 0.14);
+  --ring: rgba(244, 63, 94, 0.35);
+  --aurora-a: rgba(225, 29, 72, 0.26);
+  --aurora-b: rgba(190, 18, 60, 0.24);
+}
+
+/* 38. abyss (deep teal dark) */
+:root[data-theme="abyss"] {
+  --background: #040d1a;
+  --foreground: #5eead4;
+  --card-bg: rgba(20, 184, 166, 0.14);
+  --ring: rgba(45, 212, 191, 0.35);
+  --aurora-a: rgba(20, 184, 166, 0.26);
+  --aurora-b: rgba(13, 148, 136, 0.24);
+}
+
+/* 39. phantom (twilight dark) */
+:root[data-theme="phantom"] {
+  --background: #0c0a18;
+  --foreground: #ddd6fe;
+  --card-bg: rgba(168, 85, 247, 0.14);
+  --ring: rgba(192, 132, 252, 0.35);
+  --aurora-a: rgba(168, 85, 247, 0.26);
+  --aurora-b: rgba(124, 58, 237, 0.24);
+}
+
+/* 40. tokyo (neon slate dark) */
+:root[data-theme="tokyo"] {
+  --background: #090d16;
+  --foreground: #fda4af;
+  --card-bg: rgba(251, 113, 133, 0.14);
+  --ring: rgba(56, 189, 248, 0.35);
+  --aurora-a: rgba(251, 113, 133, 0.26);
+  --aurora-b: rgba(56, 189, 248, 0.24);
+}
+
+/* 41. aurora-grad (vibrant purple-blue gradient) */
+:root[data-theme="aurora-grad"] {
+  --background: linear-gradient(135deg, #0f172a 0%, #3b0764 50%, #0369a1 100%);
+  --foreground: #f8fafc;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(168, 85, 247, 0.35);
+  --aurora-a: rgba(168, 85, 247, 0.30);
+  --aurora-b: rgba(56, 189, 248, 0.30);
+}
+
+/* 42. sunset-grad (warm red-orange gradient) */
+:root[data-theme="sunset-grad"] {
+  --background: linear-gradient(135deg, #4c0519 0%, #9a3412 50%, #c2410c 100%);
+  --foreground: #fff1f2;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(249, 115, 22, 0.35);
+  --aurora-a: rgba(244, 63, 94, 0.30);
+  --aurora-b: rgba(249, 115, 22, 0.30);
+}
+
+/* 43. cyber-grad (cyberpunk violet-cyan gradient) */
+:root[data-theme="cyber-grad"] {
+  --background: linear-gradient(135deg, #030712 0%, #4c1d95 50%, #06b6d4 100%);
+  --foreground: #e0e7ff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(6, 182, 212, 0.35);
+  --aurora-a: rgba(139, 92, 246, 0.30);
+  --aurora-b: rgba(6, 182, 212, 0.30);
+}
+
+/* 44. cosmic-grad (magenta-indigo cosmic gradient) */
+:root[data-theme="cosmic-grad"] {
+  --background: linear-gradient(135deg, #090514 0%, #701a75 50%, #1e1b4b 100%);
+  --foreground: #fae8ff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(232, 121, 249, 0.35);
+  --aurora-a: rgba(232, 121, 249, 0.30);
+  --aurora-b: rgba(99, 102, 241, 0.30);
+}
+
+/* 45. emerald-grad (deep ocean-emerald gradient) */
+:root[data-theme="emerald-grad"] {
+  --background: linear-gradient(135deg, #022c22 0%, #065f46 50%, #0284c7 100%);
+  --foreground: #ecfdf5;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(16, 185, 129, 0.35);
+  --aurora-a: rgba(16, 185, 129, 0.30);
+  --aurora-b: rgba(56, 189, 248, 0.30);
+}
+
+/* 46. peach-grad (soft warm peach-pink gradient) */
+:root[data-theme="peach-grad"] {
+  --background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 50%, #fecdd3 100%);
+  --foreground: #1c1917;
+  --card-bg: rgba(249, 115, 22, 0.08);
+  --ring: rgba(249, 115, 22, 0.25);
+  --aurora-a: rgba(251, 146, 60, 0.20);
+  --aurora-b: rgba(244, 114, 182, 0.20);
+}
+
+/* 47. pastel-grad (dreamy light pastel gradient) */
+:root[data-theme="pastel-grad"] {
+  --background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 50%, #fce7f3 100%);
+  --foreground: #0f172a;
+  --card-bg: rgba(99, 102, 241, 0.08);
+  --ring: rgba(99, 102, 241, 0.25);
+  --aurora-a: rgba(129, 140, 248, 0.20);
+  --aurora-b: rgba(244, 114, 182, 0.20);
+}
+
+/* 48. twilight-grad (slate dark gradient) */
+:root[data-theme="twilight-grad"] {
+  --background: linear-gradient(135deg, #09090b 0%, #18181b 50%, #27272a 100%);
+  --foreground: #f4f4f5;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(161, 161, 170, 0.30);
+  --aurora-a: rgba(161, 161, 170, 0.22);
+  --aurora-b: rgba(113, 113, 122, 0.22);
+}
+
+/* 49. ocean-grad (deep teal-cyan ocean gradient) */
+:root[data-theme="ocean-grad"] {
+  --background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0d9488 100%);
+  --foreground: #f0f9ff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(56, 189, 248, 0.35);
+  --aurora-a: rgba(56, 189, 248, 0.30);
+  --aurora-b: rgba(45, 212, 191, 0.30);
+}
+
+/* 50. velvet-grad (royal purple-pink velvet gradient) */
+:root[data-theme="velvet-grad"] {
+  --background: linear-gradient(135deg, #2e1065 0%, #581c87 50%, #831843 100%);
+  --foreground: #faf5ff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(192, 132, 252, 0.35);
+  --aurora-a: rgba(192, 132, 252, 0.30);
+  --aurora-b: rgba(244, 114, 182, 0.30);
+}
+
+/* 51. hyper-grad (hyperdrive neon magenta-cyan) */
+:root[data-theme="hyper-grad"] {
+  --background: linear-gradient(135deg, #09090b 0%, #d946ef 50%, #06b6d4 100%);
+  --foreground: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.10);
+  --ring: rgba(217, 70, 239, 0.35);
+  --aurora-a: rgba(217, 70, 239, 0.32);
+  --aurora-b: rgba(6, 182, 212, 0.32);
+}
+
+/* 52. blush-grad (cotton candy blush light) */
+:root[data-theme="blush-grad"] {
+  --background: linear-gradient(135deg, #fff1f2 0%, #fbcfe8 50%, #e0e7ff 100%);
+  --foreground: #1e1b4b;
+  --card-bg: rgba(244, 114, 182, 0.08);
+  --ring: rgba(244, 114, 182, 0.25);
+  --aurora-a: rgba(244, 114, 182, 0.20);
+  --aurora-b: rgba(129, 140, 248, 0.20);
+}
+
+/* 53. golden-grad (golden hour amber-gold) */
+:root[data-theme="golden-grad"] {
+  --background: linear-gradient(135deg, #451a03 0%, #b45309 50%, #f59e0b 100%);
+  --foreground: #fffbeb;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(245, 158, 11, 0.35);
+  --aurora-a: rgba(245, 158, 11, 0.30);
+  --aurora-b: rgba(251, 191, 36, 0.30);
+}
+
+/* 54. boreal-grad (boreal lights teal-indigo) */
+:root[data-theme="boreal-grad"] {
+  --background: linear-gradient(135deg, #022c22 0%, #0d9488 50%, #6366f1 100%);
+  --foreground: #f0fdf4;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(20, 184, 166, 0.35);
+  --aurora-a: rgba(20, 184, 166, 0.30);
+  --aurora-b: rgba(99, 102, 241, 0.30);
+}
+
+/* 55. crimson-grad (crimson dusk red-rose) */
+:root[data-theme="crimson-grad"] {
+  --background: linear-gradient(135deg, #450a0a 0%, #991b1b 50%, #f43f5e 100%);
+  --foreground: #fff1f2;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(244, 63, 94, 0.35);
+  --aurora-a: rgba(225, 29, 72, 0.30);
+  --aurora-b: rgba(244, 63, 94, 0.30);
+}
+
+/* 56. mint-grad (mint breeze light) */
+:root[data-theme="mint-grad"] {
+  --background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #ccfbf1 100%);
+  --foreground: #064e3b;
+  --card-bg: rgba(16, 185, 129, 0.08);
+  --ring: rgba(16, 185, 129, 0.25);
+  --aurora-a: rgba(34, 197, 94, 0.20);
+  --aurora-b: rgba(20, 184, 166, 0.20);
+}
+
+/* 57. amethyst-grad (amethyst mist purple) */
+:root[data-theme="amethyst-grad"] {
+  --background: linear-gradient(135deg, #1e1b4b 0%, #5b21b6 50%, #9333ea 100%);
+  --foreground: #faf5ff;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(168, 85, 247, 0.35);
+  --aurora-a: rgba(168, 85, 247, 0.30);
+  --aurora-b: rgba(192, 132, 252, 0.30);
+}
+
+/* 58. inferno-grad (inferno flame deep red) */
+:root[data-theme="inferno-grad"] {
+  --background: linear-gradient(135deg, #180808 0%, #7f1d1d 50%, #dc2626 100%);
+  --foreground: #fef2f2;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(239, 68, 68, 0.35);
+  --aurora-a: rgba(239, 68, 68, 0.30);
+  --aurora-b: rgba(248, 113, 113, 0.30);
+}
+
+/* 59. midnight-grad (midnight horizon navy) */
+:root[data-theme="midnight-grad"] {
+  --background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e293b 100%);
+  --foreground: #f8fafc;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(148, 163, 184, 0.30);
+  --aurora-a: rgba(148, 163, 184, 0.22);
+  --aurora-b: rgba(100, 116, 139, 0.22);
+}
+
+/* 60. prism-grad (prismatic blue-pink) */
+:root[data-theme="prism-grad"] {
+  --background: linear-gradient(135deg, #030712 0%, #2563eb 50%, #ec4899 100%);
+  --foreground: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.10);
+  --ring: rgba(59, 130, 246, 0.35);
+  --aurora-a: rgba(59, 130, 246, 0.32);
+  --aurora-b: rgba(236, 72, 153, 0.32);
+}
+
+/* 61. sand-grad (dune oasis light) */
+:root[data-theme="sand-grad"] {
+  --background: linear-gradient(135deg, #faf5ff 0%, #fed7aa 50%, #fef08a 100%);
+  --foreground: #451a03;
+  --card-bg: rgba(217, 119, 6, 0.08);
+  --ring: rgba(217, 119, 6, 0.25);
+  --aurora-a: rgba(245, 158, 11, 0.20);
+  --aurora-b: rgba(234, 179, 8, 0.20);
+}
+
+/* 62. sakura-grad (sakura shift pink light) */
+:root[data-theme="sakura-grad"] {
+  --background: linear-gradient(135deg, #fdf2f8 0%, #fbcfe8 50%, #f472b6 100%);
+  --foreground: #831843;
+  --card-bg: rgba(236, 72, 153, 0.08);
+  --ring: rgba(236, 72, 153, 0.25);
+  --aurora-a: rgba(244, 114, 182, 0.20);
+  --aurora-b: rgba(251, 113, 133, 0.20);
+}
+
+/* 63. tokyo-grad (tokyo neon dark) */
+:root[data-theme="tokyo-grad"] {
+  --background: linear-gradient(135deg, #090d16 0%, #be123c 50%, #0284c7 100%);
+  --foreground: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.10);
+  --ring: rgba(244, 63, 94, 0.35);
+  --aurora-a: rgba(244, 63, 94, 0.32);
+  --aurora-b: rgba(56, 189, 248, 0.32);
+}
+
+/* 64. abyss-grad (abyssal deep teal) */
+:root[data-theme="abyss-grad"] {
+  --background: linear-gradient(135deg, #040d1a 0%, #115e59 50%, #0f766e 100%);
+  --foreground: #ccfbf1;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(20, 184, 166, 0.35);
+  --aurora-a: rgba(20, 184, 166, 0.30);
+  --aurora-b: rgba(13, 148, 136, 0.30);
+}
+
+/* 65. lavender-grad (lavender dream light) */
+:root[data-theme="lavender-grad"] {
+  --background: linear-gradient(135deg, #faf5ff 0%, #e9d5ff 50%, #c084fc 100%);
+  --foreground: #3b0764;
+  --card-bg: rgba(168, 85, 247, 0.08);
+  --ring: rgba(168, 85, 247, 0.25);
+  --aurora-a: rgba(192, 132, 252, 0.20);
+  --aurora-b: rgba(216, 180, 254, 0.20);
+}
+
+/* 66. citrus-grad (citrus flare light) */
+:root[data-theme="citrus-grad"] {
+  --background: linear-gradient(135deg, #fefce8 0%, #fef08a 50%, #f97316 100%);
+  --foreground: #431407;
+  --card-bg: rgba(249, 115, 22, 0.08);
+  --ring: rgba(249, 115, 22, 0.25);
+  --aurora-a: rgba(234, 179, 8, 0.20);
+  --aurora-b: rgba(249, 115, 22, 0.20);
+}
+
+/* 67. nordic-grad (nordic frost light) */
+:root[data-theme="nordic-grad"] {
+  --background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #94a3b8 100%);
+  --foreground: #0f172a;
+  --card-bg: rgba(100, 116, 139, 0.08);
+  --ring: rgba(100, 116, 139, 0.25);
+  --aurora-a: rgba(148, 163, 184, 0.20);
+  --aurora-b: rgba(203, 213, 225, 0.20);
+}
+
+/* 68. synth-grad (80s synthwave dark) */
+:root[data-theme="synth-grad"] {
+  --background: linear-gradient(135deg, #180e29 0%, #831843 50%, #0284c7 100%);
+  --foreground: #fda4af;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(236, 72, 153, 0.35);
+  --aurora-a: rgba(236, 72, 153, 0.30);
+  --aurora-b: rgba(56, 189, 248, 0.30);
+}
+
+/* 69. matrix-grad (matrix stream green dark) */
+:root[data-theme="matrix-grad"] {
+  --background: linear-gradient(135deg, #020905 0%, #14532d 50%, #22c55e 100%);
+  --foreground: #bbf7d0;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(34, 197, 94, 0.35);
+  --aurora-a: rgba(34, 197, 94, 0.30);
+  --aurora-b: rgba(74, 222, 128, 0.30);
+}
+
+/* 70. solar-grad (solar eclipse dark) */
+:root[data-theme="solar-grad"] {
+  --background: linear-gradient(135deg, #0a0a0a 0%, #451a03 50%, #ea580c 100%);
+  --foreground: #ffedd5;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --ring: rgba(234, 88, 12, 0.35);
+  --aurora-a: rgba(234, 88, 12, 0.30);
+  --aurora-b: rgba(249, 115, 22, 0.30);
+}
+
 /* ---- Legibility: muted foreground per theme (light vs dark) ---- */
 /* Light-dominant themes: darker muted text */
-:root[data-theme="rose"] { --muted-foreground: #475569; }        /* slate-600 */
-:root[data-theme="flamingo"] { --muted-foreground: #475569; }
-:root[data-theme="bubblegum"] { --muted-foreground: #475569; }
-:root[data-theme="sunset"] { --muted-foreground: #475569; }
-:root[data-theme="amber"] { --muted-foreground: #475569; }
-:root[data-theme="gold"] { --muted-foreground: #475569; }
-:root[data-theme="sand"] { --muted-foreground: #475569; }
-:root[data-theme="lime"] { --muted-foreground: #475569; }
-:root[data-theme="mint"] { --muted-foreground: #475569; }
-:root[data-theme="emerald"] { --muted-foreground: #475569; }
-:root[data-theme="aqua"] { --muted-foreground: #475569; }
-:root[data-theme="sky"] { --muted-foreground: #475569; }
-:root[data-theme="azure"] { --muted-foreground: #475569; }
+:root[data-theme="rose"],
+:root[data-theme="flamingo"],
+:root[data-theme="bubblegum"],
+:root[data-theme="sunset"],
+:root[data-theme="amber"],
+:root[data-theme="gold"],
+:root[data-theme="sand"],
+:root[data-theme="lime"],
+:root[data-theme="mint"],
+:root[data-theme="emerald"],
+:root[data-theme="aqua"],
+:root[data-theme="sky"],
+:root[data-theme="azure"],
+:root[data-theme="nordic"],
+:root[data-theme="sakura"],
+:root[data-theme="matcha"],
+:root[data-theme="peach"],
+:root[data-theme="lavender"],
+:root[data-theme="dune"],
+:root[data-theme="serenity"],
+:root[data-theme="clay"],
+:root[data-theme="paper"],
+:root[data-theme="olivia"],
+:root[data-theme="peach-grad"],
+:root[data-theme="pastel-grad"],
+:root[data-theme="blush-grad"],
+:root[data-theme="mint-grad"],
+:root[data-theme="sand-grad"],
+:root[data-theme="sakura-grad"],
+:root[data-theme="lavender-grad"],
+:root[data-theme="citrus-grad"],
+:root[data-theme="nordic-grad"] { --muted-foreground: #475569; }
 
 /* Dark-dominant themes: lighter muted text */
-:root[data-theme="forest"] { --muted-foreground: #cbd5e1; }      /* slate-300 */
-:root[data-theme="indigo"] { --muted-foreground: #cbd5e1; }
-:root[data-theme="midnight"] { --muted-foreground: #cbd5e1; }
-:root[data-theme="dracula"] { --muted-foreground: #cbd5e1; }
-:root[data-theme="coffee"] { --muted-foreground: #cbd5e1; }
-:root[data-theme="lava"] { --muted-foreground: #cbd5e1; }
-:root[data-theme="neon"] { --muted-foreground: #cbd5e1; }
+:root[data-theme="forest"],
+:root[data-theme="indigo"],
+:root[data-theme="midnight"],
+:root[data-theme="dracula"],
+:root[data-theme="coffee"],
+:root[data-theme="lava"],
+:root[data-theme="neon"],
+:root[data-theme="cyberpunk"],
+:root[data-theme="matrix"],
+:root[data-theme="synthwave"],
+:root[data-theme="obsidian"],
+:root[data-theme="nebula"],
+:root[data-theme="breeze"],
+:root[data-theme="crimson"],
+:root[data-theme="abyss"],
+:root[data-theme="phantom"],
+:root[data-theme="tokyo"],
+:root[data-theme="aurora-grad"],
+:root[data-theme="sunset-grad"],
+:root[data-theme="cyber-grad"],
+:root[data-theme="cosmic-grad"],
+:root[data-theme="emerald-grad"],
+:root[data-theme="twilight-grad"],
+:root[data-theme="ocean-grad"],
+:root[data-theme="velvet-grad"],
+:root[data-theme="hyper-grad"],
+:root[data-theme="golden-grad"],
+:root[data-theme="boreal-grad"],
+:root[data-theme="crimson-grad"],
+:root[data-theme="amethyst-grad"],
+:root[data-theme="inferno-grad"],
+:root[data-theme="midnight-grad"],
+:root[data-theme="prism-grad"],
+:root[data-theme="tokyo-grad"],
+:root[data-theme="abyss-grad"],
+:root[data-theme="synth-grad"],
+:root[data-theme="matrix-grad"],
+:root[data-theme="solar-grad"] { --muted-foreground: #cbd5e1; }

@@ -9,6 +9,7 @@ const TITLE = 'Katahari';
 const DESCRIPTION = 'Baca kutipan inspiratif acak setiap refresh. Dukungan multi bahasa (ID/EN), tema, kategori, dan salin cepat.';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:4877'),
   title: TITLE,
   description: DESCRIPTION,
   applicationName: 'Katahari',
@@ -44,7 +45,20 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true }
 };
 
+import localQuotes from '@/data/quotes/quotes.by.category.json';
+
 export default async function Page() {
-  const initialByCategory = await get<ByCategoryMap>(`/api/cloudflare/r2?key=quotes.by.category.json`, { revalidate: 3600, tags: ['quote-by-category'] });
+  let initialByCategory: ByCategoryMap = localQuotes as unknown as ByCategoryMap;
+  if (process.env.R2_BUCKET && process.env.NODE_ENV === 'production') {
+    try {
+      const fetched = await get<ByCategoryMap>(`/api/cloudflare/r2?key=quotes.by.category.json`, { revalidate: 3600, tags: ['quote-by-category'] });
+      if (fetched && typeof fetched === 'object' && Object.keys(fetched).length > 0) {
+        initialByCategory = fetched;
+      }
+    } catch {
+      // Fallback to bundled local JSON if Cloudflare R2 fetch fails
+    }
+  }
   return <HomePage initialByCategory={initialByCategory} />;
 }
+

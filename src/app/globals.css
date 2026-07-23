@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Outfit:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Plus+Jakarta+Sans:wght@500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -139,4 +140,169 @@ html, body {
 
 .drawer button, span, h1, h2, h3, h4 {
   color: var(--foreground) !important;
+}
+
+/* ==========================================================================
+   Random Quote Animations (Ported from Katahari Chrome Extension)
+   ========================================================================== */
+.quote-anim-fade-up {
+  animation: animFadeUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.quote-anim-scale-up {
+  animation: animScaleUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.quote-anim-slide-left {
+  animation: animSlideLeft 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.quote-anim-slide-right {
+  animation: animSlideRight 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.quote-anim-flip-up {
+  animation: animFlipUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.quote-anim-blur-in {
+  animation: animBlurIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes animFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes animScaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes animSlideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes animSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes animFlipUp {
+  from {
+    opacity: 0;
+    transform: perspective(600px) rotateX(16deg) translateY(12px);
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg) translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes animBlurIn {
+  from {
+    opacity: 0;
+    filter: blur(12px);
+    transform: scale(1.03);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+/* Keyboard hint badges */
+.kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.45rem;
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--foreground) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--foreground) 20%, transparent);
+  color: var(--foreground);
+  line-height: 1;
+  user-select: none;
+}
+
+/* ==========================================================================
+   Aesthetic Font Utilities
+   ========================================================================== */
+.font-serif-newsreader {
+  font-family: 'Newsreader', Georgia, serif !important;
+}
+
+.font-serif-playfair {
+  font-family: 'Playfair Display', Georgia, serif !important;
+}
+
+.font-serif-lora {
+  font-family: 'Lora', Georgia, serif !important;
+}
+
+.font-serif-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+}
+
+.font-sans-jakarta {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+}
+
+.font-sans-outfit {
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif !important;
+}
+
+.font-sans-inter {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
+.font-mono-space {
+  font-family: 'Space Mono', monospace !important;
+}
+
+.font-display-syne {
+  font-family: 'Syne', sans-serif !important;
+}
+
+.font-cursive-caveat {
+  font-family: 'Caveat', cursive !important;
 }

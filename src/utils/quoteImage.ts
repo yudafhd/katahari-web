@@ -41,7 +41,7 @@ function makeCanvas(size: QuoteImageSize): HTMLCanvasElement {
     return c;
 }
 
-function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number, lineHeight: number): string[] {
+function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
     const words = text.split(/\s+/);
     const lines: string[] = [];
     let line = '';
@@ -61,72 +61,91 @@ function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number,
 }
 
 function drawBackground(ctx: CanvasRenderingContext2D, w: number, h: number, colors: ThemeColors) {
+    if (colors.background.includes('gradient')) {
+        const hexes = colors.background.match(/(#[0-9a-fA-F]{3,8}|rgba?\([^)]+\))/g);
+        if (hexes && hexes.length >= 2) {
+            const grad = ctx.createLinearGradient(0, 0, w, h);
+            hexes.forEach((color, idx) => {
+                grad.addColorStop(idx / (hexes.length - 1), color);
+            });
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, w, h);
+            return;
+        }
+    }
     ctx.fillStyle = colors.background;
     ctx.fillRect(0, 0, w, h);
 }
 
-async function loadImage(src: string): Promise<HTMLImageElement> {
-    return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.crossOrigin = 'anonymous';
-        img.onload = () => resolve(img);
-        img.onerror = reject;
-        img.src = src;
-    });
+function parseWeight(weightClass?: string): string {
+    if (!weightClass) return '600';
+    if (weightClass.includes('font-bold')) return '700';
+    if (weightClass.includes('font-semibold')) return '600';
+    if (weightClass.includes('font-medium')) return '500';
+    if (weightClass.includes('font-normal')) return '400';
+    return '600';
 }
 
-/**
- * Draw brand image (Katahari logo). Tries several common asset paths, falls back silently if not found.
- */
-async function drawBrand(ctx: CanvasRenderingContext2D, x: number, y: number, targetH: number) {
-    const candidates = [
-        '/brand-logo.png',
-        '/apple-touch-icon.png',
-        '/logo.png',
-        '/logo.svg',
-        '/favicon.ico'
-    ];
-    let img: HTMLImageElement | null = null;
-    for (const src of candidates) {
-        try {
-            img = await loadImage(src);
-            if (img) break;
-        } catch {
-            // try next
-        }
+function pickContentFont(base: number, fontFamily = 'system-ui, -apple-system, sans-serif', weightClass?: string, styleClass?: string) {
+    const style = styleClass?.includes('italic') ? 'italic ' : '';
+    const weight = parseWeight(weightClass);
+    return `${style}${weight} ${Math.round(base)}px ${fontFamily}`;
+}
+
+function pickCreditFont(size: number, fontFamily = 'system-ui, -apple-system, sans-serif') {
+    return `italic 400 ${Math.round(size)}px ${fontFamily}`;
+}
+
+async function ensureFontLoaded(fontFamily: string, fontSize: number, weightClass?: string, styleClass?: string) {
+    if (typeof document === 'undefined' || !document.fonts) return;
+    try {
+        const style = styleClass?.includes('italic') ? 'italic ' : '';
+        const weight = parseWeight(weightClass);
+        const spec = `${style}${weight} ${fontSize}px ${fontFamily}`;
+        await document.fonts.load(spec);
+        await document.fonts.ready;
+    } catch {
+        // Fallback gracefully if browser font API is unavailable
     }
-    if (!img) return;
-
-    const scale = targetH / (img.naturalHeight || targetH);
-    const w = (img.naturalWidth || targetH) * scale;
-    ctx.save();
-    ctx.globalAlpha = 1;
-    ctx.imageSmoothingEnabled = true;
-    ctx.drawImage(img, x, y, w, targetH);
-    ctx.restore();
 }
 
-function pickContentFont(base: number) {
-    return `700 ${Math.round(base)}px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif`;
-}
-
-function pickCreditFont(size: number) {
-    return `italic 300 ${Math.round(size)}px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif`;
-}
-
-function fitContentFont(ctx: CanvasRenderingContext2D, text: string, maxWidth: number, maxLines: number, baseSize: number, minSize: number) {
+function fitContentFont(
+    ctx: CanvasRenderingContext2D,
+    text: string,
+    maxWidth: number,
+    maxLines: number,
+    baseSize: number,
+    minSize: number,
+    fontFamily?: string,
+    weightClass?: string,
+    styleClass?: string
+) {
     let fontSize = baseSize;
     let lines: string[] = [];
     for (; fontSize >= minSize; fontSize -= 2) {
-        ctx.font = pickContentFont(fontSize);
-        lines = wrapText(ctx, text, maxWidth, fontSize * 1.2);
+        ctx.font = pickContentFont(fontSize, fontFamily, weightClass, styleClass);
+        lines = wrapText(ctx, text, maxWidth);
         if (lines.length <= maxLines) break;
     }
     return { fontSize, lines };
 }
 
-export async function generateQuoteImage(text: string, credit: string, size: QuoteImageSize = 'square', filename?: string) {
+export async function generateQuoteImage(
+    text: string,
+    credit: string,
+    size: QuoteImageSize = 'square',
+    filename?: string,
+    fontFamily?: string,
+    weightClass?: string,
+    styleClass?: string
+) {
     if (typeof document === 'undefined') return;
+
+    const baseFontPx = size === 'story' ? 72 : 56;
+    if (fontFamily) {
+        await ensureFontLoaded(fontFamily, baseFontPx, weightClass, styleClass);
+    }
+
     const canvas = makeCanvas(size);
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
@@ -140,31 +159,28 @@ export async function generateQuoteImage(text: string, credit: string, size: Quo
 
     drawBackground(ctx, w, h, colors);
 
-    // Card layout
+    // Subtle decorative quote mark watermark
+    ctx.save();
+    ctx.fillStyle = colors.foreground || '#0f172a';
+    ctx.globalAlpha = 0.08;
+    ctx.font = '800 260px Georgia, serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('“', w / 2, size === 'story' ? 320 : 260);
+    ctx.restore();
+
+    // Card layout & spacing
     const pad = size === 'story' ? 72 : 64;
     const cardPadding = size === 'story' ? 56 : 48;
-
-    const cardX = pad;
-    const cardY = pad * 1.2;
     const cardW = w - pad * 2;
-
-    // Brand image (logo)
-    await drawBrand(
-        ctx,
-        cardX + cardPadding * 0.2,
-        cardY + cardPadding * 0.2,
-        size === "story" ? 90 : 80
-    );
 
     // Text layout (centered horizontally and vertically)
     const textBoxW = cardW - cardPadding * 2;
     const maxLines = size === 'story' ? 10 : 8;
-
-    const baseFontPx = size === 'story' ? 72 : 56;
     const minFontPx = size === 'story' ? 40 : 32;
 
     // Fit content font with wrapping
-    const { fontSize, lines } = fitContentFont(ctx, text, textBoxW, maxLines, baseFontPx, minFontPx);
+    const { fontSize, lines } = fitContentFont(ctx, text, textBoxW, maxLines, baseFontPx, minFontPx, fontFamily, weightClass, styleClass);
     const lineHeight = fontSize * 1.22;
 
     // Prepare credit wrapping (needs credit font active for measurement)
@@ -174,11 +190,11 @@ export async function generateQuoteImage(text: string, credit: string, size: Quo
     const creditText = `— ${credit}`;
 
     // Compute heights to vertically center the block (content + gap + credit)
-    ctx.font = pickContentFont(fontSize);
+    ctx.font = pickContentFont(fontSize, fontFamily, weightClass, styleClass);
     const contentHeight = lines.length * lineHeight;
 
-    ctx.font = pickCreditFont(creditSize);
-    const creditLines = wrapText(ctx, creditText, textBoxW, creditSize * 1.2);
+    ctx.font = pickCreditFont(creditSize, fontFamily);
+    const creditLines = wrapText(ctx, creditText, textBoxW);
     const creditHeight = creditLines.length * creditLineHeight;
 
     const totalHeight = contentHeight + creditTopGap + creditHeight;
@@ -190,7 +206,7 @@ export async function generateQuoteImage(text: string, credit: string, size: Quo
     ctx.textRendering = "optimizeSpeed";
     ctx.textBaseline = 'alphabetic';
     ctx.textAlign = 'start';
-    ctx.font = pickContentFont(fontSize);
+    ctx.font = pickContentFont(fontSize, fontFamily, weightClass, styleClass);
 
     const leftX = (w - textBoxW) / 2;
     let ty = topY + fontSize;
@@ -200,7 +216,7 @@ export async function generateQuoteImage(text: string, credit: string, size: Quo
     });
 
     // Draw credit centered block, left-anchored text
-    ctx.font = pickCreditFont(creditSize);
+    ctx.font = pickCreditFont(creditSize, fontFamily);
     ctx.fillStyle = colors.mutedForeground || 'rgba(100,116,139,0.95)';
     let cy = ty + creditTopGap + creditSize - fontSize; // align baseline for credit
     // Ensure credit stays inside bottom padding of canvas
@@ -211,6 +227,17 @@ export async function generateQuoteImage(text: string, credit: string, size: Quo
         ctx.fillText(ln, leftX, cy);
         cy += creditLineHeight;
     });
+
+    // Small brand domain watermark credit at bottom center
+    ctx.save();
+    const watermarkSize = size === 'story' ? 20 : 16;
+    ctx.font = `500 ${watermarkSize}px system-ui, -apple-system, sans-serif`;
+    ctx.fillStyle = colors.mutedForeground || '#64748b';
+    ctx.globalAlpha = 0.55;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText('katahari.yudafhd.com', w / 2, h - (size === 'story' ? 56 : 40));
+    ctx.restore();
 
     // Export
     return new Promise<void>((resolve, reject) => {

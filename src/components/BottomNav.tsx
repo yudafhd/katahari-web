@@ -22,87 +22,81 @@ export default function BottomNav({
     onSources,
 }: BottomNavProps) {
     return (
-        <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 ">
-            <div className="mx-auto max-w-4xl px-4 ">
+        <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40">
+            <div className="mx-auto max-w-4xl px-4">
                 <div
                     className="
                     mb-[max(0px,calc(env(safe-area-inset-bottom)))] 
-                    rounded-t-2xl border border-black/10 
-                    dark:border-white/10 
-                    bg-gray/10 backdrop-blur-sm
-                    ring-1 ring-[var(--ring)] 
-                    shadow-[0_-6px_20px_-10px_rgba(2,6,23,.20)] 
+                    border-t border-[color-mix(in_srgb,var(--foreground)_12%,transparent)] 
+                    bg-[color-mix(in_srgb,var(--background)_88%,transparent)] backdrop-blur-xl
                     text-[var(--foreground)]"
                 >
-                    <nav className="flex justify-between px-2 py-2">
+                    <nav className="flex justify-around items-center px-2 py-2.5">
                         <button
                             aria-label="Previous"
                             onClick={onPrev}
-                            className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                            className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                         >
                             <IconChevronLeft className="size-5" />
-                            <span className="text-[10px] opacity-75">Prev</span>
+                            <span className="text-[10px] font-medium opacity-75">Prev</span>
                         </button>
 
                         <button
                             aria-label="Shuffle"
                             onClick={onShuffle}
-                            className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                            className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                         >
                             <IconShuffle className="size-5" />
-                            <span className="text-[10px] opacity-75">Shuffle</span>
+                            <span className="text-[10px] font-medium opacity-75">Shuffle</span>
                         </button>
 
                         <button
                             aria-label="Next"
                             onClick={onNext}
-                            className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                            className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                         >
                             <IconChevronRight className="size-5" />
-                            <span className="text-[10px] opacity-75">Next</span>
+                            <span className="text-[10px] font-medium opacity-75">Next</span>
                         </button>
 
-                        {
-                            onCopy && <button
+                        {onCopy && (
+                            <button
                                 aria-label="Copy"
                                 onClick={onCopy}
-                                className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                                className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                             >
                                 <IconCopy className="size-5" />
-                                <span className="text-[10px] opacity-75">Copy</span>
+                                <span className="text-[10px] font-medium opacity-75">Copy</span>
                             </button>
-                        }
-
+                        )}
 
                         {onDownload && (
                             <button
                                 aria-label="Download"
                                 onClick={onDownload}
-                                className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                                className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                             >
                                 <IconDownload className="size-5" />
-                                <span className="text-[10px] opacity-75">Save</span>
+                                <span className="text-[10px] font-medium opacity-75">Save</span>
                             </button>
                         )}
 
                         <button
                             aria-label="Themes"
                             onClick={onThemes}
-                            className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                            className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                         >
-                            {/* Palette icon */}
                             <IconPalette className="size-5" />
-                            <span className="text-[10px] opacity-75">Themes</span>
+                            <span className="text-[10px] font-medium opacity-75">Themes</span>
                         </button>
 
                         <button
                             aria-label="Sources"
                             onClick={onSources}
-                            className="flex flex-col items-center gap-1 rounded-md py-2 hover:bg-black/5 dark:hover:bg-white/10"
+                            className="flex flex-col items-center gap-1 opacity-80 hover:opacity-100 active:scale-90 transition px-2 py-1"
                         >
-                            {/* List icon */}
                             <IconList className="size-5" />
-                            <span className="text-[10px] opacity-75">Category</span>
+                            <span className="text-[10px] font-medium opacity-75">Category</span>
                         </button>
                     </nav>
                 </div>

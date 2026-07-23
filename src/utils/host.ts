@@ -39,13 +39,13 @@ export function getBaseUrlServerFrom(h: HLike) {
  * - Else detect from request headers (x-forwarded-proto, host)
  * - Fallback to http://localhost:3000
  */
-export function getBaseUrlServer(h?: HLike) {
+export async function getBaseUrlServer(h?: HLike) {
     const env = process.env.NEXT_PUBLIC_SITE_API_URL;
     if (env && env.trim().length > 0) {
         return normalizeBase(env);
     }
     try {
-        const hdrs = h ?? (nextHeaders as unknown as () => ReadonlyHeaders)();
+        const hdrs = h ?? (await nextHeaders());
         return getBaseUrlServerFrom(hdrs as ReadonlyHeaders);
     } catch {
         return 'http://localhost:3000';
@@ -72,7 +72,7 @@ export function getBaseUrlClient() {
 /**
  * Universal resolver; selects server or client strategy based on environment
  */
-export function getBaseUrl() {
+export async function getBaseUrl() {
     const isServer = typeof window === 'undefined';
-    return isServer ? getBaseUrlServer() : getBaseUrlClient();
+    return isServer ? await getBaseUrlServer() : getBaseUrlClient();
 }
